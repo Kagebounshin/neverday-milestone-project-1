@@ -1,37 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Sriracha&display=swap');
 
 body {
-    font-family: "Monoton", sans-serif;
-    color: white; 
-    background-color: #fafafa;
+    font-family: "Sriracha", sans-serif;
+  
 }
 
-.bg-color-navbar {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-
-/*----------------Header------*/
-header {
-    margin: 0;
-}
-
-.navbar{
-    width: 100%;
-    height: 60px;
-    padding: 0;
-    margin: 0;
-}
-.navbar-brand {
-    font-weight: 700;
-    font-size: 30px;
-    margin-left: 20px;
-    position: relative;
-    letter-spacing: 2px;
-}
-
-.navbar .navbar-toggler {
-    border: 0;
-    background-color: white;
-    margin-right: 5px;
+.navbar-light .navbar-toggler {
+    border: none;
 }
