@@ -5,6 +5,35 @@ body {
   
 }
 
+
+
 .navbar-light .navbar-toggler {
     border: none;
+
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/94750503_259597092093468_4239446820700291072_o.jpg) no-reapet fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-about {
+ 
+
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-images {
+    margin: 0 auto;
 }

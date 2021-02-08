@@ -15,36 +15,59 @@
 
 <body>
 
-    <nav class="navbar navbar-light">
-        <a href="#" class="navbar-brand">Neverday</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
-            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon">
-            </span>
-        </button>
-
-
-        <!------want nav-iteam to the right ---->
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Shows</a></li>
-            </ul>
-        </div>
-    </nav>
-    <header class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row no-gutters fixed">
             <div class="col-12">
+
+
+                <nav class="navbar navbar-light navbar-expand-sm">
+                    <a href="#" class="navbar-brand">Neverday</a>
+
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"><span
+                            class="navbar-toggler-icon">
+                        </span>
+                    </button>
+
+
+                    <!------want nav-iteam to the right ---->
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav">
+                            <li class="active nav-item"><a href="#" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Shows</a></li>
+                        </ul>
+                    </div>
+                </nav>
 
             </div>
         </div>
 
 
-    </header>
-    <section>
+    </div>
 
+    
+        
+    <div class="container-fluid callout-container"></div>
+
+    <section class="container mt-4 jumbotron jumbotron-bg-color">
+        <div class="row">
+
+            <div class="col-sm-12 col-md-6 section-about">
+                <h1>About</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 section-images mt-5">
+                <img src="/assets/images/101674978_253767312379342_6051714679338696704_n.jpg"
+                    class="rounded img-fluid mx-auto" alt="picture of the band">
+            </div>
+        </div>
+        
     </section>
 
     <footer>
