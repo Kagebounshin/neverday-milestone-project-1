@@ -1,19 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Sriracha&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
 body {
-    font-family: "Sriracha", sans-serif;
+    font-family: "Roboto", sans-serif;
 
 }
 
 footer {
-    background-color: rgb(255, 115, 158);
-    height: 100px;
+    background-color: rgb(241, 254, 0);
+    height: 200px;
+    text-align: center;
 }
 
 .navbar {
     clear: both;
-  
-    
+}
+
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding: none;
 }
 
 .navbar > span {
@@ -25,14 +29,38 @@ footer {
 
 }
 
-.jumbotron{
+.container-navbar{
+   position: fixed;
+   z-index: 1;
+   background-color: white;
+   
+}
+.jumbotron {
+    
+    font-style: bold;
+    text-align: center;
+}
+
+.btn-bg-color {
+    background-color: rgb(241, 254, 0);
+}
+
+.jumbotron-text {
+    color: white;
+}
+
+.jumbotron-bg-color{
     background-color: transparent;
 }
 
+.bg-color-jumbotron {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 #img-container {
-    height: 100vh;
+    height: 60vh;
     
-    background: url("../images/94750503_259597092093468_4239446820700291072_o.jpg") fixed center center no-repeat; 
+    background: url("../images/147269739_1138055073317192_2130610257012335907_n.jpg") fixed center center no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,13 +71,14 @@ footer {
     justify-content: center;
 
     position: relative;
+  
+}
 
+.uppercase {
+    text-transform: uppercase;
 }
  
 .section-about {
- 
-
-
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -58,3 +87,22 @@ footer {
     margin: 0 auto;
 }
 
+.white {
+    color: black;
+}
+
+.social-media-links {
+    
+     list-style-type: none;
+}
+.social-media-links li {
+    display: inline;
+   
+    
+    
+}
+.social-media-links i {
+    font-size: 30px;
+    
+
+}
