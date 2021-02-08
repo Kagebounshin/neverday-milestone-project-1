@@ -2,9 +2,13 @@
 
 body {
     font-family: "Sriracha", sans-serif;
-  
+
 }
 
+footer {
+    background-color: rgb(255, 115, 158);
+    height: 100px;
+}
 
 
 .navbar-light .navbar-toggler {
@@ -12,20 +16,26 @@ body {
 
 }
 
+.jumbotron{
+    background-color: transparent;
+}
+
 .callout-container {
     height: 100vh;
-    background: url(../images/94750503_259597092093468_4239446820700291072_o.jpg) no-reapet fixed;
+    background: url("../images/94750503_259597092093468_4239446820700291072_o.jpg") fixed center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+ 
 
 }
-
+ 
 .section-about {
  
 
@@ -37,3 +47,4 @@ body {
 .section-images {
     margin: 0 auto;
 }
+
