@@ -10,6 +10,15 @@ footer {
     height: 100px;
 }
 
+.navbar {
+    clear: both;
+  
+    
+}
+
+.navbar > span {
+    line-height:90px;
+}
 
 .navbar-light .navbar-toggler {
     border: none;
@@ -20,19 +29,20 @@ footer {
     background-color: transparent;
 }
 
-.callout-container {
+#img-container {
     height: 100vh;
-    background: url("../images/94750503_259597092093468_4239446820700291072_o.jpg") fixed center center no-repeat;
+    
+    background: url("../images/94750503_259597092093468_4239446820700291072_o.jpg") fixed center center no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+   
     display:flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
- 
+
+     position: relative;
 
 }
  
