@@ -107,7 +107,7 @@ footer {
 i:active,
 i:focus,
 i:active:focus{
-    color: rgb(241, 254, 0);
+    color: rgb(130, 2, 2);
     font-size: xx-large;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
