@@ -119,18 +119,20 @@ btn a {
 
 #img-container {
     height: 100vh;
-    
+    width: 100%;
+    padding-top: 1rem;
     background: url("../images/147269739_1138055073317192_2130610257012335907_n.jpg") fixed center center no-repeat; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size:contain;
+    
    
     display:flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
+    
   
 }
 
