@@ -8,14 +8,19 @@ body {
     
 }
 
-footer {
-    background-color: rgb(241, 254, 0);
-    background-color: white;
-    
+/*-----------Background Colors----*/
 
+.bg-color-jumbotron {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
+.btn-bg-color {
+    background-color: rgb(255, 255, 255);
+}
 
+.bg-color-shows {
+    background-color: rgba(0, 0, 0, 0.03);
+}
 
 /*-----------Navbar----*/
 
@@ -38,18 +43,20 @@ footer {
 
 }
 
+/*-----------Containers----*/
+
 .container-navbar{
-   position: fixed;
+   /* position: fixed; */
     z-index: 1;
     background-color: white;
 }
 
-.section-container{
+.about-container{
     padding-top: 40px;
     padding-bottom: 30px;
 }
 
-.section-container p {
+.about-container p {
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -67,7 +74,10 @@ footer {
     font-size: x-large;
 }
 
-
+.shows-container {
+    height: 100vh;
+}
+/*-----------Jumbotron----*/
 
 .jumbotron {
     
@@ -79,16 +89,10 @@ footer {
     text-align: center;
 }
 
-.jumbotron-bg-color{
-    background-color: transparent;
-}
+/*-----------Buttons/hover----*/
 
-.bg-color-jumbotron {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.btn-bg-color {
-    background-color: rgb(255, 255, 255);
+btn a {
+    color: black;
 }
 
 .btn--yellow:hover,
@@ -113,9 +117,7 @@ i:active:focus{
     transition: 400ms ease-out;
 }
 
-btn a {
-    color: black;
-}
+/*-----------background Images----*/
 
 #img-container {
     height: 100vh;
@@ -136,6 +138,8 @@ btn a {
   
 }
 
+/*-----------Extras----*/
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -144,9 +148,6 @@ btn a {
     font-size: smaller;
 }
 
-.white {
-    color: black;
-}
 
 .block-divider {
     width: 100%;
@@ -163,4 +164,30 @@ btn a {
     height: 1px;
     border: 0;
     background-color: black;
+}
+
+.dates {
+    width: 50px;
+    height: 60px;
+    background-color:#fff;
+    padding-right: none;
+}
+
+.dates-p {
+    padding-top: 5px;
+}
+
+.location {
+    width: 100%;
+    height: 60px;
+    background-color:#fff;
+    padding-left: none;
+    
+}
+
+.location p {
+    /*
+    padding-top: 5px;
+    padding-left: 10px;
+    */
 }
