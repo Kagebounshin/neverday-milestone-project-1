@@ -117,7 +117,7 @@ i:active,
 i:focus,
 i:active:focus{
     color: rgb(130, 2, 2);
-    font-size: xx-large;
+    font-size: x-large;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
