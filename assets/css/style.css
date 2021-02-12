@@ -80,18 +80,14 @@ body {
 }
 
 .img-container{
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
 
 }
 
 
 /*-----------Jumbotron----*/
 
-.jumbotron {
-    
-    font-style: bold;
-}
 
 .jumbotron-text {
     color: white;
@@ -142,11 +138,11 @@ i:active:focus{
     height: 100vh;
     width: 100%;
     padding-top: 1rem;
-    background: url("../images/147269739_1138055073317192_2130610257012335907_n.jpg") fixed center center no-repeat; 
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size:contain;
+    background: url("../images/147269739_1138055073317192_2130610257012335907_n.jpg") fixed center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
    
     display:flex;
@@ -174,7 +170,7 @@ i:active:focus{
     border: 0;
     background-color: black;
     align-items: center;
-    padding: none;
+    padding: 0;
     margin-bottom: 40px;
 }
 
