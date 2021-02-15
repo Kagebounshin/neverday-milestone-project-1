@@ -20,9 +20,9 @@ links to mock ups, wireframes etc.
 Here's what you can do on the website.
 
 * You can toggle between the home, gallery and Shows pages.
-* You can read about the band in the homepage, contact the band, find were to hire the band, and links to music and social media.
+* At the homepage you can find information about the band, how to contact the band, find out were to hire the band, and links to music and social media.
 * At the gallery page you can see pictures of the band embedded from [Instagram](https://instagram.com/neverdayofficial?igshid=js84a4ahj2fy).
-* At the Shows page you can see all the upcoming tour dates, you can make a request on hiring the band.
+* At the Shows page you can see all the upcoming tour dates, links to were you cant purchase tickets. And you can make a request on hiring the band.
 
 Further ahead I would like to implement a videos page so the user can see the bands music videos etc. 
 And a music page so you can listend to the music directley on the site, also read the lyrics to every recorded song. 
