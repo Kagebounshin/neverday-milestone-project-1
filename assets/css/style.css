@@ -147,15 +147,12 @@ i:active:focus{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-   
     display:flex;
     align-items: center;
     justify-content: center;
     position: relative;
     margin-bottom: 5%;
-    
-  
+
 }
 
 /*-----------Extras----*/
@@ -179,7 +176,7 @@ i:active:focus{
     margin-bottom: 40px;
 }
 
-.block-divider--footer {
+.block-divider-footer {
     width: 100%;
     height: 1px;
     border: 0;
