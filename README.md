@@ -8,7 +8,7 @@ This site is for fans who likes to get to know the band and see what they are up
  
 Also for future employes that wishes to hire the band to play a show. They will get simple instructions on how to do so.
 
-* As a fan I could get access to all the tour dates, tickets, music, videos, and all the social media accounts.
+* As a fan I could get access to all the tour dates, tickets, music, and all the different social media accounts.
 
 * As an employer I should get access on how to book the band. 
 
