@@ -50,9 +50,7 @@ body {
 
 .navbar-brand {
     font-size: 24px;
-    letter-spacing: 5px;
-    
-   
+    letter-spacing: 4px;
 }
 
 .navbar > span {
@@ -61,16 +59,33 @@ body {
 
 .navbar-light .navbar-toggler {
     border: none;
-    
+}
 
+.nav-item {
+    font-size: 1.3rem;
+}
+
+.nav-item a:hover{
+    
+    color: #a95656;
+    transition: 400ms ease-in;
+    transition: 400ms ease-out;
+}
+
+.nav-item {
+    padding: 0;
 }
 
 /*-----------Containers----*/
 
 
 
-.carousel-container {
-    padding: 40px;
+.about-container,
+.shows-container {
+    
+    min-height: 100vh;
+    display: grid;
+    align-content: space-around;
 }
 
 .container-fluid {
@@ -85,11 +100,6 @@ body {
    /* position: fixed; */
     z-index: 1;
     background-color: white;
-}
-
-.about-container{
-    padding-bottom: 40px;
-
 }
 
 .about-container h1 {
@@ -114,12 +124,9 @@ body {
     font-size: xx-large;
 }
 
-.shows-container {
-    padding-bottom: 40px;
-}
 
 .shows-container h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .img-container{
@@ -129,11 +136,15 @@ body {
 }
 
 .contact-container {
-
+    min-height: 100vh;
+    display: grid;
+    align-content: space-evenly;
+   
 }
 
 .contact-container h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+    
 }
 
 
@@ -150,10 +161,10 @@ btn a {
     color: #a95656;
 }
 
-.btn--yellow:hover,
-.btn--yellow:active,
-.btn--yellow:focus,
-.btn--yellow:active:focus {
+.btn--pink:hover,
+.btn--pink:active,
+.btn--pink:focus,
+.btn--pink:active:focus {
     background-color: #a95656;
     border-color:#a95656;
     color: #fff;
@@ -172,7 +183,7 @@ i:active:focus{
 }
 
 
-/*-----------background Images----*/
+/*-----------background Image----*/
 
 #img-container {
     height: 100vh;
@@ -190,6 +201,40 @@ i:active:focus{
     margin-bottom: 5%;
 
 }
+
+
+/*-----------Contact Form----*/
+
+form input,
+form textarea {
+    width: 90%;
+    background-color: #a95656;
+    color: #fff;
+    outline: none;
+    
+}
+
+form input {
+    height: 3rem;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+    font-size: large;
+    
+    
+}
+
+form textarea {
+    height: 10rem;
+    border: 2px solid #fff;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+form ::placeholder {
+    color: #fff;
+}
+
 
 /*-----------Extras----*/
 
@@ -245,10 +290,13 @@ i:active:focus{
 
 .carousel-item {
 
-  min-width: 80vw;
-  height: 100vh;
+  width: 100%;
   
 
 }
 
+btn {
+    letter-spacing: 4px;
+    text-shadow: #fff;
+}
 
