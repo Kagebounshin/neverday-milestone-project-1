@@ -10,9 +10,20 @@ body {
     
 }
 
+.color-period {
+    color: #a95656;
+}
+
+.text-white {
+    color: #fff;
+}
+
 /*-----------Background Colors----*/
-.bg-color-black {
-    background-color: black;
+
+
+
+.nav-bg-color{
+    background-color: #fafafa!important;
 }
 .bg-color-jumbotron {
     background-color: rgba(0, 0, 0, 0.6);
@@ -22,8 +33,9 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.bg-color-shows {
-    background-color: black;
+.bg-color-shows,
+.bg-color-contact{
+    background-color: #a95656;
 }
 
 /*-----------Navbar----*/
@@ -55,9 +67,20 @@ body {
 
 /*-----------Containers----*/
 
-#about-section {
 
+
+.carousel-container {
+    padding: 40px;
 }
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+}
+
 .container-navbar{
    /* position: fixed; */
     z-index: 1;
@@ -65,7 +88,12 @@ body {
 }
 
 .about-container{
-    padding:1.5rem!important;
+    padding-bottom: 40px;
+
+}
+
+.about-container h1 {
+    font-size: 6rem;
 }
 
 .about-container p {
@@ -83,18 +111,29 @@ body {
 
 .social-container i {
     color: black;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .shows-container {
-    height: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+.shows-container h1{
+    font-size: 3rem;
 }
 
 .img-container{
     padding: 0;
     margin: 0;
 
+}
+
+.contact-container {
+
+}
+
+.contact-container h1 {
+    font-size: 3rem;
 }
 
 
@@ -108,16 +147,16 @@ body {
 /*-----------Buttons/hover----*/
 
 btn a {
-    color: black;
+    color: #a95656;
 }
 
 .btn--yellow:hover,
 .btn--yellow:active,
 .btn--yellow:focus,
 .btn--yellow:active:focus {
-    background-color:rgb(241, 254, 0);
-    border-color:rgb(241, 254, 0);
-    color: black;
+    background-color: #a95656;
+    border-color:#a95656;
+    color: #fff;
     align-items: center;
     transition: 600ms ease-in;
     transition: 600ms ease-out;
@@ -127,21 +166,11 @@ btn a {
 i:active,
 i:focus,
 i:active:focus{
-    color: rgb(130, 2, 2);
-    font-size: x-large;
+    color: #a95656;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
 
-.btn-tickets{
-    float: right;
-    
-}
-
-.btn-request {
-    font-size: xx-large;
-
-}
 
 /*-----------background Images----*/
 
@@ -212,6 +241,14 @@ i:active:focus{
 .location-p{
     padding-top: 5px;
     padding-left: 10px;
+}
+
+.carousel-item {
+
+  min-width: 80vw;
+  height: 100vh;
+  
+
 }
 
 
