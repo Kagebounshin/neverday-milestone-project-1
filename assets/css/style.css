@@ -1,6 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mrs+Sheppards&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.neverday{
+    animation-duration: 2s;
+    animation-name: bounceIn;
+    font-size: 3rem;
+}
+
+.theband {
+    
+    animation-duration: 5s;
+    animation-name: bounceIn;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#period {
+    animation-duration: 5s;
+    animation-name: periodIn;
+}
+
+@keyframes periodIn {
+    from {
+        left: 0%;
+        opacity: 1;
+    
+    }
+
+    to {
+        right: 100%;
+        opacity: 1;
+    }
+}
+
+
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -81,7 +134,8 @@ body {
 
 
 .about-container,
-.shows-container {
+.shows-container,
+.carousel-container {
     
     min-height: 100vh;
     display: grid;
@@ -100,10 +154,6 @@ body {
    /* position: fixed; */
     z-index: 1;
     background-color: white;
-}
-
-.about-container h1 {
-    font-size: 6rem;
 }
 
 .about-container p {
@@ -184,7 +234,7 @@ i:active:focus{
 
 
 /*-----------background Image----*/
-
+/*
 #img-container {
     height: 100vh;
     width: 100%;
@@ -201,7 +251,7 @@ i:active:focus{
     margin-bottom: 5%;
 
 }
-
+*/
 
 /*-----------Contact Form----*/
 
@@ -295,8 +345,14 @@ form ::placeholder {
 
 }
 
-btn {
+.btn {
     letter-spacing: 4px;
     text-shadow: #fff;
+}
+
+.carousel-item {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
