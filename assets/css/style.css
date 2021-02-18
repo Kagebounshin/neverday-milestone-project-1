@@ -338,14 +338,15 @@ form ::placeholder {
 }
 
 .dates {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     background-color:#fff;
     border-radius: 15%;
 }
 
 .dates-p {
-    padding-top: 5px;
+    padding-top: 4px;
+    font-size: 2rem;
 }
 
 
