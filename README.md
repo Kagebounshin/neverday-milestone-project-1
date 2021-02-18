@@ -66,9 +66,13 @@ A music section so you can listend to the music directley on the site, also read
 * [Animations](
 https://thoughtbot.com/blog/css-animation-for-beginners) used in the about section (with some modifications).
 
-* [Copyright](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) code.
+* [Copyright](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) symbol used at the bottom of the page.
 
 * Smooth [scroll](https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections) between the sections.
+
+* Social media icons was taken from [fontAwesome](https://fontawesome.com/icons?d=gallery)
+
+* Main font was taken from [GoogleFonts](https://fonts.google.com/)
 
 ### Media
 
