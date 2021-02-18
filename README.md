@@ -1,6 +1,6 @@
 # Neverday.
 
-This is my 1st milestone project: User-Centric Frontend Development. An assignment from [codeInstitute]()
+This is my 1st milestone project in User-Centric Frontend Development. An assignment from [CodeInstitute]().
 
 Neverday plays punk/rock with influences from metal, hardcore and skatepunk. Combining energy and catchy melodies with lyrics about love, death and anxiety.
 
@@ -76,9 +76,9 @@ A music section so you can listend to the music directley on the site, also read
 ### Content
 
 * [Animations](
-https://thoughtbot.com/blog/css-animation-for-beginners) used in the about section (with some modifications).
+https://thoughtbot.com/blog/css-animation-for-beginners) used in the heading section (with some modifications).
 
-* [Copyright](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) symbol used at the bottom of the page.
+* [Animations](https://webplatform.github.io/docs/tutorials/css_animations/) for the heading icon.
 
 * Smooth [scroll](https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections) between the sections.
 
@@ -86,11 +86,13 @@ https://thoughtbot.com/blog/css-animation-for-beginners) used in the about secti
 
 * Main font was taken from [GoogleFonts](https://fonts.google.com/)
 
+* [Copyright](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) symbol used at the bottom of the page.
+
 ### Media
 
 * All the music was originaly recorded by Neverday.
 
-* All the images was originaly produced by Neverday
+* All the images was originaly done/taken by Neverday
 
 ### Acknowledgements 
 
