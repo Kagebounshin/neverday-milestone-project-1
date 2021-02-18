@@ -1,6 +1,6 @@
 # Neverday
 
-This website is for the punkrock band called Neverday, 
+Neverday plays punk/rock with influences from metal, hardcore and skatepunk. Combining energy and catchy melodies with lyrics about love, death and anxiety.
 
 ## UX
 
@@ -12,13 +12,15 @@ Also for future employes that wishes to hire the band to play a show. They will 
 
 * As a user I can read about the band.
 
-* As a user I can get access to all the tour dates, tickets, music, and all the different social media accounts.
+* As a user I can get access to all the show dates.
 
-* As a user I will have access to the bands music.
+* As a user I could purchases tickets to the shows.
+
+* As a user I will be directed to the bands music.
 
 * As a fan I will have access to the bands social media accounts.
 
-* As an employer I should get access on how to book the band. 
+* As an employer I should get access on how to book the band for future shows. 
 
 links to mock ups, wireframes etc.
 
@@ -27,16 +29,31 @@ links to mock ups, wireframes etc.
 
 Here are the websites features.
 
-* On the website you can find information about the band. 
+* Users can find information about the band in the about section. 
 
-* You can see the bands tour dates and purchase tickets.
+* Users can find out were they can listend to Neverday's music via links.
 
-* You can contact the band for future requests.
+* Users can see Neverday's tour dates at the shows section.
 
-Further ahead I would like to implement a videos section so the user can see the latest music video. 
+* Users can purchase tickets at the shows section.
+
+* Users can contact the band for future requests at the contact section.
+
+Further ahead I would like to implement a video section so the user can see Neverday's latest music video. 
+
 A music section so you can listend to the music directley on the site, also read the lyrics to every recorded song. 
 
 ## Technologies Used
+
+* [Bootstrap](https://getbootstrap.com/) 
+
+* [GoogleFonts](https://fonts.google.com/)
+
+* [FontAwesome](https://fontawesome.com/)
+
+* [jQuery](https://jquery.com/)
+
+
 
 ## Testing
 
@@ -55,4 +72,11 @@ https://thoughtbot.com/blog/css-animation-for-beginners) used in the about secti
 
 ### Media
 
-* All media was originaly recorded or done by Neverday.
+* All the music was originaly recorded by Neverday.
+
+* All the images was originaly produced by Neverday
+
+### Acknowledgements 
+
+* Got layout inspiration from Femi
+
