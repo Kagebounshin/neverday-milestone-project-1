@@ -52,4 +52,7 @@ https://thoughtbot.com/blog/css-animation-for-beginners) used in the about secti
 * [Copyright](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) code.
 
 * Smooth [scroll](https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections) between the sections.
+
 ### Media
+
+* All media was originaly recorded or done by Neverday.
