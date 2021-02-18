@@ -1,8 +1,10 @@
-# Neverday
+# Neverday.
+
+This is my 1st milestone project: User-Centric Frontend Development. An assignment from [codeInstitute]()
 
 Neverday plays punk/rock with influences from metal, hardcore and skatepunk. Combining energy and catchy melodies with lyrics about love, death and anxiety.
 
-## UX
+## UX.
 
 This site is for fans who likes to get to know the band and see what they are up to. To find information about upcoming shows, how to get tickets for the shows, and find out where they could listend to the music, see videos, and social media accounts.
  
@@ -25,7 +27,7 @@ Also for future employes that wishes to hire the band to play a show. They will 
 links to mock ups, wireframes etc.
 
 
-## Features
+## Features.
 
 Here are the websites features.
 
@@ -43,15 +45,25 @@ Further ahead I would like to implement a video section so the user can see Neve
 
 A music section so you can listend to the music directley on the site, also read the lyrics to every recorded song. 
 
-## Technologies Used
+## Technologies Used.
 
-* [Bootstrap](https://getbootstrap.com/) 
+### Languages.
 
-* [GoogleFonts](https://fonts.google.com/)
+* [HTML]()
 
-* [FontAwesome](https://fontawesome.com/)
+* [CSS]()
 
-* [jQuery](https://jquery.com/)
+### Framework and Libraries.
+
+* [Bootstrap](https://getbootstrap.com/) - frontend framework
+
+* [GoogleFonts](https://fonts.google.com/) - to import fonts.
+
+* [FontAwesome](https://fontawesome.com/) - to import icons. 
+
+### Tools used.
+
+
 
 
 

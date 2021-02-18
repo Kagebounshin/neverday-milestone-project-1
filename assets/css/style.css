@@ -10,13 +10,37 @@ html {
     margin: 0;
 }
 
-.neverday{
-    animation-duration: 2s;
-    animation-name: bounceIn;
-    font-size: 3rem;
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow: auto;
+    
 }
 
-.news {
+/*-----------Animations----*/
+
+.home-heading{
+    animation-duration: 2s;
+    animation-name: bounceIn;
+    
+}
+
+@media (min-width: 991px){
+    .home-heading {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-heading {
+        font-size: -5rem;
+    }
+
+}
+
+
+.home-heading-news {
     
     animation-duration: 4s;
     animation-name: bounceIn;
@@ -53,29 +77,7 @@ html {
 }
 
 
-
-
-body {
-    font-family: "Roboto", sans-serif;
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow: auto;
-    
-}
-
-.color-period {
-    color: #a95656;
-}
-
-.text-white {
-    color: #fff;
-}
-
 /*-----------Background Colors----*/
-
-.bg-color-shows-1{
-    background-color: #a95656;
-}
 
 .nav-bg-color{
     background-color: #fafafa!important;
@@ -89,7 +91,8 @@ body {
 }
 
 .bg-color-shows,
-.bg-color-contact{
+.bg-color-contact,
+.bg-color-gallery{
     background-color: #a95656;
 }
 
@@ -108,16 +111,12 @@ body {
     letter-spacing: 4px;
 }
 
-.navbar > span {
-    line-height:90px;
-}
-
-.navbar-light .navbar-toggler {
+.navbar-toggler {
     border: none;
 }
 
 .nav-item {
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 
 .nav-link--pink:hover,
@@ -141,17 +140,6 @@ body {
 
 /*-----------Containers--------------------------------------------------*/
 
-
-
-.about-container,
-.shows-container
- {
-    
-    min-height: 100vh;
-    display: grid;
-    align-content: space-around;
-}
-
 .container-fluid {
     width: 100%;
     padding-right: 15px;
@@ -160,14 +148,41 @@ body {
     margin-left: 0 auto;
 }
 
-.container-navbar{
-    z-index: 1;
-    background-color: white;
+.home-container,
+.about-container,
+.shows-container
+ {
+    min-height: 100vh;
+    display: grid;
+    align-content: space-around;
+}
+
+.home-container{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.home-container i {
+    display: inherit;
 }
 
 .about-container p {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.shows-container h1{
+    font-size: 4rem;
+}
+
+.contact-container {
+    min-height: 100vh;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.contact-container h1 {
+    font-size: 4rem;
 }
 
 .social-container{
@@ -183,35 +198,9 @@ body {
     font-size: xx-large;
 }
 
-
-.shows-container h1{
-    font-size: 4rem;
-}
-
 .img-container{
     padding: 0;
     margin: 0;
-
-}
-
-.contact-container {
-    min-height: 100vh;
-    display: grid;
-    align-content: space-evenly;
-   
-}
-
-.contact-container h1 {
-    font-size: 4rem;
-    
-}
-
-
-/*-----------Jumbotron----*/
-
-.jumbotron-text {
-    color: white;
-    text-align: center;
 }
 
 /*-----------Buttons/hover----*/
@@ -240,6 +229,21 @@ i:active:focus{
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
+
+.home-container i {
+    color: black;
+    font-size: xx-large;
+}
+
+.home-container i:hover,
+i:active,
+i:focus,
+i:active:focus{
+    color: #a95656;
+    transition: 400ms ease-in;
+    transition: 400ms ease-out;
+}
+
 
 
 /*-----------background Image----*/
@@ -328,8 +332,6 @@ form ::placeholder {
     height: 60px;
     background-color:#fff;
     border-radius: 15%;
-    
-    
 }
 
 .dates-p {
@@ -350,10 +352,7 @@ form ::placeholder {
 }
 
 .carousel-item {
-
-  width: 100%;
-  
-
+    width: 100%;
 }
 
 .btn {
@@ -372,4 +371,13 @@ form ::placeholder {
     max-width: 100%;
     object-fit: contain;
 }
+
+.color-period {
+    color: #a95656;
+}
+
+.text-white {
+    color: #fff;
+}
+
 
