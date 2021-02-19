@@ -278,12 +278,11 @@ i:active:focus{
 }
 
 /*-----------background Image----*/
-/*
+
 #img-container {
     height: 100vh;
     width: 100%;
-    padding-top: 1rem;
-    background: url("../images/147269739_1138055073317192_2130610257012335907_n.jpg") fixed center center; 
+    background: url("../images/120109911_693028654944060_7521874300193585731_n.jpg") fixed center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -292,10 +291,9 @@ i:active:focus{
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 5%;
 
 }
-*/
+
 
 /*--------------------------------------Contact Form-----------------------------*/
 
@@ -382,5 +380,3 @@ form ::placeholder {
 .text-white {
     color: #fff;
 }
-
-
