@@ -132,11 +132,14 @@ body {
 .btn-bg-color {
     background-color: rgb(255, 255, 255);
 }
-
 .bg-color-shows,
-.bg-color-contact,
-.bg-color-gallery{
-    background-color: #a95656;
+.bg-color-gallery,
+.bg-color-video{
+    background-color: #04fd46;
+}
+
+.bg-color-contact {
+    background-color: #ffff01;
 }
 
 /*--------------------------------------Navbar-----------------------------*/
@@ -167,7 +170,7 @@ body {
 }
 
 .navbar-nav {
-    color: #a95656;
+    color: #04fd46;
 }
 
 /*--------------------------------------Containers-----------------------------*/
@@ -225,23 +228,26 @@ body {
     font-size: xx-large;
 }
 
-.img-container{
+.img-container,
+.video-container {
     padding: 0;
     margin: 0;
 }
 
+
+
 /*--------------------------------------Buttons/hover-----------------------------*/
 
 btn a {
-    color: #a95656;
+    color: #04fd46;
 }
 
 .btn--pink:hover,
 .btn--pink:active,
 .btn--pink:focus,
 .btn--pink:active:focus {
-    background-color: #a95656;
-    border-color:#a95656;
+    background-color: #04fd46;
+    border-color:#04fd46;
     color: #fff;
     align-items: center;
     transition: 600ms ease-in;
@@ -252,7 +258,7 @@ btn a {
 i:active,
 i:focus,
 i:active:focus{
-    color: #a95656;
+    color: #04fd46;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
@@ -261,7 +267,7 @@ i:active:focus{
 i:active,
 i:focus,
 i:active:focus{
-    color: #a95656;
+    color: #04fd46;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
@@ -281,8 +287,8 @@ i:active:focus{
 
 #img-container {
     height: 100vh;
-    width: 100%;
-    background: url("../images/120109911_693028654944060_7521874300193585731_n.jpg") fixed center center; 
+    width: auto;
+    background: url("../images/Neverday2[1428].png") fixed center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -300,28 +306,28 @@ i:active:focus{
 form input,
 form textarea {
     width: 90%;
-    background-color: #a95656;
-    color: #fff;
+    background-color: #ffff01;
+    color: black;
     outline: none;
 }
 
 form input {
     height: 3rem;
     border: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid black;
     margin-bottom: 2rem;
     font-size: large;
 }
 
 form textarea {
     height: 10rem;
-    border: 2px solid #fff;
+    border: 2px solid black;
     margin-bottom: 2rem;
-    color: #fff;
+    color: black;
 }
 
 form ::placeholder {
-    color: #fff;
+    color: black;
 }
 
 /*--------------------------------------Additional styling-----------------------------*/
@@ -374,7 +380,7 @@ form ::placeholder {
 }
 
 .color-period {
-    color: #a95656;
+    color: #04fd46;
 }
 
 .text-white {
