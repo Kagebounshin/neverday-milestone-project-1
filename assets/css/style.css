@@ -135,11 +135,11 @@ body {
 .bg-color-shows,
 .bg-color-gallery,
 .bg-color-video{
-    background-color: #04fd46;
+    background-color: #ffff01;
 }
 
 .bg-color-contact {
-    background-color: #ffff01;
+    background-color: #04fd46;
 }
 
 /*--------------------------------------Navbar-----------------------------*/
@@ -238,17 +238,23 @@ body {
 
 /*--------------------------------------Buttons/hover-----------------------------*/
 
-btn a {
-    color: #04fd46;
-}
-
-.btn--pink:hover,
-.btn--pink:active,
-.btn--pink:focus,
-.btn--pink:active:focus {
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
     background-color: #04fd46;
     border-color:#04fd46;
-    color: #fff;
+    align-items: center;
+    transition: 600ms ease-in;
+    transition: 600ms ease-out;
+}
+
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus,
+.btn--yellow:active:focus {
+    background-color: #ffff01;
+    border-color:#ffff01;
     align-items: center;
     transition: 600ms ease-in;
     transition: 600ms ease-out;
@@ -267,7 +273,7 @@ i:active:focus{
 i:active,
 i:focus,
 i:active:focus{
-    color: #04fd46;
+    color: #ffff01;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
@@ -288,7 +294,7 @@ i:active:focus{
 #img-container {
     height: 100vh;
     width: auto;
-    background: url("../images/Neverday2[1428].png") fixed center center; 
+    background: url("../images/152354254_506820107371164_5008468888873534119_o.jpg") fixed center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -306,7 +312,7 @@ i:active:focus{
 form input,
 form textarea {
     width: 90%;
-    background-color: #ffff01;
+    background-color: #04fd46;
     color: black;
     outline: none;
 }
@@ -357,7 +363,6 @@ form ::placeholder {
 .location-p{
     padding-top: 5px;
     font-weight: 600;
-    color: #fff;
 }
 
 
@@ -380,7 +385,7 @@ form ::placeholder {
 }
 
 .color-period {
-    color: #04fd46;
+    color: #ff739d;
 }
 
 .text-white {
