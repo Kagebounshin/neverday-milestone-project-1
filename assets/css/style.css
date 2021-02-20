@@ -146,6 +146,11 @@ body {
 
 .navbar {
     clear: both;
+    color: #04fd46;
+}
+
+.nav-link {
+    color: #04fd46;
 }
 
 .navbar-wrapper {
@@ -153,7 +158,7 @@ body {
 }
 
 .navbar-brand {
-    font-size: 24px;
+    font-size: 1.5em;
     letter-spacing: 4px;
 }
 
@@ -165,13 +170,19 @@ body {
     font-size: 1.3em;
 }
 
-.nav-item {
-    padding: 0;
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus,
+.nav-link:active:focus{
+    
+    transition: 200ms ease-in;
+    transition: 200ms ease-out;    
+    margin-top: -1px;
+    background-color: #04fd46;
 }
 
-.navbar-nav {
-    color: #04fd46;
-}
+
+
 
 /*--------------------------------------Containers-----------------------------*/
 
@@ -234,9 +245,15 @@ body {
     margin: 0;
 }
 
+/*--------------------------------------Jumbotron-----------------------------*/
 
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-weight: 600;
+}
 
-/*--------------------------------------Buttons/hover-----------------------------*/
+/*--------------------------------------Buttons,hover-----------------------------*/
 
 .btn--green:hover,
 .btn--green:active,
@@ -278,16 +295,6 @@ i:active:focus{
     transition: 400ms ease-out;
 }
 
-.nav-link--pink:hover,
-.nav-link--pink:active,
-.nav-link--pink:focus,
-.nav-link--pink.btn--pink:active:focus{
-    
-    transition: 400ms ease-in;
-    transition: 400ms ease-out;
-    border-bottom: 1px solid #a95656;
-    margin: 0 auto;
-}
 
 /*-----------background Image----*/
 

@@ -17,11 +17,10 @@
 
     <!--------------------------------Nav----------------------------->
 
-    <nav class="navbar navbar-light navbar-expand-md nav-bg-color bg-light fixed-top">
-        <a href="index.html" class="navbar-brand uppercase"><strong>Neverday<span
-                    class="color-period">.</span></strong></a>
+    <nav class="navbar navbar-light navbar-expand-md nav-bg-color fixed-top">
+        <a href="index.html" class="navbar-brand uppercase"><strong>N<span class="color-period">.</span></strong></a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarMenu"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
             aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"><span
                 class="navbar-toggler-icon">
             </span>
@@ -29,11 +28,11 @@
 
         <div class="navbar-collapse navbar-wrapper collapse justify-content-end uppercase" id="navbarMenu">
             <ul class="navbar-nav">
-                <li class="nav-item"><a href="#home-section" class="nav-link nav-link--pink">Home</a></li>
-                <li class="nav-item"><a href="#about-section" class="nav-link nav-link--pink">About</a></li>
-                <li class="nav-item"><a href="#shows-section" class="nav-link nav-link--pink">Shows</a></li>
-                <li class="nav-item"><a href="#gallery-section" class="nav-link nav-link--pink">Gallery</a></li>
-                <li class="nav-item"><a href="#contact-section" class="nav-link nav-link--pink">Contact</a></li>
+                <li class="nav-item"><a href="#home-section" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about-section" class="nav-link ">About</a></li>
+                <li class="nav-item"><a href="#shows-section" class="nav-link ">Shows</a></li>
+                <li class="nav-item"><a href="#gallery-section" class="nav-link ">Gallery</a></li>
+                <li class="nav-item"><a href="#contact-section" class="nav-link ">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -61,7 +60,17 @@
 
     <!--------------------------------Image----------------------------->
 
-    <div class="container-fluid" id="img-container"></div>
+    <div class="container-fluid" id="img-container">
+
+        <div class="jumbotron text-center">
+            <p>Would you like to get the latest news?<br>Sign Up for our news letter.</p>
+            <button class="btn btn-bg-color btn--yellow uppercase" role="button" aria-disabled="true"><strong>Sign
+                    Up<span class="color-period">.</span></strong></button>
+        </div>
+
+    </div>
+
+
 
     <!--------------------------------About----------------------------->
 
@@ -195,7 +204,7 @@
                         target="_blank"><strong>Tickets<span class="color-period">.</span></strong></a></div>
             </div>
             <br>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center mb-5">
                 <div class="col-12 col-md-2">
                     <p class="dates text-center dates-p"><small>AUG '21</small> <br><strong>01</strong></p>
                 </div>
@@ -269,7 +278,8 @@
     <div class="container-fluid contact-container bg-color-contact" id="contact-section">
         <div class="row mt-5">
             <div class="col">
-                <h1 class="contact-heading text-center mt-5 mb-5 uppercase">request a show.</h1>
+                <h1 class="contact-heading text-center mt-5 mb-5 uppercase">get in touch.</h1>
+                <p class="text-center mb-5"><strong>Request a show, or just say hello!</strong></p>
             </div>
         </div>
         <div class="row">
@@ -279,9 +289,10 @@
                     <br>
                     <input aria-label="Email:" placeholder="Email:" type="email" required>
                     <br>
-                    <textarea name="message-area" id="message-area" placeholder="Message:" required>
 
-                    </textarea>
+
+                    <textarea name="message-area" id="message-area" placeholder="Message:" required></textarea>
+
                     <br>
                     <button type="submit" class="btn btn-bg-color btn--green uppercase text-center"><strong>Submit<span
                                 class="color-period">.</span></strong></button>
