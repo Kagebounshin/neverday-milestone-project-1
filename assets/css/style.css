@@ -123,7 +123,7 @@ body {
 /*--------------------------------------Background Colors-----------------------------*/
 
 .nav-bg-color{
-    background-color: #fafafa!important;
+    background-color: #fff!important;
 }
 .bg-color-jumbotron {
     background-color: rgba(0, 0, 0, 0.6);
@@ -178,7 +178,7 @@ body {
     transition: 200ms ease-in;
     transition: 200ms ease-out;    
     margin-top: -1px;
-    background-color: #04fd46;
+    background-color: #fafafa;
 }
 
 
@@ -359,18 +359,23 @@ form ::placeholder {
     height: 100px;
     background-color:#fff;
     border-radius: 15%;
-}
-
-.dates-p {
     padding-top: 4px;
     font-size: 2rem;
 }
-
-
-.location-p{
-    padding-top: 5px;
+.location{
     font-weight: 600;
+    padding-left: 0;
 }
+
+.block-divider {
+    border-top: 3px solid #fff;
+    border-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
 
 
 .btn {
