@@ -50,15 +50,17 @@ As a user:
 
 * I want to read more about the band.
 
-* I want to have access to all the upcoming tour dates.
+* I want to know when and where the band is playing a show.
 
-* I want to know were I can purchases tickets to the shows.
+* I want to know where I can purchases tickets to the shows.
 
-* I want to know where I can get access to their music, videos, social media accounts etc.
+* I want to know where I can listend to their music, watch their videos or visit their social media accounts etc.
+
+* I want to be able to contact the band.
 
 As an employer:
 
-* I want to get easy access on how to contact the band to play future shows. 
+* I want to get easy access on how to contact the band for future requests. 
 
 links to mock ups, wireframes etc.
  
@@ -66,15 +68,27 @@ links to mock ups, wireframes etc.
 
 ---
 
+
+
 ## Features
 
 ### Existing Features
+
+#### Navbar
+At the top of the page is the navbar, and it is fixed to the top, so it will follow you up and down when you are navigating your way through the website. You can easily navigate your way through the diffrent sections, to get back to the to you can press either the logo to the left or "Home". When you are visiting the site on smaller devices the nav links will collapse into a burger menu.
+
+#### Newsletter form
+
+You can sign up to get the latest news to your emailadress. Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it when you click on the 'Subscribe' button.
+
+####
+
 
 Users can:
 
 * Find information about the band in the about section. 
 
-* Find out were they can listend to Neverday's music via links.
+* Find out were they can listend to Neverday's music.
 
 * See Neverday's tour dates at the shows section.
 
