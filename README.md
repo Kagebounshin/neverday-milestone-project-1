@@ -10,19 +10,24 @@ This site is for fans who likes to get to know the band and see what they are up
  
 Also for future employes that wishes to hire the band to play a show. They will get simple instructions on how to do so.
 
-* As a user I will get the latest news from the band.
+As a user:
+* I can sign up for a newsletter to get the latest news from the band.
 
-* As a user I can read about the band.
+* I can read about the band.
 
-* As a user I can get access to all the show dates.
+* I can get access to all the tour dates.
 
-* As a user I could purchases tickets to the shows.
+* I could purchases tickets to the shows.
 
-* As a user I will be directed to the bands music.
+* I will be directed to the bands music.
 
-* As a fan I will have access to the bands social media accounts.
+* I can see the bands music videos on the site.
 
-* As an employer I should get access on how to book the band for future shows. 
+* I will have access to the bands social media accounts.
+
+As an employer:
+
+* I should get access on how to book the band for future shows. 
 
 links to mock ups, wireframes etc.
 
@@ -31,19 +36,32 @@ links to mock ups, wireframes etc.
 
 Here are the websites features.
 
-* Users can find information about the band in the about section. 
+Users can:
 
-* Users can find out were they can listend to Neverday's music via links.
+* Find information about the band in the about section. 
 
-* Users can see Neverday's tour dates at the shows section.
+* Find out were they can listend to Neverday's music via links.
 
-* Users can purchase tickets at the shows section.
+* See Neverday's tour dates at the shows section.
 
-* Users can contact the band for future requests at the contact section.
+* Purchase tickets at the shows section.
 
-Further ahead I would like to implement a video section so the user can see Neverday's latest music video. 
+* Watch the bands music videos.
 
-A music section so you can listend to the music directley on the site, also read the lyrics to every recorded song. 
+* Contact the band at the contact section.
+
+Employers can:
+
+* Contact the band about future requests at the contact section. 
+
+In the future: 
+
+I would like to implement a music section so you can listend to the music directley on the site. 
+
+A merch section were you can buy clothes and our upcoming album.
+
+
+
 
 ## Technologies Used.
 
@@ -75,12 +93,12 @@ A music section so you can listend to the music directley on the site, also read
 
 ### Content
 
-* [Animations](
-https://thoughtbot.com/blog/css-animation-for-beginners) used in the heading section (with some modifications).
+* [Animation](
+https://thoughtbot.com/blog/css-animation-for-beginners) (written by: Rachel Cope) used in the heading section (with some modifications).
 
-* [Animations](https://webplatform.github.io/docs/tutorials/css_animations/) for the heading icon.
+* [Animation](https://webplatform.github.io/docs/tutorials/css_animations/) (written by: Mike Sierra) for the heading icon (with some modifications).
 
-* Smooth [scroll](https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections) between the sections.
+* [Smooth scroll](https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections) (written by: deadlymuffin) between the sections.
 
 * Social media icons was taken from [fontAwesome](https://fontawesome.com/icons?d=gallery)
 

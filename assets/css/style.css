@@ -341,6 +341,12 @@ form ::placeholder {
     color: black;
 }
 
+/*--------------------------------------Modal-----------------------------*/
+
+.modal {
+    color: black;
+}
+
 /*--------------------------------------Additional styling-----------------------------*/
 
 
@@ -362,16 +368,12 @@ form ::placeholder {
 }
 .location{
     font-weight: 600;
-    padding-left: 0;
     border-bottom: solid 2px #fff;
-    padding: 0;
-    
 }
 
-.block-divider {
-    border-top: 3px solid #fff;
-    border-left: 15px;
-    margin-bottom: 15px;
+.block--divider {
+    border: 2px solid #fff;
+    width: 95%;
 }
 
 

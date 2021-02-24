@@ -59,14 +59,42 @@
         </div>
     </div>
 
-    <!--------------------------------Image/Jumbotron----------------------------->
+    <!--------------------------------Image/News Jumbotron----------------------------->
 
     <div class="container-fluid" id="img-container">
 
         <div class="jumbotron text-center bg-color-jumbotron">
-            <p>Would you like to get the latest news?<br>Sign Up for our news letter.</p>
-            <button class="btn btn-bg-color btn--yellow uppercase" role="button" aria-disabled="true"><strong>Sign
+            <p>Would you like to get the latest news?<br>Sign Up for our newsletter!</p>
+            <button class="btn btn-bg-color btn--yellow uppercase" role="button" aria-disabled="true"
+                data-toggle="modal" data-target="#exampleModal"><strong>Sign
                     Up<span class="color-period">.</span></strong></button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title " id="exampleModalLabel">Newsletter</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Sign up for our newsletter to get the lates news!</p>
+                            <form>
+                                <div class="form-group" action="" method="POST">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                               
+                                <button type="submit" class="btn btn-bg-color btn--green text-center uppercase"><strong>Submit<span
+                                    class="color-period">.</span></strong></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -138,76 +166,73 @@
         </div>
 
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-2">
-                    <p class="dates text-center"><strong><small>JUN '21</small> <br>30</strong></p>
+            <div class="row">
+                <div class="col offset-md-1 col-md-10">
+                    <p class="dates text-center uppercase"><strong><small>JUN '21</small><br>30</strong></p>
+                    <p class="location uppercase">ANEXET (ERICSSON GLOBE)</p>
+                    <p><small><em>Stockholm, Sweden</em></small><a
+                            href="https://www.stockholmlive.com/ditt-besoek/ericsson-globe"
+                            class="btn btn-bg-color btn--yellow btn-tickets uppercase text-center disabled"
+                            role="button" aria-disabled="true" target="_blank"><strong>Sold Out<span
+                                    class="color-period">.</span></strong></a></p>
                 </div>
-                <div class="col-md-6 no-gutters">
-                    <p class="text-left location">ANEXET (ERICSSON GLOBE)</p>
-                    <p class="text-left"><small><em>Stockholm, Sweden</em></small><a href="https://www.stockholmlive.com/ditt-besoek/ericsson-globe"
-                        class="btn btn-bg-color btn--yellow btn-tickets uppercase text-center" role="button"
-                        aria-disabled="true" target="_blank"><strong>Tickets<span
-                                class="color-period">.</span></strong></a></p>
-                    
 
-                </div>
-             
             </div>
 
             <br>
             <div class="row">
-                <div class="col-md-2">
-                    <p class="dates text-center"><small>JUL '21</small> <br><strong>02</strong></p>
+                <div class="col offset-md-1 col-md-10">
+                    <p class="dates text-center uppercase"><strong><small>JUL '21</small><br>02</strong></p>
+                    <p class="location uppercase">ULLEVI</p>
+                    <p><small><em>Gothenburg, Sweden</em></small><a href="https://gotevent.se/arenor/ullevi/"
+                            class="btn btn-bg-color btn--yellow btn-tickets uppercase text-center" role="button"
+                            aria-disabled="true" target="_blank"><strong>Tickets<span
+                                    class="color-period">.</span></strong></a></p>
                 </div>
-                <div class="col-md-4">
-                    <p class="location text-left">ULLEVI <br><small>Gothenburg, Sweden</small>
-                    </p>
+
+            </div>
+
+            <br>
+            <div class="row">
+                <div class="col offset-md-1 col-md-10">
+                    <p class="dates text-center uppercase"><strong><small>JUL '21</small><br>09</strong></p>
+                    <p class="location uppercase">ROYAL ARENA</p>
+                    <p><small><em>Copenhagen, Denmark</em></small><a href="https://www.royalarena.dk/"
+                            class="btn btn-bg-color btn--yellow btn-tickets uppercase text-center" role="button"
+                            aria-disabled="true" target="_blank"><strong>Tickets<span
+                                    class="color-period">.</span></strong></a></p>
                 </div>
-                <div class="col-md-2"><a href="https://gotevent.se/arenor/ullevi/"
-                        class="btn btn-bg-color btn--yellow uppercase" role="button" aria-disabled="true"
-                        target="_blank"><strong>Tickets<span class="color-period">.</span></strong></a></div>
+
             </div>
             <br>
             <div class="row">
-                <div class="col-12 col-md-2">
-                    <p class="dates text-center"><small>JUL '21</small> <br><strong>09</strong></p>
+                <div class="col offset-md-1 col-md-10">
+                    <p class="dates text-center uppercase"><strong><small>JUL '21</small><br>15</strong></p>
+                    <p class="location uppercase">SPEKTRUM ARENA</p>
+                    <p><small><em>Oslo, Norway</em></small><a href="https://www.oslospektrum.no/"
+                            class="btn btn-bg-color btn--yellow btn-tickets uppercase text-center" role="button"
+                            aria-disabled="true" target="_blank"><strong>Tickets<span
+                                    class="color-period">.</span></strong></a></p>
                 </div>
-                <div class="col-12 col-md-4">
-                    <p class="location text-left">ROYAL ARENA<br><small>Copenhagen, Denmark</small>
-                    </p>
-                </div>
-                <div class="col-md-2"><a href="https://www.royalarena.dk/"
-                        class="btn btn-bg-color btn--yellow uppercase" role="button" aria-disabled="true"
-                        target="_blank"><strong>Tickets<span class="color-period">.</span></strong></a></div>
+
             </div>
             <br>
             <div class="row">
-                <div class="col-12 col-md-2">
-                    <p class="dates text-center"><small>JUL '21</small> <br><strong>15</strong></p>
+                <div class="col offset-md-1 col-md-10">
+                    <p class="dates text-center uppercase"><strong><small>Aug '21</small><br>01</strong></p>
+                    <p class="location uppercase">THE SUGAR CLUB</p>
+                    <p><small><em>Dublin, Ireland</em></small><a href="https://www.sugarclubtickets.com/"
+                            class="btn btn-bg-color btn--yellow btn-tickets uppercase text-center" role="button"
+                            aria-disabled="true" target="_blank"><strong>Tickets<span
+                                    class="color-period">.</span></strong></a></p>
                 </div>
-                <div class="col-12 col-md-4">
-                    <p class="location text-left">SPEKTRUM ARENA<br><small>Oslo, Norway</small>
-                    </p>
-                </div>
-                <div class="col-md-2"><a href="https://www.oslospektrum.no/"
-                        class="btn btn-bg-color btn--yellow uppercase" role="button" aria-disabled="true"
-                        target="_blank"><strong>Tickets<span class="color-period">.</span></strong></a></div>
+
             </div>
+
             <br>
-            <div class="row">
-                <div class="col-12 col-md-2">
-                    <p class="dates text-center"><small>AUG '21</small> <br><strong>01</strong></p>
-                </div>
-                <div class="col-12 col-md-4">
-                    <p class="location text-left">THE SUGAR CLUB<br><small>Dublin, Ireland</small>
-                    </p>
-                </div>
-                <div class="col-md-2"><a href="https://www.sugarclubtickets.com/"
-                        class="btn btn-bg-color btn--yellow uppercase" role="button" aria-disabled="true"
-                        target="_blank"><strong>Tickets<span class="color-period">.</span></strong></a></div>
-            </div>
-            <br>
+
         </div>
+        <hr class="block--divider">
     </div>
 
     <!--------------------------------Videos----------------------------->
@@ -228,9 +253,9 @@
             </div>
 
         </div>
-        <div class="row">
+        <div class="row bg-color-gallery">
             <div class="col">
-                <p class="text-center"><em>Gray - Lyric Video</em></p>
+                <p class="text-center pt-5"><em>Gray - Lyric Video</em></p>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item"
                         src="https://www.youtube-nocookie.com/embed/21s_Mmnl66A?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0"
@@ -292,7 +317,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <form class="text-center">
+                <form class="text-center" action="" method="POST">
                     <input aria-label="Name:" placeholder="Name:" type="text" required>
                     <br>
                     <input aria-label="Email:" placeholder="Email:" type="email" required>
