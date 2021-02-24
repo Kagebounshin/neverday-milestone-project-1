@@ -16,38 +16,6 @@ body {
 
 /*--------------------------------------Keyframes & Media-----------------------------*/
 
-.home-heading{
-    animation-duration: 1s;
-    animation-name: bounceIn;
-    
-}
-
-@media (min-width: 768px){
-    .home-heading {
-        font-size: 7rem;
-    }
-}
-
-@media (max-width: 767px) {
-    .home-heading {
-        font-size: 4rem;
-    }
-
-}
-
-@media (max-width:375px) {
-    .home-heading {
-        font-size: 3rem;
-    }
-}
-
-
-.home-heading-news {
-    
-    animation-duration: 2s;
-    animation-name: bounceIn;
-}
-
 /* The @keyframes bounceIn was written by Rachel Cope, 
 and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
 
@@ -64,10 +32,16 @@ and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
   }
 }
 
-.home-container i {
+.home-heading {
     
-    animation-duration: 3s;
-    animation-name: fromRight;
+    animation-duration: 2s;
+    animation-name: bounceIn;
+}
+
+.home-heading-news {
+    
+    animation-duration: 2s;
+    animation-name: bounceIn;
 }
 
 /* The @keyframes fromRight was written by Mike Sierra, 
@@ -81,34 +55,26 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     100% { transform: translate(0%)   skewX(0deg)   ; }
 } 
 
-#period {
-    animation-duration: 4s;
-    animation-name: periodIn;
-}
-
-@keyframes periodIn {
-    from {
-        right: 0%;
-        opacity: 0;
+.home-container i {
     
-    }
-
-    to {
-        left: 100%;
-        opacity: 1;
-    }
+    animation-duration: 3s;
+    animation-name: fromRight;
 }
 
 @media (min-width: 768px){
     .shows-heading,
-    .contact-heading {
+    .contact-heading,
+    .videos-heading,
+    .gallery-heading {
         font-size: 4rem;
     }
 }
 
 @media (max-width: 767px) {
     .shows-heading,
-    .contact-heading {
+    .contact-heading,
+    .videos-heading,
+    .gallery-heading {
         font-size: 3.5rem;
     }
 
@@ -116,7 +82,9 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
 @media (max-width:375px) {
     .shows-heading,
-    .contact-heading {
+    .contact-heading,
+    .videos-heading,
+    .gallery-heading {
         font-size: 2.5rem;
     }
 }
@@ -124,15 +92,15 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
 /*--------------------------------------Background Colors-----------------------------*/
 
-.nav-bg-color{
+.bg-color-nav{
     background-color: #fff!important;
 }
 .bg-color-jumbotron {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.btn-bg-color {
-    background-color: rgb(255, 255, 255);
+.bg-color-btn {
+    background-color: #fff;
 }
 .bg-color-shows,
 .bg-color-videos{
@@ -185,8 +153,6 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
 .container-fluid {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: 0 auto;
     margin-left: 0 auto;
 }
@@ -221,7 +187,6 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .social-container{
     list-style-type: none;
     display: inline-flex;
-    padding: 0;
     letter-spacing: 10px;
     color: black;
 }
@@ -231,14 +196,8 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     font-size: xx-large;
 }
 
-.img-container,
-.video-container {
-    padding: 0;
-    margin: 0;
-}
-
 .video-container p {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .shows-container a {
@@ -252,7 +211,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     font-weight: 600;
 }
 
-/*--------------------------------------Buttons,hover-----------------------------*/
+/*--------------------------------------btn:hover,i:hover---------------------------*/
 
 .btn--green:hover,
 .btn--green:active,
@@ -294,8 +253,8 @@ i:active:focus{
     transition: 400ms ease-out;
 }
 
+/*--------------------------------------backgroundImage-----------------------------*/
 
-/*-----------background Image----*/
 
 #img-container {
     height: 100vh;
@@ -307,7 +266,7 @@ i:active:focus{
     display:flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    
 
 }
 
@@ -354,10 +313,6 @@ form ::placeholder {
     text-transform: uppercase;
 }
 
-.text-small {
-    font-size: smaller;
-}
-
 .dates {
     width: 100px;
     height: 100px;
@@ -376,23 +331,6 @@ form ::placeholder {
     width: 95%;
 }
 
-
-
-.btn-tickets {
-    margin: 0 auto;
-    align-content: center;
-    vertical-align: middle;
-}
-
-.carousel-item {
-    object-fit: contain;
-    align-content: center;
-}
-
 .color-period {
     color: #ff739d;
-}
-
-.text-white {
-    color: #fff;
 }
