@@ -139,6 +139,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     background-color: #ffff01;
 }
 
+
 .bg-color-contact,
 .bg-color-gallery {
     background-color: #04fd46;
@@ -175,8 +176,6 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     transition: 100ms ease-out;    
     margin-top: -1px;
     font-weight: 600;
-    font-size: 1.305em;
-    color: green;
 }
 
 
@@ -195,8 +194,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .home-container,
 .about-container,
 .shows-containe,
-.gallery-container
- {
+.gallery-container{
     min-height: 100vh;
     display: grid;
     align-content: space-around;
