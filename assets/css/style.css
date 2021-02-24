@@ -193,7 +193,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
 .home-container,
 .about-container,
-.shows-containe,
+.shows-container,
 .gallery-container{
     min-height: 100vh;
     display: grid;
@@ -239,6 +239,10 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
 .video-container p {
     font-size: 2em;
+}
+
+.shows-container a {
+    float: right;
 }
 
 /*--------------------------------------Jumbotron-----------------------------*/
@@ -359,6 +363,9 @@ form ::placeholder {
 .location{
     font-weight: 600;
     padding-left: 0;
+    border-bottom: solid 2px #fff;
+    padding: 0;
+    
 }
 
 .block-divider {
@@ -367,10 +374,7 @@ form ::placeholder {
     margin-bottom: 15px;
 }
 
-.btn {
-    letter-spacing: 4px;
-    text-shadow: #fff;
-}
+
 
 .btn-tickets {
     margin: 0 auto;
