@@ -1,9 +1,11 @@
 # Neverday.
 
-This is my 1st milestone project in User-Centric Frontend Development. An assignment from [CodeInstitute]().
+This is my 1st milestone project in User-Centric Frontend Development. An assignment from [CodeInstitute](https://codeinstitute.net/). 
+The band wich this website is for, is a real band, and its called Neverday.  
 
 Neverday plays punk/rock with influences from metal, hardcore and skatepunk. Combining energy and catchy melodies with lyrics about love, death and anxiety.
 
+And guess what, I play with the band.
 
 ---
 ## Table Of Content
@@ -12,46 +14,61 @@ Neverday plays punk/rock with influences from metal, hardcore and skatepunk. Com
 - [**Design**](#design)
 
 2.[**Features**](#features)
-- [**User Stories**](#user-stories)
+- [**Existing Features**](#existing-features)
+- [**Features For The Future**](#features-for-the-future)
 
+3.[**Technologies**](#technologies-used)
+- [**Languages**](#languages)
+- [**Framework and Libraries**](#framework-and-libraries)
+- [**Tools used**](#tools-used)
 
+4.[**Testing**](#testing)
 
+5.[**Deployment**](#deployment)
 
+6.[**Credits**](#credits)
+- [**Content**](#content)
+- [**Media**](#media)
+- [**Acknowledgements**](#acknowledgements)
 
 ---
-## UX.
+## UX
 
 ### User stories
+
 This site is for fans who likes to get to know the band and see what they are up to. To find information about upcoming shows, how to get tickets for the shows, and find out where they could listend to the music, see videos, and social media accounts.
  
 Also for future employes that wishes to hire the band to play a show. They will get simple instructions on how to do so.
 
 As a user:
-* I can sign up for a newsletter to get the latest news from the band.
 
-* I can read about the band.
+* I want to have access to the website from any device.
 
-* I can get access to all the tour dates.
+* I want to be able to easily navigate through the website, so I can find what i'm looking for.
 
-* I could purchases tickets to the shows.
+* I want to sign up for a newsletter to get the latest news, such as tour dates, merch, music etc.
 
-* I will be directed to the bands music.
+* I want to read more about the band.
 
-* I can see the bands music videos on the site.
+* I want to have access to all the upcoming tour dates.
 
-* I will have access to the bands social media accounts.
+* I want to know were I can purchases tickets to the shows.
+
+* I want to know where I can get access to their music, videos, social media accounts etc.
 
 As an employer:
 
-* I should get access on how to book the band for future shows. 
+* I want to get easy access on how to contact the band to play future shows. 
 
 links to mock ups, wireframes etc.
  
 ### Design
 
-## Features.
+---
 
-Here are the websites features.
+## Features
+
+### Existing Features
 
 Users can:
 
@@ -71,24 +88,27 @@ Employers can:
 
 * Contact the band about future requests at the contact section. 
 
-In the future: 
+### Features For The Future 
 
-I would like to implement a music section so you can listend to the music directley on the site. 
+* I would like for my forms to work, so they fulfill their purpose.
 
-A merch section were you can buy clothes and our upcoming album.
+* I would like to implement a music section. There you will be able to listend to our music directley on the site, and read the lyrics for our realeased songs. 
+
+* A merch section were you can buy clothes and our upcoming album.
+
+---
 
 
+## Technologies Used
 
-
-## Technologies Used.
-
-### Languages.
+### Languages
 
 * [HTML]()
 
 * [CSS]()
 
-### Framework and Libraries.
+
+### Framework and Libraries
 
 * [Bootstrap](https://getbootstrap.com/) - frontend framework
 
@@ -96,24 +116,25 @@ A merch section were you can buy clothes and our upcoming album.
 
 * [FontAwesome](https://fontawesome.com/) - to import icons. 
 
-### Tools used.
+### Tools used
 
+* [GitPod]() 
+* [Git]() 
+* [GitHub]() 
 
-
-
-
+---
 ## Testing
 
+---
+
 ## Deployment
+
+---
 
 ## Credits
 
 ### Content
 
-* [Animation](
-https://thoughtbot.com/blog/css-animation-for-beginners) (written by: Rachel Cope) used in the heading section (with some modifications).
-
-* [Animation](https://webplatform.github.io/docs/tutorials/css_animations/) (written by: Mike Sierra) for the heading icon (with some modifications).
 
 * [Smooth scroll](https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections) (written by: deadlymuffin) between the sections.
 
@@ -125,11 +146,17 @@ https://thoughtbot.com/blog/css-animation-for-beginners) (written by: Rachel Cop
 
 ### Media
 
+* [Animation](
+https://thoughtbot.com/blog/css-animation-for-beginners) (written by: Rachel Cope) used in the heading section (with some modifications).
+
+* [Animation](https://webplatform.github.io/docs/tutorials/css_animations/) (written by: Mike Sierra) for the heading icon (with some modifications).
+
+
 * All the music was originaly recorded by Neverday.
 
 * All the images was originaly done/taken by Neverday
 
 ### Acknowledgements 
 
-* Got layout inspiration from Femi
+* 
 
