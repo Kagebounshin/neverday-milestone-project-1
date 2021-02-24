@@ -90,6 +90,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 }
 
 
+
 /*--------------------------------------Background Colors-----------------------------*/
 
 .bg-color-nav{
@@ -102,14 +103,12 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .bg-color-btn {
     background-color: #fff;
 }
-.bg-color-shows,
-.bg-color-videos{
+.bg-color-shows{
     background-color: #ffff01;
 }
 
 
-.bg-color-contact,
-.bg-color-gallery {
+.bg-color-contact {
     background-color: #04fd46;
 }
 
@@ -153,6 +152,8 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
 .container-fluid {
     width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: 0 auto;
     margin-left: 0 auto;
 }
@@ -160,7 +161,8 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .home-container,
 .about-container,
 .shows-container,
-.gallery-container{
+.gallery-container,
+.videos-container{
     min-height: 100vh;
     display: grid;
     align-content: space-around;
@@ -196,8 +198,8 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     font-size: xx-large;
 }
 
-.video-container p {
-    font-size: 1em;
+.videos-container p {
+    font-size: 2em;
 }
 
 .shows-container a {
