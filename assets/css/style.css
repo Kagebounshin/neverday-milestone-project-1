@@ -135,7 +135,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     background-color: rgb(255, 255, 255);
 }
 .bg-color-shows,
-.bg-color-video{
+.bg-color-videos{
     background-color: #ffff01;
 }
 
@@ -235,6 +235,10 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .video-container {
     padding: 0;
     margin: 0;
+}
+
+.video-container p {
+    font-size: 2em;
 }
 
 /*--------------------------------------Jumbotron-----------------------------*/
