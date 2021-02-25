@@ -114,6 +114,10 @@ body {
     padding-right: 10px;
 }
 
+.about-container a {
+    color: #ff739d;
+}
+
 .contact-container {
     min-height: 100vh;
     display: grid;

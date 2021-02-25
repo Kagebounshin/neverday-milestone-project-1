@@ -173,8 +173,11 @@ Employers can:
 
 ---
 
-## Deployment
+validator 
+user testing
 
+## Deployment
+ how to deplopy
 ---
 
 ## Credits
