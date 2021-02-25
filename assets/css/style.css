@@ -7,109 +7,44 @@ html {
 }
 
 body {
+    background-color: #fafafa;
     font-family: "Roboto", sans-serif;
     max-width: 100%;
     overflow-x: hidden;
     overflow: auto;
-    
 }
-
-/*--------------------------------------Keyframes & Media-----------------------------*/
-
-/* The @keyframes bounceIn was written by Rachel Cope, 
-and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
-
-
-@keyframes bounceIn {
-  0% {
-    transform: scale(0.1);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 2;
-  }
-}
-
-.home-heading {
-    
-    animation-duration: 2s;
-    animation-name: bounceIn;
-}
-
-.home-heading-news {
-    
-    animation-duration: 2s;
-    animation-name: bounceIn;
-}
-
-/* The @keyframes fromRight was written by Mike Sierra, 
-and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
-
-@keyframes fromRight {
-    0%   { transform: translate(1920px) skewX(-30deg) ; }
-    70%  { transform: translate(0%)   skewX(-30deg) ; }
-    80%  { transform: translate(0%)   skewX(20deg)  ; }
-    95%  { transform: translate(0%)   skewX(-10deg) ; }
-    100% { transform: translate(0%)   skewX(0deg)   ; }
-} 
-
-.home-container i {
-    
-    animation-duration: 3s;
-    animation-name: fromRight;
-}
-
-@media (min-width: 768px){
-    .shows-heading,
-    .contact-heading,
-    .videos-heading,
-    .gallery-heading {
-        font-size: 4rem;
-    }
-}
-
-@media (max-width: 767px) {
-    .shows-heading,
-    .contact-heading,
-    .videos-heading,
-    .gallery-heading {
-        font-size: 3.5rem;
-    }
-
-}
-
-@media (max-width:375px) {
-    .shows-heading,
-    .contact-heading,
-    .videos-heading,
-    .gallery-heading {
-        font-size: 2.5rem;
-    }
-}
-
-
 
 /*--------------------------------------Background Colors-----------------------------*/
 
 .bg-color-nav{
-    background-color: #fff!important;
+    background-color: #fafafa!important;
 }
 .bg-color-jumbotron {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
 .bg-color-btn {
+    background-color: inherit;
+}
+
+.bg-color-btn--white {
     background-color: #fff;
 }
+
 .bg-color-shows{
-    background-color: #ffff01;
+    background-color:#e6e6e6;
 }
 
+.bg-color-videos {
+    background-color: #efefef;
+}
+
+.bg-color-gallery {
+     background-color: #e6e6e6;
+}
 
 .bg-color-contact {
-    background-color: #04fd46;
+    background-color: #efefef;
 }
 
 /*--------------------------------------Navbar-----------------------------*/
@@ -138,7 +73,6 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .nav-link:active,
 .nav-link:focus,
 .nav-link:active:focus{
-    
     transition: 100ms ease-in;
     transition: 100ms ease-out;    
     margin-top: -1px;
@@ -206,6 +140,80 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     float: right;
 }
 
+/*--------------------------------------Keyframes & Media-----------------------------*/
+
+
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 2;
+  }
+}
+
+/* This @keyframes bounceIn was written by Rachel Cope, 
+and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
+
+.home-heading,
+.home-heading-news {
+    
+    animation-duration: 2s;
+    animation-name: bounceIn;
+}
+
+
+
+@keyframes fromRight {
+    0%   { transform: translate(1920px) skewX(-30deg) ; }
+    70%  { transform: translate(0%)   skewX(-30deg) ; }
+    80%  { transform: translate(0%)   skewX(20deg)  ; }
+    95%  { transform: translate(0%)   skewX(-10deg) ; }
+    100% { transform: translate(0%)   skewX(0deg)   ; }
+} 
+
+/* This @keyframes fromRight was written by Mike Sierra, 
+and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
+
+.home-container i {
+    
+    animation-duration: 3s;
+    animation-name: fromRight;
+}
+
+@media (min-width: 768px){
+    .shows-heading,
+    .contact-heading,
+    .videos-heading,
+    .gallery-heading {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .shows-heading,
+    .contact-heading,
+    .videos-heading,
+    .gallery-heading {
+        font-size: 3.5rem;
+    }
+
+}
+
+@media (max-width:375px) {
+    .shows-heading,
+    .contact-heading,
+    .videos-heading,
+    .gallery-heading {
+        font-size: 2.5rem;
+    }
+}
+
 /*--------------------------------------Jumbotron-----------------------------*/
 
 .jumbotron {
@@ -219,19 +227,17 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .btn--green:active,
 .btn--green:focus,
 .btn--green:active:focus {
-    background-color: #04fd46;
-    border-color:#04fd46;
+    color: #ff739d;
     align-items: center;
     transition: 600ms ease-in;
     transition: 600ms ease-out;
 }
 
-.btn--yellow:hover,
-.btn--yellow:active,
-.btn--yellow:focus,
-.btn--yellow:active:focus {
-    background-color: #ffff01;
-    border-color:#ffff01;
+.btn--inherit:hover,
+.btn--inherit:active,
+.btn--inherit:focus,
+.btn--inherit:active:focus {
+    color: #fff;
     align-items: center;
     transition: 600ms ease-in;
     transition: 600ms ease-out;
@@ -240,22 +246,17 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .social-container i:hover,
 i:active,
 i:focus,
+i:active:focus,
+.home-container i:hover,
+i:active,
+i:focus,
 i:active:focus{
     color: #04fd46;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
 
-.home-container i:hover,
-i:active,
-i:focus,
-i:active:focus{
-    color: #ffff01;
-    transition: 400ms ease-in;
-    transition: 400ms ease-out;
-}
-
-/*--------------------------------------backgroundImage-----------------------------*/
+/*--------------------------------------backgroundImage -----------------------------*/
 
 
 #img-container {
@@ -268,8 +269,6 @@ i:active:focus{
     display:flex;
     align-items: center;
     justify-content: center;
-    
-
 }
 
 
@@ -278,7 +277,7 @@ i:active:focus{
 form input,
 form textarea {
     width: 90%;
-    background-color: #04fd46;
+    background-color: #efefef;
     color: black;
     outline: none;
 }
@@ -302,7 +301,7 @@ form ::placeholder {
     color: black;
 }
 
-/*--------------------------------------Modal-----------------------------*/
+/*--------------------------------------Newsletter Modal-----------------------------*/
 
 .modal {
     color: black;
@@ -319,10 +318,11 @@ form ::placeholder {
     width: 100px;
     height: 100px;
     background-color:#fff;
-    border-radius: 15%;
-    padding-top: 4px;
+    border: 2px outset #fafafa;
+    padding-top: 1px;
     font-size: 2rem;
 }
+
 .location{
     font-weight: 600;
     border-bottom: solid 2px #fff;

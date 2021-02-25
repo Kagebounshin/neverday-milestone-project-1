@@ -57,13 +57,13 @@
         </div>
     </div>
 
-    <!--------------------------------Image/News Jumbotron----------------------------->
+    <!--------------------------------Image/ News Jumbotron /Modal----------------------------->
 
     <div id="img-container">
 
         <div class="jumbotron text-center bg-color-jumbotron">
             <p>Would you like to get the latest news?<br>Sign Up for our newsletter!</p>
-            <button class="btn bg-color-btn btn--yellow uppercase" role="button" aria-disabled="true"
+            <button class="btn bg-color-btn--white btn--green uppercase" role="button" aria-disabled="true"
                 data-toggle="modal" data-target="#exampleModal"><strong>Sign
                     Up<span class="color-period">.</span></strong></button>
 
@@ -72,7 +72,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title " id="exampleModalLabel">Newsletter</h5>
+                            <h5 class="modal-title " id="exampleModalLabel">Newsletter <i class="far fa-envelope"></i></h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -81,12 +81,11 @@
                             <p>Sign up for our newsletter to get the lates news!</p>
                             <form>
                                 <div class="form-group" action="" method="POST">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                    <input type="email" class="form-control" ria-label="Email:" placeholder="Email:" id="exampleInputEmail1"
                                         aria-describedby="emailHelp">
                                 </div>
                                
-                                <button type="submit" class="btn btn-bg-color btn--green text-center uppercase"><strong>Subscribe<span
+                                <button type="submit" class="btn bg-color-btn btn--green text-center uppercase"><strong>Subscribe<span
                                     class="color-period">.</span></strong></button>
                             </form>
                         </div>
@@ -166,10 +165,10 @@
             <div class="row">
                 <div class="col offset-md-1 col-md-10">
                     <p class="dates text-center uppercase"><strong><small>JUN '21</small><br>30</strong></p>
-                    <p class="location uppercase">ANEXET (ERICSSON GLOBE)</p>
+                    <p class="location uppercase">ERICSSON GLOBE</p>
                     <p><small><em>Stockholm, Sweden</em></small><a
                             href="https://www.stockholmlive.com/ditt-besoek/ericsson-globe"
-                            class="btn bg-color-btn btn--yellow btn-tickets uppercase text-center disabled"
+                            class="btn bg-color-btn btn--inherit btn-tickets uppercase text-center disabled"
                             role="button" aria-disabled="true" target="_blank"><strong>Sold Out<span
                                     class="color-period">.</span></strong></a></p>
                 </div>
@@ -178,11 +177,11 @@
 
             <br>
             <div class="row">
-                <div class="col offset-md-1 col-md-10">
+                <div class="col offset-md-1 col-md-10 ">
                     <p class="dates text-center uppercase"><strong><small>JUL '21</small><br>02</strong></p>
                     <p class="location uppercase">ULLEVI</p>
                     <p><small><em>Gothenburg, Sweden</em></small><a href="https://gotevent.se/arenor/ullevi/"
-                            class="btn bg-color-btn btn--yellow btn-tickets uppercase text-center" role="button"
+                            class="btn bg-color-btn btn--inherit btn-tickets uppercase text-center" role="button"
                             aria-disabled="true" target="_blank"><strong>Tickets<span
                                     class="color-period">.</span></strong></a></p>
                 </div>
@@ -195,7 +194,7 @@
                     <p class="dates text-center uppercase"><strong><small>JUL '21</small><br>09</strong></p>
                     <p class="location uppercase">ROYAL ARENA</p>
                     <p><small><em>Copenhagen, Denmark</em></small><a href="https://www.royalarena.dk/"
-                            class="btn bg-color-btn btn--yellow btn-tickets uppercase text-center" role="button"
+                            class="btn bg-color-btn btn--inherit btn-tickets uppercase text-center" role="button"
                             aria-disabled="true" target="_blank"><strong>Tickets<span
                                     class="color-period">.</span></strong></a></p>
                 </div>
@@ -207,7 +206,7 @@
                     <p class="dates text-center uppercase"><strong><small>JUL '21</small><br>15</strong></p>
                     <p class="location uppercase">SPEKTRUM ARENA</p>
                     <p><small><em>Oslo, Norway</em></small><a href="https://www.oslospektrum.no/"
-                            class="btn bg-color-btn btn--yellow btn-tickets uppercase text-center" role="button"
+                            class="btn bg-color-btn btn--inherit btn-tickets uppercase text-center" role="button"
                             aria-disabled="true" target="_blank"><strong>Tickets<span
                                     class="color-period">.</span></strong></a></p>
                 </div>
@@ -219,8 +218,8 @@
                     <p class="dates text-center uppercase"><strong><small>Aug '21</small><br>01</strong></p>
                     <p class="location uppercase">THE SUGAR CLUB</p>
                     <p><small><em>Dublin, Ireland</em></small><a href="https://www.sugarclubtickets.com/"
-                            class="btn bg-color-btn btn--yellow btn-tickets uppercase text-center" role="button"
-                            aria-disabled="true" target="_blank"><strong>Tickets<span
+                            class="btn bg-color-btn btn--inherit btn-tickets uppercase text-center disabled" role="button"
+                            aria-disabled="true" target="_blank"><strong>Sold Out<span
                                     class="color-period">.</span></strong></a></p>
                 </div>
 
@@ -240,22 +239,24 @@
             </div>
         </div>
         <div class="row">
-            <div class="col offset-md-2 col-md-8">
+            <div class="col offset-md-1 col-md-10 offset-lg-2 col-lg-8">
                 <p class="text-center"><em>Some Bullets Are Special</em></p>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe title="someBullets" class="embed-responsive-item"
                         src="https://www.youtube.com/embed/DNxxxUlL_4Y?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" alt="should be a music video"
                         allowfullscreen></iframe></div>
+                        <p class ="text-center"><small><em>3 minutes, 14 secounds</em></small></p>
             </div>
 
         </div>
-        <div class="row bg-color-gallery">
-            <div class="col offset-md-2 col-md-8">
+        <div class="row bg-color-videos">
+            <div class="col offset-md-1 col-md-10 offset-lg-2 col-lg-8">
                 <p class="text-center pt-5"><em>Gray - Lyric Video</em></p>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe title="grey" class="embed-responsive-item"
                         src="https://www.youtube.com/embed/21s_Mmnl66A?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0" alt="should be a music video"
                         allowfullscreen></iframe></div>
+                        <p class ="text-center"><small><em>3 minutes, 12 secounds</em></small></p>
             </div>
 
         </div>
@@ -271,7 +272,7 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col offset-md-2 col-md-8 offset-lg-3 col-lg-6">
+            <div class="col offset-md-1 col-md-10 offset-lg-3 col-lg-6">
 
 
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -307,12 +308,12 @@
     <div class="container-fluid contact-container bg-color-contact" id="contact-section">
         <div class="row mt-5">
             <div class="col">
-                <h1 class="contact-heading text-center pt-5 mt-5 mb-5 uppercase">get in touch.</h1>
+                <h1 class="contact-heading text-center pt-5 mt-5 mb-5 uppercase">Contact Us.</h1>
                 <p class="text-center mb-5"><strong>Request a show, or just say hello!</strong></p>
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col offset-md-2 col-md-8">
                 <form class="text-center" action="" method="POST">
                     <input aria-label="Name:" placeholder="Name:" type="text" required>
                     <br>
@@ -323,7 +324,7 @@
                     <textarea name="message-area" id="message-area" placeholder="Message:" required></textarea>
 
                     <br>
-                    <button type="submit" class="btn bg-color-btn btn--green uppercase text-center"><strong>Submit<span
+                    <button type="submit" class="btn bg-color-btn btn--inherit uppercase text-center"><strong>Submit<span
                                 class="color-period">.</span></strong></button>
                 </form>
                 <br>
@@ -363,7 +364,4 @@
         crossorigin="anonymous"></script>
 
 </body>
-
-
-
 </html>

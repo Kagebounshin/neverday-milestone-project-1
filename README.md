@@ -77,24 +77,54 @@ links to mock ups, wireframes etc.
 #### Navbar
 At the top of the page is the navbar, and it is fixed to the top, so it will follow you up and down when you are navigating your way through the website. You can easily navigate your way through the diffrent sections, to get back to the to you can press either the logo to the left or "Home". When you are visiting the site on smaller devices the nav links will collapse into a burger menu.
 
+
+#### Home
+When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the easiest directon to our music.
+
 #### Newsletter form
 
-You can sign up to get the latest news to your emailadress. Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it when you click on the 'Subscribe' button.
+Below the Home section you can sign up to get the latest news to your emailadress. Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it when you click on the 'Subscribe' button.
 
-####
+#### About
 
+This is where you can read about Neverday, its a short but informative text, and an image of the members. The members is discribed in a text below the image.
 
+##### Shows
+
+Here you can find out when and where Neverday is performing live. A tickets button that directs you to where you can purchase a ticket.
+
+#### Videos
+
+In this section you can watch Neverdays music videos through embeded videos from youtube. 
+
+#### Gallery
+
+I have used the carousel component from bootstrap so you can use the arrows on the pictures to slide between next and the previous picture.
+
+#### Contact
+
+This is where you can contact the Neverday, about future show request or just anything that comes to mind. 
+ 
+#### Footer
+
+In the footer there is icons to our social media accounts, and icons to streaming services wich provides you with the music you want to here. 
+
+#### To Summarize
 Users can:
 
-* Find information about the band in the about section. 
+* Easily navigate up and down the website with the fixed to the top navbar.
 
 * Find out were they can listend to Neverday's music.
+
+* Sign up for a newsletter.
+
+* Find information about the band in the about section. 
 
 * See Neverday's tour dates at the shows section.
 
 * Purchase tickets at the shows section.
 
-* Watch the bands music videos.
+* Watch the bands music videos and some pictures.
 
 * Contact the band at the contact section.
 
@@ -105,6 +135,8 @@ Employers can:
 ### Features For The Future 
 
 * I would like for my forms to work, so they fulfill their purpose.
+
+* I would like to have more information about every member of Neverday.
 
 * I would like to implement a music section. There you will be able to listend to our music directley on the site, and read the lyrics for our realeased songs. 
 
@@ -130,7 +162,7 @@ Employers can:
 
 * [FontAwesome](https://fontawesome.com/) - to import icons. 
 
-### Tools used
+### Tools 
 
 * [GitPod]() 
 * [Git]() 
@@ -156,7 +188,7 @@ Employers can:
 
 * Main font was taken from [GoogleFonts](https://fonts.google.com/)
 
-* [Copyright](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) symbol used at the bottom of the page.
+* [Copyright symbol](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) used at the bottom of the page.
 
 ### Media
 
@@ -168,9 +200,11 @@ https://thoughtbot.com/blog/css-animation-for-beginners) (written by: Rachel Cop
 
 * All the music was originaly recorded by Neverday.
 
-* All the images was originaly done/taken by Neverday
+* Some (not all) images was taken from the bands [Facebook](https://www.facebook.com/Neverday-101187714601074). 
 
 ### Acknowledgements 
 
-* 
+* Peter Almgren - Illustrations.
+
+* My mom
 
