@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #fff;
     font-family: "Roboto", sans-serif;
     max-width: 100%;
     overflow-x: hidden;
@@ -17,7 +17,7 @@ body {
 /*--------------------------------------Background Colors-----------------------------*/
 
 .bg-color-nav{
-    background-color: #fafafa!important;
+    background-color: #fff!important;
 }
 .bg-color-jumbotron {
     background-color: rgba(0, 0, 0, 0.6);
@@ -339,4 +339,23 @@ form ::placeholder {
 
 .color-period {
     color: #ff739d;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: opacity .15s ease;
 }
