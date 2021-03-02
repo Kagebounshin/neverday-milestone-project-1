@@ -149,6 +149,7 @@ body {
     text-align: center;
 }
 
+
 /*--------------------------------------Keyframes & Media-----------------------------*/
 
 
@@ -205,12 +206,18 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         font-size: 4rem;
     }
 
+    .home-container,
+    .gallery-container,
+    .videos-container{
+        min-height: 60vh;
+    }
+
     .news-listend-container{
         display: none;
     }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
     .shows-heading,
     .contact-heading,
     .videos-heading,
@@ -220,8 +227,10 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .home-container,
     .gallery-container,
     .videos-container{
-        min-height: 50vh;
+        min-height: 60vh;
     }
+
+    
 }
 
 @media (max-width:375px) {
@@ -236,6 +245,11 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .gallery-container,
     .videos-container{
         min-height: 30vh;
+    }
+
+    .dates{
+        max-width: 80px;
+        
     }
 
 }
@@ -347,11 +361,19 @@ form ::placeholder {
     border: 2px outset #fafafa;
     padding-top: 1px;
     font-size: 2rem;
+    margin-bottom: -75px;
 }
 
 .location{
+    padding-left: 110px;
     font-weight: 600;
     border-bottom: solid 2px #fff;
+    
+}
+
+.city {
+    
+    padding-left: 110px;
 }
 
 .color-period {
@@ -379,4 +401,8 @@ form ::placeholder {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
     transition: opacity .15s ease;
+}
+
+.btn-tickets{
+    padding: none;
 }
