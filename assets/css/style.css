@@ -104,7 +104,8 @@ body {
     margin: 0 auto;
 }
 
-.home-container i {
+.home-container i,
+.news-listend-container i {
     color: black;
     font-size: xx-large;
 }
@@ -142,6 +143,10 @@ body {
 
 .shows-container a {
     float: right;
+}
+
+.news-listend-container i {
+    text-align: center;
 }
 
 /*--------------------------------------Keyframes & Media-----------------------------*/
@@ -184,7 +189,9 @@ and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
 /* This @keyframes fromRight was written by Mike Sierra, 
 and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
-.home-container i {
+.home-container i,
+.news-listend-container i,
+.news-listend-container button {
     
     animation-duration: 3s;
     animation-name: fromRight;
@@ -197,6 +204,10 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .gallery-heading {
         font-size: 4rem;
     }
+
+    .news-listend-container{
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -206,8 +217,10 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .gallery-heading {
         font-size: 3.5rem;
     }
-    .home-container{
-        min-height: 60vh;
+    .home-container,
+    .gallery-container,
+    .videos-container{
+        min-height: 50vh;
     }
 }
 
@@ -219,9 +232,12 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         font-size: 2.5rem;
     }
 
-    .home-container{
-        min-height: 50vh;
+    .home-container,
+    .gallery-container,
+    .videos-container{
+        min-height: 30vh;
     }
+
 }
 
 /*--------------------------------------Jumbotron-----------------------------*/
@@ -338,13 +354,12 @@ form ::placeholder {
     border-bottom: solid 2px #fff;
 }
 
-.block--divider {
-    border: 2px solid #fff;
-    width: 95%;
-}
-
 .color-period {
     color: #ff739d;
+}
+
+.text-black{
+    color: #000000;
 }
 
 
