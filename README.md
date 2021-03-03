@@ -176,7 +176,7 @@ Employers can:
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website.
 
 * [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkagebounshin.github.io%2Fneverday-milestone-project-1%2F)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](http://jigsaw.w3.org/css-validator/validator$link)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](http://jigsaw.w3.org/css-validator/check/referer)
 
 validator 
 user testing
