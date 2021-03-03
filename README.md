@@ -149,24 +149,25 @@ Employers can:
 
 ### Languages
 
-* [HTML]()
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-* [CSS]()
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 
-### Framework and Libraries
+### Framework, Libraries and Tools Used
 
-* [Bootstrap](https://getbootstrap.com/) - frontend framework
+* [Bootstrap](https://getbootstrap.com/) - Frontend framework, used for responsivness and styling.
 
 * [GoogleFonts](https://fonts.google.com/) - to import fonts.
 
 * [FontAwesome](https://fontawesome.com/) - to import icons. 
 
-### Tools 
+* [Git](https://git-scm.com/) - Git was used for version control.
 
-* [GitPod]() 
-* [Git]() 
-* [GitHub]() 
+* [GitHub](https://github.com/) - GitHub was used to store the project.
+
+
+* [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the wireframes during the design process.
 
 ---
 ## Testing
@@ -176,13 +177,13 @@ Employers can:
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website.
 
 * [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkagebounshin.github.io%2Fneverday-milestone-project-1%2F)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](https://jigsaw.w3.org/css-validator/validator#css)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No current errors. 
 
-validator 
-user testing
+### Testing User Stories from (UX) section
+
 
 ## Deployment
- how to deplopy
+ 
 ---
 
 ## Credits
