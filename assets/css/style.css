@@ -79,17 +79,12 @@ body {
     font-weight: 600;
 }
 
-
-
-
 /*--------------------------------------Containers-----------------------------*/
 
 .container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
 }
 
 .home-container,
@@ -160,7 +155,7 @@ body {
 
   100% {
     transform: scale(1);
-    opacity: 2;
+    opacity: 1;
   }
 }
 
@@ -242,7 +237,6 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .dates,
     .dates-right{
        width: 80px;
-       padding-left: none;
     }
 
    
