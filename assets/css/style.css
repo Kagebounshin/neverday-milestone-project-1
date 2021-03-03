@@ -261,7 +261,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .btn--green:active,
 .btn--green:focus,
 .btn--green:active:focus {
-    color: #ff739d;
+    color: #e6e6e6;
     align-items: center;
     transition: 600ms ease-in;
     transition: 600ms ease-out;
@@ -285,7 +285,7 @@ i:active:focus,
 i:active,
 i:focus,
 i:active:focus{
-    color: #04fd46;
+    color: #e6e6e6;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
@@ -339,6 +339,7 @@ form ::placeholder {
 
 .modal {
     color: black;
+    background-color: #e6e6e6;
 }
 
 /*--------------------------------------Additional styling-----------------------------*/
