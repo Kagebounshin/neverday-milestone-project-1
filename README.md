@@ -173,6 +173,11 @@ Employers can:
 
 ---
 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the website.
+
+* [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-brown-ape-c1ylmfcu.ws-eu03.gitpod.io%2Findex.html)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result]()
+
 validator 
 user testing
 

@@ -146,6 +146,7 @@ body {
 }
 
 
+
 /*--------------------------------------Keyframes & Media-----------------------------*/
 
 
@@ -215,9 +216,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .gallery-heading {
         font-size: 3.5rem;
     }
-    .home-container,
-    .gallery-container,
-    .videos-container{
+    .home-container{
         max-height: 40vh;
     }
 
@@ -225,7 +224,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 }
 
 
-@media (max-width:375px) {
+@media (max-width:766px) {
     .shows-heading,
     .contact-heading,
     .videos-heading,
@@ -233,9 +232,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         font-size: 2.5rem;
     }
 
-    .home-container,
-    .gallery-container,
-    .videos-container{
+    .home-container{
         min-height: 30vh;
     }
     .shows-information-container {
@@ -248,8 +245,12 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
        padding-left: none;
     }
 
-    .block-divider {
-        width: 50%;
+   
+    .location{
+        font-size: 1rem;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -361,6 +362,7 @@ form ::placeholder {
     padding-top: 9px;
     font-size: 1.5rem;
     margin-bottom: -100px;
+    z-index: 1;
 }
 
 .dates-right{
@@ -371,7 +373,7 @@ form ::placeholder {
     padding-top: 9px;
     font-size: 1.5rem;
     float: inline-end;
-    
+    z-index: 1;
 }
 
 .location{
@@ -447,14 +449,20 @@ form ::placeholder {
     width: 100%;
     height: 5px;
     border: 0;
-    background-color: #fafafa;
+    background-color: #fff;
     margin-top:49px;
+    
 }
 
 .block-divider-right {
     width: 100%;
     height: 5px;
     border: 0;
-    background-color: #fafafa;
+    background-color: #fff;
     margin-top: -1px;
+    
+}
+
+.border-outset{
+    border: 2px outset #fafafa;
 }
