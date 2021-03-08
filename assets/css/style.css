@@ -163,7 +163,9 @@ body {
 and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
 
 .home-heading,
-.home-heading-news {
+.home-heading-news,
+.news-listend-container i,
+.news-listend-container button {
     
     animation-duration: 2s;
     animation-name: bounceIn;
@@ -182,9 +184,7 @@ and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
 /* This @keyframes fromRight was written by Mike Sierra, 
 and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
-.home-container i,
-.news-listend-container i,
-.news-listend-container button {
+.home-container i {
     
     animation-duration: 3s;
     animation-name: fromRight;
@@ -211,7 +211,9 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .gallery-heading {
         font-size: 3.5rem;
     }
-    .home-container{
+    .home-container,
+    .shows-container,
+    .gallery-container{
         max-height: 40vh;
     }
 
@@ -227,7 +229,9 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         font-size: 2.5rem;
     }
 
-    .home-container{
+    .home-containe,
+    .shows-container,
+    .gallery-container{
         min-height: 30vh;
     }
     .shows-information-container {
