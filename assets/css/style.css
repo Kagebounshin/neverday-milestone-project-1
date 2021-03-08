@@ -140,12 +140,7 @@ body {
     text-align: center;
 }
 
-
-
 /*--------------------------------------Keyframes & Media-----------------------------*/
-
-
-
 
 @keyframes bounceIn {
   0% {
@@ -170,8 +165,6 @@ and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
     animation-duration: 2s;
     animation-name: bounceIn;
 }
-
-
 
 @keyframes fromRight {
     0%   { transform: translate(1920px) skewX(-30deg) ; }
@@ -216,10 +209,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .gallery-container{
         max-height: 40vh;
     }
-
-    
 }
-
 
 @media (max-width:766px) {
     .shows-heading,
@@ -238,33 +228,14 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         width: 80%;
         
     }
-    .dates,
-    .dates-right{
-       width: 80px;
-    }
-
-   
-    .location{
-        font-size: 1rem;
-    }
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-}
-
-/*--------------------------------------Jumbotron-----------------------------*/
-
-.jumbotron {
-    color: #fff;
-    font-weight: 600;
 }
 
 /*--------------------------------------btn:hover,i:hover---------------------------*/
 
-.btn--green:hover,
-.btn--green:active,
-.btn--green:focus,
-.btn--green:active:focus {
+.btn--grey:hover,
+.btn--grey:active,
+.btn--grey:focus,
+.btn--grey:active:focus {
     color: #e6e6e6;
     align-items: center;
     transition: 600ms ease-in;
@@ -294,21 +265,92 @@ i:active:focus{
     transition: 400ms ease-out;
 }
 
-/*--------------------------------------backgroundImage -----------------------------*/
+/*--------------------------------------Shows-----------------------------*/
 
-
-#img-container {
-    height: 100vh;
-    background: url("../images/152354254_506820107371164_5008468888873534119_o.jpg") fixed center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.dates {
+    width: 100px;
+    height: 100px;
+    background-color:#fff;
+    border: 2px outset #fafafa;
+    padding-top: 9px;
+    font-size: 1.5rem;
+    margin-bottom: -100px;
+    z-index: 1;
 }
 
+.dates-right{
+    width: 100px;
+    height: 100px;
+    background-color:#fff;
+    border: 2px outset #fafafa;
+    padding-top: 9px;
+    font-size: 1.5rem;
+    float: inline-end;
+    z-index: 1;
+}
+
+.location{
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.location-right {
+    font-weight: 600;
+    width: 300px;
+    margin-bottom: 0;
+   
+}
+
+.city {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.city-right{
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.btn-tickets{
+    border-left: 5px solid #fff;
+    margin-top: -20px;
+    height: 50px;
+    padding-top: 15px;
+    
+}
+
+.btn-tickets-right {
+    border-right: 5px solid #fff;
+    margin-top:-20px;
+    height: 50px;
+    padding-top: 15px;
+    
+}
+
+.block-divider {
+    width: 100%;
+    height: 5px;
+    border: 0;
+    background-color: #fff;
+    margin-top:49px;
+    
+}
+
+.block-divider-right {
+    width: 100%;
+    height: 5px;
+    border: 0;
+    background-color: #fff;
+    margin-top: -1px;
+    
+}
+
+.border-outset{
+    border: 2px outset #fafafa;
+}
 
 /*--------------------------------------Contact Form-----------------------------*/
 
@@ -348,57 +390,8 @@ form ::placeholder {
 
 /*--------------------------------------Additional styling-----------------------------*/
 
-
 .uppercase {
     text-transform: uppercase;
-}
-
-.dates {
-    width: 100px;
-    height: 100px;
-    background-color:#fff;
-    border: 2px outset #fafafa;
-    padding-top: 9px;
-    font-size: 1.5rem;
-    margin-bottom: -100px;
-    z-index: 1;
-}
-
-.dates-right{
-    width: 100px;
-    height: 100px;
-    background-color:#fff;
-    border: 2px outset #fafafa;
-    padding-top: 9px;
-    font-size: 1.5rem;
-    float: inline-end;
-    z-index: 1;
-}
-
-.location{
-    font-weight: 600;
-    width: 100%;
-    margin-bottom: 0;
-    text-align: right;
-}
-
-.location-right {
-    font-weight: 600;
-    width: 300px;
-    margin-bottom: 0;
-   
-
-}
-
-.city {
-    width: 100%;
-    margin-bottom: 0;
-    text-align: right;
-}
-
-.city-right{
-    width: 300px;
-    margin-bottom: 0;
 }
 
 .color-period {
@@ -408,7 +401,6 @@ form ::placeholder {
 .text-black{
     color: #000000;
 }
-
 
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
@@ -426,42 +418,4 @@ form ::placeholder {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
     transition: opacity .15s ease;
-}
-
-.btn-tickets{
-    border-left: 5px solid #fff;
-    margin-top: -20px;
-    height: 50px;
-    padding-top: 15px;
-    
-}
-
-.btn-tickets-right {
-    border-right: 5px solid #fff;
-    margin-top:-20px;
-    height: 50px;
-    padding-top: 15px;
-    
-}
-
-.block-divider {
-    width: 100%;
-    height: 5px;
-    border: 0;
-    background-color: #fff;
-    margin-top:49px;
-    
-}
-
-.block-divider-right {
-    width: 100%;
-    height: 5px;
-    border: 0;
-    background-color: #fff;
-    margin-top: -1px;
-    
-}
-
-.border-outset{
-    border: 2px outset #fafafa;
 }
