@@ -92,11 +92,11 @@ links to mock ups, wireframes etc.
 
 
 #### Home
-- When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the direction to our music. The second picture has a text and a sign up button, press the button and you'll get to a modal, there you can sign up for the newsletter. If shown on smaller devices, the information   
+- When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the direction to our music. The second picture has a text and a sign up button, press the button and you'll get to a modal, there you can sign up for the newsletter. If shown on smaller devices, the information text will be push down below the images.   
 
 #### Newsletter form
 
-- Below the Home section you can sign up to get the latest news to your emailadress. Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it when you click on the 'Subscribe' button.
+- Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it when you click on the 'Subscribe' button.
 
 #### About
 
@@ -108,11 +108,11 @@ links to mock ups, wireframes etc.
 
 #### Videos
 
-- In this section you can watch Neverdays music videos through embeded videos from youtube. 
+- In this section you can watch Neverdays music videos, The videos are embeded from youtube. 
 
 #### Gallery
 
-I have used the carousel component from bootstrap so you can use the arrows on the pictures to slide between next and the previous picture.
+I have used the carousel component from bootstrap. So you can use the arrows on the sides to toggle between the next and the previous pictures.
 
 #### Contact
 
@@ -183,6 +183,7 @@ Employers can:
 * [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the wireframes during the design process.
 
 ---
+
 ## Testing
 
 ---
@@ -192,8 +193,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 * [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkagebounshin.github.io%2Fneverday-milestone-project-1%2F)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No current errors. 
 
+
+
 ### Testing User Stories from (UX) section
 
+### More testing
+    - The website is tested on Google Chrome & Microsoft Edge.
 
 ## Deployment
  

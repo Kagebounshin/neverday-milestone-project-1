@@ -212,8 +212,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         font-size: 2.5rem;
     }
 
-    .home-container,
-    .shows-container{
+    .home-container{
         min-height: 30vh;
     }
     .shows-information-container {
