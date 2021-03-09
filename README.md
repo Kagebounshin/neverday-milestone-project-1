@@ -1,5 +1,8 @@
-# Neverday.
+<h1 align="center"> The Neverday Website</h1>
 
+[View the project here.](https://kagebounshin.github.io/neverday-milestone-project-1/)
+<h2><img src="./assets/images/images-readme/am-i-responsive.png"></h2>
+                                
 This is my 1st milestone project in User-Centric Frontend Development. An assignment from [CodeInstitute](https://codeinstitute.net/). 
 The band wich this website is for, is a real band, and its called Neverday.  
 
@@ -67,6 +70,16 @@ links to mock ups, wireframes etc.
 ### Design
 
 ---
+
+- Color Scheme
+    - The website has a white background, but with two diffrent types of light grey to make an nice transaction between the sections.
+
+- Typography
+    - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its clean and looks really nice. The fall back font is san serif. 
+
+- Images 
+    - I have two images in a carousel right at the homepage, the first one is the bands logo, and a text with some additional information about our music. The second images is with the grimreaper and our logo, and a text with information on how to sign up for the newsletter. 
+
 
 
 
@@ -186,6 +199,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
  
 ---
 
+
+
 ## Credits
 
 ### Content
@@ -214,6 +229,4 @@ https://thoughtbot.com/blog/css-animation-for-beginners) (written by: Rachel Cop
 ### Acknowledgements 
 
 * Peter Almgren - Illustrations.
-
-* My mom
 

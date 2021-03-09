@@ -31,18 +31,12 @@ body {
     background-color: #fff;
 }
 
-.bg-color-shows{
+.bg-color-shows,
+.bg-color-gallery{
     background-color:#e6e6e6;
 }
 
-.bg-color-videos {
-    background-color: #efefef;
-}
-
-.bg-color-gallery {
-     background-color: #e6e6e6;
-}
-
+.bg-color-videos,
 .bg-color-contact {
     background-color: #efefef;
 }
@@ -205,8 +199,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         font-size: 3.5rem;
     }
     .home-container,
-    .shows-container,
-    .gallery-container{
+    .shows-container{
         max-height: 40vh;
     }
 }
@@ -219,9 +212,8 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         font-size: 2.5rem;
     }
 
-    .home-containe,
-    .shows-container,
-    .gallery-container{
+    .home-container,
+    .shows-container{
         min-height: 30vh;
     }
     .shows-information-container {
