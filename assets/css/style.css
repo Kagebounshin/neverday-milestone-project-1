@@ -84,8 +84,8 @@ body {
 .home-container,
 .about-container,
 .shows-container,
-.gallery-container,
-.videos-container{
+.videos-container,
+.gallery.container{
     min-height: 100vh;
     display: grid;
     align-content: space-around;
@@ -198,8 +198,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .gallery-heading {
         font-size: 3.5rem;
     }
-    .home-container,
-    .shows-container{
+    .home-container{
         max-height: 40vh;
     }
 }
@@ -215,6 +214,12 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .home-container{
         min-height: 30vh;
     }
+
+    .videos-container,
+    .gallery.container {
+        min-height: min-content;
+    }
+    
     .shows-information-container {
         width: 80%;
         
