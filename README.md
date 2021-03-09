@@ -88,27 +88,27 @@ links to mock ups, wireframes etc.
 ### Existing Features
 
 #### Navbar
-At the top of the page is the navbar, and it is fixed to the top, so it will follow you up and down when you are navigating your way through the website. You can easily navigate your way through the diffrent sections, to get back to the to you can press either the logo to the left or "Home". When you are visiting the site on smaller devices the nav links will collapse into a burger menu.
+- At the top of the page is the navbar, and it is fixed to the top, so it will follow you up and down when you are navigating your way through the website. You can easily navigate your way through the diffrent sections, to get back to the to you can press either the logo to the left or "Home". When you are visiting the site on smaller devices the nav links will collapse into a burger menu.
 
 
 #### Home
-When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the easiest directon to our music.
+- When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the direction to our music. The second picture has a text and a sign up button, press the button and you'll get to a modal, there you can sign up for the newsletter. If shown on smaller devices, the information   
 
 #### Newsletter form
 
-Below the Home section you can sign up to get the latest news to your emailadress. Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it when you click on the 'Subscribe' button.
+- Below the Home section you can sign up to get the latest news to your emailadress. Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it when you click on the 'Subscribe' button.
 
 #### About
 
-This is where you can read about Neverday, its a short but informative text, and an image of the members. The members is discribed in a text below the image.
+- This is where you can read about Neverday, its a short but informative text, and an image of the members. The members is discribed in a text below the image.
 
 ##### Shows
 
-Here you can find out when and where Neverday is performing live. A tickets button that directs you to where you can purchase a ticket.
+- Here you can find out when and where Neverday is performing live. A tickets button that directs you to where you can purchase a ticket.
 
 #### Videos
 
-In this section you can watch Neverdays music videos through embeded videos from youtube. 
+- In this section you can watch Neverdays music videos through embeded videos from youtube. 
 
 #### Gallery
 
