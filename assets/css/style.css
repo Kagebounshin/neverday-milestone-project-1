@@ -381,10 +381,43 @@ form ::placeholder {
 
 .modal {
     color: black;
-    background-color: #e6e6e6;
 }
 
-/*--------------------------------------Additional styling-----------------------------*/
+.modal-title {
+    font-size: 1.5rem;
+    
+}
+
+.modal button {
+    float: right;
+}
+
+.modal-header {
+    background-color: #e6e6e6;
+}
+.modal-body {
+    background-color: #efefef;
+    text-align: center;
+    font-weight: 500;
+}
+
+.news-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    background-color: #efefef;
+    border: none;
+    border-radius: 0;
+    background-clip: padding-box;
+    border-bottom: 2px solid black;
+}
+/*--------------------------------------Additional 
+styling-----------------------------*/
 
 .uppercase {
     text-transform: uppercase;
