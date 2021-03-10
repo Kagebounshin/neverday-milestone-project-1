@@ -216,7 +216,8 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     }
 
     .videos-container,
-    .gallery.container {
+    .gallery.container,
+    .about-container {
         min-height: min-content;
     }
     
