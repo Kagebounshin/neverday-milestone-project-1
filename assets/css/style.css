@@ -32,7 +32,8 @@ body {
 }
 
 .bg-color-shows,
-.bg-color-gallery{
+.bg-color-gallery,
+.bg-color-visit{
     background-color:#e6e6e6;
 }
 
@@ -99,6 +100,11 @@ body {
     font-size: xx-large;
 }
 
+.shows-request-container a,
+.visit-container a{
+    color: #000;
+}
+
 .about-container p {
     padding-left: 10px;
     padding-right: 10px;
@@ -124,10 +130,6 @@ body {
 .social-container i {
     color: black;
     font-size: xx-large;
-}
-
-.videos-container p {
-    font-size: 2em;
 }
 
 .news-listend-container i {
