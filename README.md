@@ -112,15 +112,15 @@ links to mock ups, wireframes etc.
 
 #### Gallery
 
-I have used the carousel component from bootstrap. So you can use the arrows on the sides to toggle between the next and the previous pictures.
+- I have used the carousel component from bootstrap. So you can use the arrows on the sides to toggle between the next and the previous pictures.
 
 #### Contact
 
-This is where you can contact the Neverday, about future show request or just anything that comes to mind. 
+- This is where you can contact the Neverday, about future show request or just anything that comes to mind. 
  
 #### Footer
 
-In the footer there is icons to our social media accounts, and icons to streaming services wich provides you with the music you want to here. 
+- In the footer there is icons to our social media accounts, and icons to streaming services wich provides you with the music you want to here. 
 
 #### To Summarize
 Users can:

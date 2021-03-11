@@ -151,13 +151,23 @@ body {
 /* This @keyframes bounceIn was written by Rachel Cope, 
 and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
 
+
+@keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
 .home-heading,
 .home-heading-news,
 .news-listend-container i,
 .news-listend-container button {
     
-    animation-duration: 2s;
-    animation-name: bounceIn;
+    animation-duration: 4s;
+    animation-name: fadeIn;
 }
 
 @keyframes fromRight {
@@ -448,4 +458,16 @@ styling-----------------------------*/
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
     transition: opacity .15s ease;
+}
+
+.carousel-inner p {
+    margin-bottom: 4rem;
+}
+
+.block-divider-grey {
+    width: 80%;
+    height: 5px;
+    border: 0;
+    background-color: #fafafa;
+    
 }
