@@ -38,7 +38,8 @@ body {
 }
 
 .bg-color-videos,
-.bg-color-contact {
+.bg-color-contact,
+.bg-color-about {
     background-color: #efefef;
 }
 
@@ -460,10 +461,6 @@ styling-----------------------------*/
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
     transition: opacity .15s ease;
-}
-
-.carousel-inner p {
-    margin-bottom: 4rem;
 }
 
 .block-divider-grey {
