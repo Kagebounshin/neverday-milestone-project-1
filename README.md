@@ -228,7 +228,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 ### More testing
 
 * The website is tested on Google Chrome & Microsoft Edge.
-* The website was viewed on diffrent devices such as Desktop, Laptop, 
+* The website was viewed on diffrent devices such as Desktop, Laptop, Iphone X, 
 * Tested links was done, to ensure they work correctly.
 
 
@@ -273,9 +273,13 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 7. Press Enter to create your local clone.
 
     > Cloning into `Spoon-Knife`...
+    
     > remote: Counting objects: 10, done.
+    
     > remote: Compressing objects: 100% (8/8), done.
+    
     > remove: Total 10 (delta 1), reused 10 (delta 1)
+    
     > Unpacking objects: 100% (10/10), done.
 
 ---
