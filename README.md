@@ -239,7 +239,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 My project was deployed to GitHub Pages, following these steps..
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to [GitHub](https://github.com/) and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository, locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
