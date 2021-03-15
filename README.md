@@ -235,8 +235,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 ---
 ## Deployment
  
-
-
 ### GitHub Pages
 
 My project was deployed to GitHub Pages, following these steps..
