@@ -222,6 +222,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 * The website is tested on Google Chrome & Microsoft Edge.
 
+* Tested icons, links, navlinks, so they will take you to the right places. 
 
 ### Known bugs
 
@@ -259,8 +260,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media
 
-* [Animation](
-https://thoughtbot.com/blog/css-animation-for-beginners) (written by: Rachel Cope) used in the heading section (with some modifications).
+* [Animation](https://blog.hubspot.com/website/css-fade-in) (written by: [Maddy Osman](https://blog.hubspot.com/website/author/maddy-osman)) fade in animation used in the heading section.
 
 * [Animation](https://webplatform.github.io/docs/tutorials/css_animations/) (written by: Mike Sierra) for the heading icon (with some modifications).
 
