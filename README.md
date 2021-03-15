@@ -212,11 +212,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 * I want to listend to music made by the band. When I open the website, I can do so directley by pressing the spotify icon right at the begining. Or if I scroll down to the bottom of the page I can see three diffrent icons wich would lead me to their music.  
 
-* I want to purchase a ticket for a show. I open the website and locating the shows section, either by srcolling down or pressing the shows nav-link at the navbar. I can see the dates and the locations, and a tickets button wich leads me to the prefered site. 
+* I want to purchase a ticket for a show. I open the website and locating the shows section, either by srcolling down or pressing the shows nav-link at the navbar. I can see the dates and the locations, and a "Tickets" button wich leads me to the site to purchase my ticket. 
 
 * I would like to know more about the band, I can open up the site, and then locate the about section, either by scrolling down or using the navlink in the navbar. There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture with the names of the bandmembers.
 
-* I have heard about the band, and I would like to book them for a show, so I open the website, I can see there is a contact section at the navbar. I click the navlink and it takes me down to a form, where I enter my name, email and a message. The I press the send button. 
+* I have heard about the band, and I would like to book them for a show, so I open the website, I can see there is a contact section at the navbar. I click the navlink and it takes me down to a form, where I enter my name, email and a message. The I press the "Send" button. 
 
 * I would like to get the latest news from the band.
     - I enter the site and on the second picture in the header I find a "SIGN UP" button, I press the button and a modal comes up,  I can now enter my Email and the press the "Subscribe" button. (not displayed on small devices).
