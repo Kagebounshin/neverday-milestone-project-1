@@ -228,8 +228,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 ### More testing
 
 * The website is tested on Google Chrome & Microsoft Edge.
-
-* Tested icons, links, navlinks, etc. No errors found, they take you to the right places. 
+* The website was viewed on diffrent devices such as Desktop, Laptop, 
+* Tested links was done, to ensure they work correctly.
 
 
 ---
@@ -239,12 +239,44 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 My project was deployed to GitHub Pages, following these steps..
 
-1. Log in to [GitHub](https://github.com/) and locate the [GitHub Repository](https://github.com/)
+1. Log in to [GitHub](https://github.com/) and locate the [GitHub Repository](https://github.com/Kagebounshin/neverday-milestone-project-1).
 2. At the top of the Repository, locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will refresh.
 6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
+
+<img src="./assets/images/images-readme/gitHubPages.png">
+
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository you can make a copy of the original repository to your GitHub account to just view or make changes without affecting the original. Use these steps or press this [link](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+
+1. Log in to [GitHub](https://github.com/) and locate the [GitHub Repository](https://github.com/Kagebounshin/neverday-milestone-project-1).
+2. In the top-right corner of the page, click Fork.
+3. Now you will have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+Follow these steps or press this [link](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Kagebounshin/neverday-milestone-project-1)
+2. Above the list of files, click "Code".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+   
+    `$ git clone https://github.com/Kagebounshin/neverday-milestone-project-1`
+
+7. Press Enter to create your local clone.
+
+    > Cloning into `Spoon-Knife`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
 
 ---
 ## Credits
