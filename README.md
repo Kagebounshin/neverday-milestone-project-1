@@ -3,7 +3,7 @@
 [View the project here.](https://kagebounshin.github.io/neverday-milestone-project-1/)
 <h2><img src="./assets/images/images-readme/am-i-responsive.png"></h2>
                                 
-This is my 1st milestone project in User-Centric Frontend Development. An assignment from [CodeInstitute](https://codeinstitute.net/). 
+This is my first milestone project in User-Centric Frontend Development. An assignment from [CodeInstitute](https://codeinstitute.net/). 
 The band wich this website is for, is a real band, and its called Neverday.  
 
 Neverday plays punk/rock with influences from metal, hardcore and skatepunk. Combining energy and catchy melodies with lyrics about love, death and anxiety.
@@ -15,6 +15,7 @@ And guess what, I play with the band.
 1.[**UX**](#ux) 
 - [**User Stories**](#user-stories)
 - [**Design**](#design)
+- [**Wireframes**](#wireframes)
 
 2.[**Features**](#features)
 - [**Existing Features**](#existing-features)
@@ -65,7 +66,7 @@ As an employer:
 
 * I want to get easy access on how to contact the band for future requests. 
 
-links to mock ups, wireframes etc.
+
  
 ### Design
 
@@ -80,7 +81,13 @@ links to mock ups, wireframes etc.
 - Images 
     - I have two images in a carousel right at the homepage, the first one is the bands logo, and a text with some additional information about our music. The second images is with the grimreaper and our logo, and a text with information on how to sign up for the newsletter. 
 
+### Wireframes
 
+--- 
+
+* Home, Gallery and shows page.
+
+<img src="./assets/images/images-readme/projectWireframes.png"> 
 
 
 ## Features
@@ -194,11 +201,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No current errors. 
 
 
+### Testing User Stories from (UX) section.
 
-### Testing User Stories from (UX) section
+* When im visit the site for the first time, a get a clear understanding on how to site is built. It's easy to navigate up & down the site, using the existing navbar. With the navbar fixed to the top I can navigate between the sections. The navbrand takes me right back to the top.
+
+* I want to listend to music made by the band. When I open the website, I can do so directley by pressing the spotify icon right at the begining. Or if I scroll down to the bottom of the page I can see three diffrent icons wich would lead me to their music.  
+
+* I want to purchase a ticket for a show. I open the website and locating the shows section, either by srcolling down or pressing the shows nav-link at the navbar. I can see the dates and the locations, and a tickets button wich leads me to the prefered site. 
+
+* I would like to know more about the band, I can open up the site, and then locate the about section, either by scrolling down or using the navlink in the navbar. There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture with the names of the bandmembers.
+
+* I have heard about the band, and I would like to book them for a show, so i open the site, I can see there is a contact section at the navbar. I click the navlink and it takes me down to a form, where I enter my name, email and a message. The I press the send button. 
 
 ### More testing
-    - The website is tested on Google Chrome & Microsoft Edge.
+
+* The website is tested on Google Chrome & Microsoft Edge.
+
 
 ## Deployment
  
