@@ -37,7 +37,7 @@ And guess what, I play with the band.
 
 ---
 ## UX
-
+---
 ### User stories
 
 This site is for fans who likes to get to know the band and see what they are up to. To find information about upcoming shows, how to get tickets for the shows, and find out where they could listend to the music, see videos, and social media accounts.
@@ -73,10 +73,10 @@ As an employer:
 ---
 
 - Color Scheme
-    - The website has a white background, but with two diffrent types of light grey to make an nice transaction between the sections.
+    - The website has a white background, and two diffrent types of light grey to make an nice transaction between the sections. 
 
 - Typography
-    - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its clean and looks really nice. The fall back font is san serif. 
+    - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its clean and looks really nice. The fall back font is sans-serif. 
 
 - Images 
     - I have two images in a carousel right at the homepage, the first one is the bands logo, and a text with some additional information about our music. The second images is with the grimreaper and our logo, and a text with information on how to sign up for the newsletter. 
@@ -87,12 +87,15 @@ As an employer:
 
 * Home, Gallery and shows page.
 
-<img src="./assets/images/images-readme/projectWireframes.png"> 
+<img src="./assets/images/images-readme/wireframes.png"> 
+
+---
 
 
 ## Features
 
 ### Existing Features
+
 
 #### Navbar
 - At the top of the page is the navbar, and it is fixed to the top, so it will follow you up and down when you are navigating your way through the website. You can easily navigate your way through the diffrent sections, to get back to the to you can press either the logo to the left or "Home". When you are visiting the site on smaller devices the nav links will collapse into a burger menu.
@@ -129,7 +132,9 @@ As an employer:
 
 - In the footer there is icons to our social media accounts, and icons to streaming services wich provides you with the music you want to here. 
 
+
 #### To Summarize
+
 Users can:
 
 * Easily navigate up and down the website with the fixed to the top navbar.
@@ -193,7 +198,7 @@ Employers can:
 
 ## Testing
 
----
+
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website.
 
@@ -218,12 +223,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 * The website is tested on Google Chrome & Microsoft Edge.
 
 
+### Known bugs
+
+
+
+---
 ## Deployment
  
+
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will refresh.
+6. Now scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
 ---
-
-
-
 ## Credits
 
 ### Content
