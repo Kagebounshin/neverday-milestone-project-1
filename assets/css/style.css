@@ -126,8 +126,10 @@ body {
 .social-container{
     list-style-type: none;
     display: inline-flex;
+    text-align: center;
     letter-spacing: 10px;
     color: black;
+    margin-right: 10px;
 }
 
 .social-container i {
@@ -138,6 +140,7 @@ body {
 .news-listend-container i {
     text-align: center;
 }
+
 
 /*--------------------------------------Keyframes & Media-----------------------------*/
 
@@ -430,5 +433,4 @@ styling-----------------------------*/
     height: 5px;
     border: 0;
     background-color: #fafafa;
-    
 }

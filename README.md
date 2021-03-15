@@ -216,16 +216,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 * I would like to know more about the band, I can open up the site, and then locate the about section, either by scrolling down or using the navlink in the navbar. There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture with the names of the bandmembers.
 
-* I have heard about the band, and I would like to book them for a show, so i open the site, I can see there is a contact section at the navbar. I click the navlink and it takes me down to a form, where I enter my name, email and a message. The I press the send button. 
+* I have heard about the band, and I would like to book them for a show, so I open the website, I can see there is a contact section at the navbar. I click the navlink and it takes me down to a form, where I enter my name, email and a message. The I press the send button. 
+
+* I would like to get the latest news from the band.
+    - I enter the site and on the second picture in the header I find a "SIGN UP" button, I press the button and a modal comes up,  I can now enter my Email and the press the "Subscribe" button. (not displayed on small devices).
+
+    - I enter the site, scrolls down to the bottom of the page, at the footer I find a "Newsletter" button, I press the button, and the same modal pops up.  I can now enter my Email and the press the "Subscribe" button.
+
+    - On smaller devices, I find the newsletter button below the carousel in the header. I press the button, and the newletter modal pops up. I can now enter my Email and the press the "Subscribe" button.
 
 ### More testing
 
 * The website is tested on Google Chrome & Microsoft Edge.
 
-* Tested icons, links, navlinks, so they will take you to the right places. 
-
-### Known bugs
-
+* Tested icons, links, navlinks, etc. No errors found, they take you to the right places. 
 
 
 ---
@@ -235,14 +239,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+My project was deployed to GitHub Pages, following these steps..
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository, locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will refresh.
-6. Now scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
 
 ---
 ## Credits
@@ -260,7 +264,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media
 
-* [Animation](https://blog.hubspot.com/website/css-fade-in) (written by: [Maddy Osman](https://blog.hubspot.com/website/author/maddy-osman)) fade in animation used in the heading section.
+* [Animation](https://blog.hubspot.com/website/css-fade-in) (written by: [Maddy Osman](https://blog.hubspot.com/website/author/maddy-osman)) the fadeIn animation used in the heading section.
 
 * [Animation](https://webplatform.github.io/docs/tutorials/css_animations/) (written by: Mike Sierra) for the heading icon (with some modifications).
 
