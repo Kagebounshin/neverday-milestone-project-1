@@ -181,6 +181,8 @@ Employers can:
 
 ### Framework, Libraries and Tools Used
 
+* [jQuery]()
+
 * [Bootstrap](https://getbootstrap.com/) - Frontend framework, used for responsivness and styling.
 
 * [GoogleFonts](https://fonts.google.com/) - to import fonts.
@@ -296,6 +298,8 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 * [Copyright symbol](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) used at the bottom of the page.
 
 ### Media
+
+* [Animation](https://codepen.io/bycreator/pen/RNQmZK) - for lyrics cards.
 
 * [Animation](https://blog.hubspot.com/website/css-fade-in) (written by: [Maddy Osman](https://blog.hubspot.com/website/author/maddy-osman)) the fadeIn animation used in the heading section.
 

@@ -197,6 +197,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 }
 
 @media (min-width: 768px){
+    .about-heading,
     .shows-heading,
     .contact-heading,
     .videos-heading,
@@ -211,6 +212,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 }
 
 @media (min-width: 767px) {
+    .about-heading,
     .shows-heading,
     .contact-heading,
     .videos-heading,
@@ -223,6 +225,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 }
 
 @media (max-width:766px) {
+    .about-heading,
     .shows-heading,
     .contact-heading,
     .videos-heading,
@@ -252,20 +255,31 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 .btn--grey:active,
 .btn--grey:focus,
 .btn--grey:active:focus {
-    color: #e6e6e6;
-    align-items: center;
-    transition: 600ms ease-in;
-    transition: 600ms ease-out;
+    color: #ff739d;
+    transition: 400ms ease-in;
+    transition: 400ms ease-out;
 }
 
 .btn--inherit:hover,
 .btn--inherit:active,
 .btn--inherit:focus,
 .btn--inherit:active:focus {
-    color: #fff;
-    align-items: center;
-    transition: 600ms ease-in;
-    transition: 600ms ease-out;
+    color: #ff739d;
+    transition: 400ms ease-in;
+    transition: 400ms ease-out;
+}
+
+.shows-request-container a:hover,
+a:active,
+a:focus,
+a:active:focus,
+.visit-container a:hover,
+a:active,
+a:focus,
+a:active:focus {
+    color: #ff739d;
+    transition: 400ms ease-in;
+    transition: 400ms ease-out;
 }
 
 .social-container i:hover,
@@ -276,7 +290,18 @@ i:active:focus,
 i:active,
 i:focus,
 i:active:focus{
-    color: #e6e6e6;
+    color: #ff739d;
+    transition: 400ms ease-in;
+    transition: 400ms ease-out;
+}
+
+.about-heading:hover,
+.shows-heading:hover,
+.contact-heading:hover,
+.videos-heading:hover,
+.gallery-heading:hover,
+.lyrics-header:hover {
+    color: #ff739d;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
@@ -396,6 +421,74 @@ form ::placeholder {
     background-clip: padding-box;
     border-bottom: 2px solid black;
 }
+
+/*--------------------------------------Lyric Cards-----------------------------*/
+
+
+.lyrics-container {
+    height: 15rem;
+    width: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #efefef;
+    perspective: 3000px
+}
+
+.front:hover {
+    background-color: #e6e6e6;
+    transition: 400ms ease-in;
+    transition: 400ms ease-out;
+}
+
+
+.card {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+    border: none;
+    
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card .front,
+.card .back {
+    display: block;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.card .back {
+    transform: rotateY(180deg);
+}
+.front {
+    background-color: #efefef;
+    height: 100%;
+    width: 100%;
+}
+
+.back {
+    background-color: #efefef;
+   height: 100%;
+    width: 100%;
+}
+
+.back p {
+    padding: 10px;
+}
+
+.front h1,
+.front p {
+    padding: 10px;
+}
+
 /*--------------------------------------Additional 
 styling-----------------------------*/
 
@@ -435,3 +528,5 @@ styling-----------------------------*/
     border: 0;
     background-color: #fafafa;
 }
+
+
