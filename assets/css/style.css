@@ -306,6 +306,12 @@ i:active:focus{
     transition: 400ms ease-out;
 }
 
+.lyrics-title:hover{
+    transform: scale(1.1);
+    transition: 400ms ease-in;
+    transition: 400ms ease-out;
+}
+
 /*--------------------------------------Shows-----------------------------*/
 
 .dates {
@@ -475,7 +481,7 @@ form ::placeholder {
 }
 
 .back {
-    background-color: #efefef;
+    background-color: #e6e6e6;
    height: 100%;
     width: 100%;
 }
