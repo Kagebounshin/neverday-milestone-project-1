@@ -209,6 +209,9 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .news-listend-container{
         display: none;
     }
+    .lyrics-container {
+        min-height: 30rem;
+    }
 }
 
 @media (min-width: 767px) {
@@ -246,6 +249,9 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .shows-information-container {
         width: 80%;
         
+    }
+    .lyrics-container {
+        min-height: 42rem;
     }
 }
 
@@ -484,6 +490,7 @@ form ::placeholder {
     background-color: #e6e6e6;
    height: 100%;
     width: 100%;
+
 }
 
 .back p {
