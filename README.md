@@ -73,7 +73,7 @@ As an employer:
 ---
 
 - Color Scheme
-    - The website has a white background, and two diffrent types of light grey to make an nice transaction between the sections. 
+    - The website has a white background, with a light grey color and a black color to make a nice transaction between the diffrent sections. 
 
 - Typography
     - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its clean and looks really nice. The fall back font is sans-serif. 
