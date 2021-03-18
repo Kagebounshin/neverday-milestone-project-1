@@ -438,7 +438,7 @@ form ::placeholder {
 
 
 .lyrics-container {
-    height: 15rem;
+    height: 10rem;
     width: auto;
     position: relative;
     top: 50%;
@@ -490,6 +490,7 @@ form ::placeholder {
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
+    transform: rotateX(0deg);
 }
 
 .card .back {
