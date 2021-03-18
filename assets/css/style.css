@@ -445,6 +445,9 @@ form ::placeholder {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #efefef;
+    -webkit-perspective: 3000px;
+    -moz-perspective: 3000px;
+    -o-perspective: 3000px;
     perspective: 3000px
 }
 
@@ -461,23 +464,38 @@ form ::placeholder {
     position: absolute;
     cursor: pointer;
     transition: transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    -o-transition: -o-transform 0.4s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
     border: none;
     
 }
 
 .card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
     transform: rotateY(180deg);
 }
 
 .card .front,
 .card .back {
     display: block;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
     backface-visibility: hidden;
     position: absolute;
 }
 
 .card .back {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
     transform: rotateY(180deg);
 }
 .front {
