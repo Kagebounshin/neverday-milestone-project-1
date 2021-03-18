@@ -35,6 +35,7 @@ body {
 .bg-color-gallery,
 .bg-color-visit{
     background-color:#e6e6e6;
+    
 }
 
 .bg-color-videos,
@@ -445,10 +446,10 @@ form ::placeholder {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #efefef;
-    -webkit-perspective: 3000px;
-    -moz-perspective: 3000px;
-    -o-perspective: 3000px;
-    perspective: 3000px
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px
 }
 
 .front:hover {
@@ -464,7 +465,7 @@ form ::placeholder {
     position: absolute;
     cursor: pointer;
     transition: transform 0.4s;
-    -webkit-transition: -webkit-transform 0.4s;
+    -webkit-transition: -webkit-transform 1s;
     -moz-transition: -moz-transform 0.4s;
     -o-transition: -o-transform 0.4s;
     -webkit-transform-style: preserve-3d;
@@ -476,9 +477,9 @@ form ::placeholder {
 }
 
 .card.flipped {
-    -webkit-transform: rotateY( 180deg );
-    -moz-transform: rotateY( 180deg );
-    -o-transform: rotateY( 180deg );
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
@@ -490,7 +491,7 @@ form ::placeholder {
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
-    transform: rotateX(0deg);
+    
 }
 
 .card .back {

@@ -233,6 +233,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 * The website was viewed on diffrent devices such as Desktop, Laptop, Iphone X, Iphone 8 & Iphone 7.
 * The links are tested alot, to ensure they work correctly.
 
+
+### Known Bugs
+
+* The lyrics flipcard dosent work properly on safari. 
 ---
 ## Deployment
  
