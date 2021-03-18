@@ -85,6 +85,11 @@ body {
     padding-left: 15px;
 }
 
+.home-container i {
+    animation-duration: 3s;
+    animation-name: fromRight;
+}
+
 .home-container,
 .about-container,
 .shows-container,
@@ -189,12 +194,11 @@ and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
 /* This @keyframes fromRight was written by Mike Sierra, 
 and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
-.home-container i {
-    
-    animation-duration: 3s;
-    animation-name: fromRight;
+@media (min-width: 1200px) { 
+    .home-container{
+        min-height: 100vh;
+    }
 }
-
 @media (min-width: 768px){
     .about-heading,
     .shows-heading,
@@ -204,25 +208,15 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         font-size: 4rem;
     }
 
+    .home-container{
+        min-height: 55vh;
+    }
 
     .news-listend-container{
         display: none;
     }
     .lyrics-container {
         min-height: 30rem;
-    }
-}
-
-@media (min-width: 767px) {
-    .about-heading,
-    .shows-heading,
-    .contact-heading,
-    .videos-heading,
-    .gallery-heading {
-        font-size: 3.5rem;
-    }
-    .home-container{
-        max-height: 40vh;
     }
 }
 
@@ -250,7 +244,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         
     }
     .lyrics-container {
-        min-height: 50rem;
+        min-height: 57rem;
     }
 
     .img-container {
@@ -455,7 +449,7 @@ form ::placeholder {
     -webkit-perspective: 3000px;
     -moz-perspective: 3000px;
     -o-perspective: 3000px;
-    perspective: 3000px
+    perspective: 3000px;
 }
 
 .front:hover {
