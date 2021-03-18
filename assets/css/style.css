@@ -452,7 +452,7 @@ form ::placeholder {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #efefef;
-    -webkit-perspective: 3000px;
+    -webkit-perspective: 100px;
     -moz-perspective: 3000px;
     -o-perspective: 3000px;
     perspective: 3000px
