@@ -23,8 +23,7 @@ And guess what, I play with the band.
 
 3.[**Technologies**](#technologies-used)
 - [**Languages**](#languages)
-- [**Framework and Libraries**](#framework-and-libraries)
-- [**Tools used**](#tools-used)
+- [**Framework, Libraries and Tools Used**](#framework,-libraries-and-tools-used)
 
 4.[**Testing**](#testing)
 
@@ -327,6 +326,7 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 * All the bandmembers of Neverday. 
 
+* Mentor Medale Oluwafemi, for layout inspiration and project ideas.
  ---
 
 
