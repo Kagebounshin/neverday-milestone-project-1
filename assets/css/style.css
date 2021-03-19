@@ -30,7 +30,8 @@ body {
 
 .bg-color-shows,
 .bg-color-gallery,
-.bg-color-visit{
+.bg-color-visit,
+.bg-color-back{
     background-color:#212529;
     color: #efefef;
     
@@ -38,7 +39,9 @@ body {
 
 .bg-color-videos,
 .bg-color-contact,
-.bg-color-about {
+.bg-color-about,
+.bg-color-lyrics,
+.bg-color-front {
     background-color: #efefef;
 }
 
@@ -149,21 +152,8 @@ body {
 
 /*--------------------------------------Keyframes & Media-----------------------------*/
 
-@keyframes bounceIn {
-  0% {
-    transform: scale(0.1);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-/* This @keyframes bounceIn was written by Rachel Cope, 
-and obtaind from: https://thoughtbot.com/blog/css-animation-for-beginners */
-
+/* This @keyframes fromRight was written by written by: Maddy Osman https://blog.hubspot.com/website/author/maddy-osman 
+and obtaind from https://blog.hubspot.com/website/css-fade-in */
 
 @keyframes fadeIn {
 0% {
@@ -220,7 +210,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     }
 }
 
-@media (max-width:766px) {
+@media (max-width:767.98px) {
     .about-heading,
     .shows-heading,
     .contact-heading,
@@ -243,17 +233,24 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         width: 80%;
         
     }
-    .lyrics-container {
-        min-height: 57rem;
-    }
-
     .img-container {
         margin: 1rem!important;
         padding-top:0.5rem!important
     }
+    .lyrics-container {
+        min-height: 40rem;
+    }
 }
 
-/*--------------------------------------btn:hover,i:hover---------------------------*/
+
+@media (max-width: 575.98px) { 
+    .lyrics-container {
+        min-height: 57rem;
+    }
+
+ }
+
+/*--------------------------------------HOVER---------------------------*/
 
 .btn--grey:hover,
 .btn--grey:active,
@@ -303,18 +300,25 @@ i:active:focus{
 .shows-heading:hover,
 .contact-heading:hover,
 .videos-heading:hover,
-.gallery-heading:hover,
-.lyrics-header:hover {
+.gallery-heading:hover {
     color: #ff739d;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
 
 .lyrics-title:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
+
+.front:hover {
+    background-color:#212529;
+    color: #efefef;
+    transition: 800ms ease-in;
+    transition: 800ms ease-out;
+}
+
 
 /*--------------------------------------Shows-----------------------------*/
 
@@ -437,6 +441,7 @@ form ::placeholder {
 
 /*--------------------------------------Lyric Cards-----------------------------*/
 
+/* Card Flip animation was taken from https://codepen.io/bycreator/pen/RNQmZK */
 
 .lyrics-container {
     height: 10rem;
@@ -445,20 +450,11 @@ form ::placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #efefef;
     -webkit-perspective: 3000px;
     -moz-perspective: 3000px;
     -o-perspective: 3000px;
     perspective: 3000px;
 }
-
-.front:hover {
-    background-color:#212529;
-    color: #efefef;
-    transition: 800ms ease-in;
-    transition: 800ms ease-out;
-}
-
 
 .card {
     height: 100%;
@@ -502,14 +498,11 @@ form ::placeholder {
     transform: rotateY(180deg);
 }
 .front {
-    background-color: #efefef;
     height: 100%;
     width: 100%;
 }
 
 .back {
-    background-color:#212529;
-    color: #efefef;
     height: 100%;
     width: 100%;
 
@@ -524,6 +517,14 @@ form ::placeholder {
     padding: 10px;
 }
 
+.block-divider-lyrics {
+    width: 40%;
+    height: 3px;
+    border: 0;
+    background-color: #fafafa;
+}
+
+
 /*--------------------------------------Additional 
 styling-----------------------------*/
 
@@ -535,8 +536,8 @@ styling-----------------------------*/
     color: #ff739d;
 }
 
-.text-black{
-    color: #000000;
+.text-black {
+    color: #212529;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -555,13 +556,6 @@ styling-----------------------------*/
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
     transition: opacity .15s ease;
-}
-
-.block-divider-lyrics {
-    width: 40%;
-    height: 3px;
-    border: 0;
-    background-color: #fafafa;
 }
 
 
