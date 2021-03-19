@@ -447,13 +447,11 @@ form ::placeholder {
     height: 10rem;
     width: auto;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-perspective: 3000px;
-    -moz-perspective: 3000px;
-    -o-perspective: 3000px;
-    perspective: 3000px;
+    -webkit-perspective: 1500px;
+    -moz-perspective: 1500px;
+    -ms-perspective: 1500px;
+    -o-perspective: 1500px;
+    perspective: 1500px;
 }
 
 .card {
@@ -464,50 +462,55 @@ form ::placeholder {
     transition: transform 0.4s;
     -webkit-transition: -webkit-transform 0.4s;
     -moz-transition: -moz-transform 0.4s;
+    -ms-transition: -moz-transform 0.4s;
     -o-transition: -o-transform 0.4s;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
     border: none;
+    background-color: transparent;
     
 }
 
 .card.flipped {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
 .card .front,
 .card .back {
-    display: block;
     position: absolute;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
     
 }
 
 .card .back {
-    -webkit-transform: rotateY( 180deg );
-    -moz-transform: rotateY( 180deg );
-    -o-transform: rotateY( 180deg );
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
+
 .front {
     height: 100%;
     width: 100%;
+    
 }
 
 .back {
     height: 100%;
     width: 100%;
-
+    
 }
-
 .back p {
     padding: 2rem;
 }

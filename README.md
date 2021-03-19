@@ -236,7 +236,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### Known Bugs
 
-* The lyrics flipcard dosent work properly on safari. 
+* The lyrics flipcard dosent work properly on safari. When you click the card to reveal the backside, it doesn't show. It's just a white background. I solved it by simply adding a transparent background to the card.
+
 ---
 ## Deployment
  
