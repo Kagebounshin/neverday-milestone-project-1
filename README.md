@@ -1,7 +1,7 @@
 <h1 align="center"> The Neverday Website</h1>
 
 [View the project here.](https://kagebounshin.github.io/neverday-milestone-project-1/)
-<h2><img src="./assets/images/images-readme/am-i-responsive.png"></h2>
+<h2><img src="./assets/images/images-readme/amIResponsive.png"></h2>
                                 
 This is my first milestone project in User-Centric Frontend Development. An assignment from [CodeInstitute](https://codeinstitute.net/). 
 The band wich this website is for, is a real band, and its called Neverday.  
@@ -80,6 +80,7 @@ As an employer:
 
 - Images 
     - I have two images in a carousel right at the homepage, the first one is the bands logo, and a text with some additional information about our music. The second images is with the grimreaper and our logo, and a text with information on how to sign up for the newsletter. 
+    - And a carousel down at the Gallery section, showing diffrent images made by Peter Almgren. 
 
 ### Wireframes
 
@@ -87,7 +88,7 @@ As an employer:
 
 * Home, Gallery and shows page.
 
-<img src="./assets/images/images-readme/wireframes.png"> 
+<img src="./assets/images/images-readme/wireframes.png">
 
 ---
 
@@ -118,11 +119,11 @@ As an employer:
 
 #### Videos
 
-- In this section you can watch Neverdays music videos, The videos are embeded from youtube. 
+- In this section you can watch a music video from Neverday embedded from Youtube. Below the video you find the lyrics to the text, when you hover over it a pointer appears, reveal the lyrics by clicking anywere on the section. 
 
 #### Gallery
 
-- I have used the carousel component from bootstrap. So you can use the arrows on the sides to toggle between the next and the previous pictures.
+- I have used the carousel component from bootstrap. So you can use the arrows on the sides to toggle between the next and the previous pictures. And a link below to our Instagram
 
 #### Contact
 
@@ -130,7 +131,7 @@ As an employer:
  
 #### Footer
 
-- In the footer there is icons to our social media accounts, and icons to streaming services wich provides you with the music you want to here. 
+- In the footer there is icons to our social media accounts, and icons to streaming services wich provides you with the music you want to here. And a newsletter link wich takes you to the newsletter modal and there you can fill in your email.
 
 
 #### To Summarize
@@ -165,7 +166,7 @@ Employers can:
 
 * I would like to implement a music section. There you will be able to listend to our music directley on the site, and read the lyrics for our realeased songs. 
 
-* A merch section were you can buy clothes and our upcoming album.
+* A merch section were you can buy clothes and our upcoming EP.
 
 ---
 
@@ -181,7 +182,7 @@ Employers can:
 
 ### Framework, Libraries and Tools Used
 
-* [jQuery]()
+* [jQuery](https://jquery.com/) - Used for the flipcard.
 
 * [Bootstrap](https://getbootstrap.com/) - Frontend framework, used for responsivness and styling.
 
@@ -193,8 +194,11 @@ Employers can:
 
 * [GitHub](https://github.com/) - GitHub was used to store the project.
 
+* [GitHubPages](https://pages.github.com/) - Deployment
 
 * [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the wireframes during the design process.
+
+* [Am I Responsive](http://ami.responsivedesign.is/#) - Tested responsivness & the images at the top of the readme.
 
 ---
 
@@ -229,14 +233,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### More testing
 
-* The website is tested on Google Chrome & Microsoft Edge.
+* The website is tested on Google Chrome & Microsoft Edge, Safari.
 * The website was viewed on diffrent devices such as Desktop, Laptop, Iphone X, Iphone 8 & Iphone 7, Sony Experia Z1.
 * The links are tested alot, to ensure they work correctly.
 
 
 ### Known Bugs
 
-* The lyrics flipcard dosent work properly on safari. When you click the card to reveal the backside, it doesn't show. It's just a white background. I solved it by simply adding a transparent background to the card.
+* The lyrics flipcard didnt work properly on safari. When you click the card to reveal the backside, it didnt show. It's was just a white background. I solved it by simply adding a transparent background to the card.
 
 ---
 ## Deployment
@@ -317,10 +321,12 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 ### Acknowledgements 
 
+* Family and friends for testing & support.
+
 * Peter Almgren - Illustrations.
 
 * All the bandmembers of Neverday. 
 
-* Family and friends for testing & support. 
+ ---
 
 
