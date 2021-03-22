@@ -115,7 +115,9 @@ body {
 .visit-container a{
     color: #000;
 }
-
+.about-container {
+    padding: 1rem;
+}
 .about-container p {
     padding-left: 10px;
     padding-right: 10px;
@@ -208,6 +210,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .lyrics-container {
         min-height: 30rem;
     }
+    
 }
 
 @media (max-width:767.98px) {
@@ -240,6 +243,8 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .lyrics-container {
         min-height: 40rem;
     }
+
+    
 }
 
 
@@ -317,6 +322,11 @@ i:active:focus{
     color: #efefef;
     transition: 800ms ease-in;
     transition: 800ms ease-out;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+    transition: 400ms ease-in-out;
 }
 
 
@@ -527,6 +537,37 @@ form ::placeholder {
     background-color: #fafafa;
 }
 
+/*--------------------------------------Carousel-----------------------------*/
+
+.carousel-control-next, 
+.carousel-control-prev {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: transparent;
+    transition: opacity .15s ease;
+}
+
+/* https://forum.freecodecamp.org/t/bootstrap-carousel-controls-color/331196 
+    Change color on your carousel icons! */
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
 
 /*--------------------------------------Additional 
 styling-----------------------------*/
@@ -542,23 +583,4 @@ styling-----------------------------*/
 .text-black {
     color: #212529;
 }
-
-.carousel-control-next, .carousel-control-prev {
-    position: absolute;
-    top: 50%;
-    bottom: 0;
-    z-index: 1;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    transition: opacity .15s ease;
-}
-
 
