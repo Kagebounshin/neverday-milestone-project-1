@@ -305,6 +305,8 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 * [Copyright symbol](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) used at the bottom of the page.
 
+* Was used to changes the color of the [Next / Prev](https://forum.freecodecamp.org/t/bootstrap-carousel-controls-color/331196) arrows in both carousels.
+
 ### Media
 
 * [Animation](https://codepen.io/bycreator/pen/RNQmZK) - for lyrics cards.
