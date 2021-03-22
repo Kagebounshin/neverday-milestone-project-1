@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: #efefef;
     font-family: "Roboto", sans-serif;
     max-width: 100%;
     overflow-x: hidden;
@@ -105,6 +105,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 .home-container i,
 .news-listend-container i {
     color: black;
@@ -115,9 +117,7 @@ body {
 .visit-container a{
     color: #000;
 }
-.about-container {
-    padding: 1rem;
-}
+
 .about-container p {
     padding-left: 10px;
     padding-right: 10px;
@@ -150,7 +150,6 @@ body {
 .news-listend-container i {
     text-align: center;
 }
-
 
 /*--------------------------------------Keyframes & Media-----------------------------*/
 
@@ -190,6 +189,9 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .home-container{
         min-height: 100vh;
     }
+
+    
+    
 }
 @media (min-width: 768px){
     .about-heading,
@@ -210,7 +212,10 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .lyrics-container {
         min-height: 30rem;
     }
-    
+
+    .front i {
+        display: none;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -514,6 +519,11 @@ form ::placeholder {
     height: 100%;
     width: 100%;
     
+}
+
+.front i {
+    text-align: center;
+    width: 100%;
 }
 
 .back {
