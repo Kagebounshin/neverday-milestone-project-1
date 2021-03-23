@@ -246,6 +246,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 * The lyrics flipcard didnt work properly on safari. When you click the card to reveal the backside, it didnt show. It's was just a white background. I solved it by simply adding a transparent background to the card.
 
+* On safari the pointer on the lyrics cards still shows when you flip the card over. The pointer has an animation, and if I turned the animation of  the pointer disapeard as it was supposed to do.   
+    - <img src="./assets/images/images-readme/bugPointer.png"> 
+    
+
+
 ---
 ## Deployment
  

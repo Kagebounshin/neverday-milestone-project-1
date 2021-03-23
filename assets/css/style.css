@@ -44,7 +44,10 @@ body {
 .bg-color-videos,
 .bg-color-contact,
 .bg-color-about,
-.bg-color-lyrics,
+.bg-color-lyrics {
+    background-color: #efefef;
+}
+
 .bg-color-front {
     background-color: #efefef;
 }
@@ -151,9 +154,8 @@ body {
 }
 
 .contact-container i {
-    width: 100%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .social-container i {
@@ -217,8 +219,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     }
 }
 
-.front i,
-.back i {
+.front i {
     animation-name: clickMe;
     animation-duration: 1s;
     animation-delay: 2s;
@@ -263,10 +264,16 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
     .home-container{
         min-height: 100vh;
     }
-
-    
-    
 }
+
+@media (min-width: 992px) { 
+    .front i {
+        display: none;
+    }
+}
+    
+    
+
 @media (min-width: 768px){
     .about-heading,
     .shows-heading,
@@ -286,12 +293,6 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
     .lyrics-container {
         min-height: 30rem;
     }
-
-    .front i {
-        display: none;
-    }
-
- 
 }
 
 @media (max-width:767.98px) {
@@ -341,7 +342,7 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
 
 @media (max-width: 575.98px) { 
     .lyrics-container {
-        min-height: 60rem;
+        min-height: 57rem;
     }
 
  }
@@ -545,8 +546,9 @@ form ::placeholder {
 
 /* Card Flip animation was taken from https://codepen.io/bycreator/pen/RNQmZK */
 
+
+/*
 .lyrics-container {
-    height: 10rem;
     width: auto;
     position: relative;
     -webkit-perspective: 1500px;
@@ -614,19 +616,11 @@ form ::placeholder {
     padding-top: 5rem;
     font-size: 3rem;
 }
-
 .back {
     height: 100%;
     width: 100%;
-    
 }
 
-.back i {
-    text-align: center;
-    width: 100%;
-    padding-top: 1rem;
-    font-size: 2rem;
-}
 .back p {
     padding: 2rem;
 }
@@ -635,12 +629,17 @@ form ::placeholder {
 .front p {
     padding: 10px;
 }
-
+*/
 .block-divider-lyrics {
     width: 40%;
     height: 3px;
     border: 0;
-    background-color: #fafafa;
+    background-color: #212529;
+}
+
+.lyrics {
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 /*--------------------------------------Carousel-----------------------------*/

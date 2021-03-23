@@ -4,7 +4,10 @@ $(document).ready(function() {
 
 $(".card").click(function(){
     $(this).toggleClass('flipped');
-});
+    });
 
+$("#button-card-3").click(function(){
+   $("#par-3").slideToggle(); 
+});
 
 });
