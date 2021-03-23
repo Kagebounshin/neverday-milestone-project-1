@@ -205,25 +205,6 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     80%  { transform: translate(0%)   skewX(20deg)  ; }
     95%  { transform: translate(0%)   skewX(-10deg) ; }
     100% { transform: translate(0%)   skewX(0deg)   ; }
-} 
-
-
-@keyframes clickMe {
-    0% {
-        transform: scale(1.05);
-        
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-.front i {
-    animation-name: clickMe;
-    animation-duration: 1s;
-    animation-delay: 2s;
-    animation-iteration-count:infinite;
 }
 
 
@@ -267,9 +248,7 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
 }
 
 @media (min-width: 992px) { 
-    .front i {
-        display: none;
-    }
+
 }
     
     
@@ -289,9 +268,6 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
 
     .news-listend-container{
         display: none;
-    }
-    .lyrics-container {
-        min-height: 30rem;
     }
 }
 
@@ -322,9 +298,6 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
         margin: 1rem!important;
         padding-top:0.5rem!important
     }
-    .lyrics-container {
-        min-height: 45rem;
-    }
 
     .pt-shows {
         padding-top: 3rem!important;
@@ -333,17 +306,10 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
     .mt-shows {
         margin-top: 0!important;
     }
-
-  
-
-    
 }
 
 
 @media (max-width: 575.98px) { 
-    .lyrics-container {
-        min-height: 57rem;
-    }
 
  }
 
@@ -412,6 +378,11 @@ i:active:focus{
 
 .navbar-brand:hover {
     transform: scale(1.1);
+    transition: 400ms ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.01);
     transition: 400ms ease-in-out;
 }
 
@@ -551,7 +522,7 @@ form ::placeholder {
 .card-container {
     position: relative;
     width: auto;
-    height: 207px;
+    height: 320px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     -ms-perspective: 1000px;
@@ -561,8 +532,8 @@ form ::placeholder {
 }
 
 .card {
-    height: 207px;
-    width: 207px;
+    height: 320px;
+    width: 320px;
     position: absolute;
     cursor: pointer;
     transition: transform 0.4s;
@@ -575,9 +546,12 @@ form ::placeholder {
     -ms-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    border: none;
 }
 
 .card img {
+    width: 100%;
+  height: auto;
 }
 
 .card.flipped {
