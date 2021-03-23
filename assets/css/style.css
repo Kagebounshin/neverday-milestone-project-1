@@ -28,6 +28,10 @@ body {
     background-color: #fff;
 }
 
+.bg-color-news {
+    background-color: #fff;
+}
+
 .bg-color-shows,
 .bg-color-gallery,
 .bg-color-visit,
@@ -43,6 +47,10 @@ body {
 .bg-color-lyrics,
 .bg-color-front {
     background-color: #efefef;
+}
+
+.bg-color-footer {
+    background-color: #fff;
 }
 
 /*--------------------------------------Navbar-----------------------------*/
@@ -142,6 +150,12 @@ body {
     margin-right: 10px;
 }
 
+.contact-container i {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
 .social-container i {
     color: #212529;
     font-size: xx-large;
@@ -151,9 +165,14 @@ body {
     text-align: center;
 }
 
+.gallary-container a {
+    text-decoration: none;
+    color: #efefef;
+}
+
 /*--------------------------------------Keyframes & Media-----------------------------*/
 
-/* This @keyframes fromRight was written by written by: Maddy Osman https://blog.hubspot.com/website/author/maddy-osman 
+/* This @keyframes fadeIn was written by written by: Maddy Osman https://blog.hubspot.com/website/author/maddy-osman 
 and obtaind from https://blog.hubspot.com/website/css-fade-in */
 
 @keyframes fadeIn {
@@ -174,6 +193,10 @@ and obtaind from https://blog.hubspot.com/website/css-fade-in */
     animation-name: fadeIn;
 }
 
+/* This @keyframes fromRight was written by Mike Sierra, 
+and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
+
+
 @keyframes fromRight {
     0%   { transform: translate(1920px) skewX(-30deg) ; }
     70%  { transform: translate(0%)   skewX(-30deg) ; }
@@ -182,8 +205,59 @@ and obtaind from https://blog.hubspot.com/website/css-fade-in */
     100% { transform: translate(0%)   skewX(0deg)   ; }
 } 
 
-/* This @keyframes fromRight was written by Mike Sierra, 
-and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
+
+@keyframes clickMe {
+    0% {
+        transform: scale(1.05);
+        
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.front i,
+.back i {
+    animation-name: clickMe;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+
+
+.contact-container i {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+/* This @keyframes wave-animation was written by Jake Jarvis, 
+and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1dee51 */
+
+@keyframes wave-animation {
+    0% { 
+        transform: rotate( 0deg); 
+    }
+   10% {
+        transform: rotate(-10.0deg); 
+    }
+   20% {
+        transform: rotate( 12.0deg); 
+    }
+   30% {
+        transform: rotate(-10.0deg); 
+    }
+   40% {
+        transform: rotate(  9.0deg); 
+    }
+   50% {
+        transform: rotate(  0.0deg); 
+    }
+  100% {
+       transform: rotate(  0.0deg); 
+    }
+}
 
 @media (min-width: 1200px) { 
     .home-container{
@@ -216,6 +290,8 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     .front i {
         display: none;
     }
+
+ 
 }
 
 @media (max-width:767.98px) {
@@ -246,8 +322,18 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         padding-top:0.5rem!important
     }
     .lyrics-container {
-        min-height: 40rem;
+        min-height: 45rem;
     }
+
+    .pt-shows {
+        padding-top: 3rem!important;
+    }
+
+    .mt-shows {
+        margin-top: 0!important;
+    }
+
+  
 
     
 }
@@ -255,7 +341,7 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
 
 @media (max-width: 575.98px) { 
     .lyrics-container {
-        min-height: 57rem;
+        min-height: 60rem;
     }
 
  }
@@ -312,12 +398,6 @@ i:active:focus{
 .videos-heading:hover,
 .gallery-heading:hover {
     color: #ff739d;
-    transition: 400ms ease-in;
-    transition: 400ms ease-out;
-}
-
-.lyrics-title:hover{
-    transform: scale(1.3);
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
@@ -384,6 +464,13 @@ i:active:focus{
     border: 2px outset #fafafa;
 }
 
+.mt-shows {
+    margin-top: 3rem;
+}
+
+.pt-shows {
+    padding-top: 0;
+}
 
 /*--------------------------------------Contact Form-----------------------------*/
 
@@ -524,12 +611,21 @@ form ::placeholder {
 .front i {
     text-align: center;
     width: 100%;
+    padding-top: 5rem;
+    font-size: 3rem;
 }
 
 .back {
     height: 100%;
     width: 100%;
     
+}
+
+.back i {
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+    font-size: 2rem;
 }
 .back p {
     padding: 2rem;

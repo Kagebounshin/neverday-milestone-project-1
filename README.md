@@ -72,7 +72,11 @@ As an employer:
 ---
 
 - Color Scheme
-    - The website has a white background, with a light grey color and a black color to make a nice transaction between the diffrent sections. 
+    - The website has a light grey background (#EFEFEF), and I used a dark grey (#212529) color to make a nice transaction between the diffrent sections. The dots in the headers and on some links and buttons are pink (#FF739D), and when you hover over the headers and the buttons or links, the text is turned to pink aswell. 
+
+<img src="./assets/images/images-readme/lightGrey.png">
+<img src="./assets/images/images-readme/darkGrey.png">
+<img src="./assets/images/images-readme/pink.png">
 
 - Typography
     - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its clean and looks really nice. The fall back font is sans-serif. 
@@ -197,8 +201,9 @@ Employers can:
 
 * [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create the wireframes during the design process.
 
-* [Am I Responsive](http://ami.responsivedesign.is/#) - Tested responsivness & the images at the top of the readme.
+* [Am I Responsive](http://ami.responsivedesign.is/#) - Tested responsivness & the images at the top of the readMe.
 
+* [Color Hex](https://www.color-hex.com/) - The images wich are displayed at the [**Design**](#design) section of this readMe.
 ---
 
 ## Testing
@@ -215,13 +220,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 * When im visit the site for the first time, a get a clear understanding on how to site is built. It's easy to navigate up & down the site, using the existing navbar. With the navbar fixed to the top I can navigate between the sections. The navbrand takes me right back to the top.
 
-* I want to listend to music made by the band. When I open the website, I can do so directley by pressing the spotify icon right at the begining. Or if I scroll down to the bottom of the page I can see three diffrent icons wich would lead me to their music.  
+* I want to listend to music made by the band. When I open the website, I can do so directley by pressing the spotify icon right at the begining. Or if I scroll down to the bottom of the page I can see three diffrent icons wich leads me to their the bands music.  
 
-* I want to purchase a ticket for a show. I open the website and locating the shows section, either by srcolling down or pressing the shows nav-link at the navbar. I can see the dates and the locations, and a "Tickets" button wich leads me to the site to purchase my ticket. 
+* I want to purchase a ticket for a show. I open the website and locating the "Shows" section, either by scrolling down or pressing the "Shows" link at the navbar. I can see the dates and the locations, and a "Tickets" button wich leads me to the site were I can purchase my ticket. 
 
-* I would like to know more about the band, I can open up the site, and then locate the about section, either by scrolling down or using the navlink in the navbar. There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture with the names of the bandmembers.
+* I would like to know more about the band, I open up the site, and then locate the "About" section, either by scrolling down or using the "About" link in the navbar. There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture with the names of the bandmembers.
 
-* I have heard about the band, and I would like to book them for a show, so I open the website, I can see there is a contact section at the navbar. I click the navlink and it takes me down to a form, where I enter my name, email and a message. The I press the "Send" button. 
+* I have heard about the band, and I would like to book them for a show, so I open the website, I can see there is a "Contact" section at the navbar. I click the link and it takes me down to a form, where I enter my name, email and a message. Then I press the "Send" button. 
 
 * I would like to get the latest news from the band.
     - I enter the site and on the second picture in the header I find a "SIGN UP" button, I press the button and a modal comes up,  I can now enter my Email and the press the "Subscribe" button. (not displayed on small devices).
@@ -311,6 +316,8 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 * [Animation](https://codepen.io/bycreator/pen/RNQmZK) - for lyrics cards.
 
+* [Animation](https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1dee51) - (written by: Jake Jarvis) for the contact icon (with some modifications).
+
 * [Animation](https://blog.hubspot.com/website/css-fade-in) (written by: [Maddy Osman](https://blog.hubspot.com/website/author/maddy-osman)) the fadeIn animation used in the heading section.
 
 * [Animation](https://webplatform.github.io/docs/tutorials/css_animations/) (written by: Mike Sierra) for the heading icon (with some modifications).
@@ -326,9 +333,9 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 * Peter Almgren - Illustrations.
 
-* All the bandmembers of Neverday. 
+* All the band members of Neverday. 
 
-* Mentor Medale Oluwafemi, for layout inspiration and project ideas.
+* Mentor Medale Oluwafemi, for layout inspiration.
  ---
 
 
