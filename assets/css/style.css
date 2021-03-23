@@ -521,7 +521,6 @@ form ::placeholder {
 
 .card-container {
     position: relative;
-    width: auto;
     height: 320px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
@@ -583,7 +582,8 @@ form ::placeholder {
 }
 
 .back p {
-    padding: 2px;
+    padding: 10px 10px 0 10px;
+    font-size: larger;
 }
 
 .front h1,
