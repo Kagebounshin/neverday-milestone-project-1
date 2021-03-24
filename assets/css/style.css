@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Homemade+Apple&family=Just+Me+Again+Down+Here&family=Pangolin&family=Permanent+Marker&display=swap');
+
 /* The Smoothscroll css was written by deadlymuffin, 
 and obtaind from: https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections */
 html {
@@ -34,8 +36,7 @@ body {
 
 .bg-color-shows,
 .bg-color-gallery,
-.bg-color-visit,
-.bg-color-back{
+.bg-color-visit {
     background-color:#212529;
     color: #efefef;
     
@@ -44,7 +45,8 @@ body {
 .bg-color-videos,
 .bg-color-contact,
 .bg-color-about,
-.bg-color-lyrics {
+.bg-color-lyrics,
+.bg-color-back {
     background-color: #efefef;
 }
 
@@ -381,10 +383,6 @@ i:active:focus{
     transition: 400ms ease-in-out;
 }
 
-.card img:hover {
-    transform: scale(1.01);
-    transition: 400ms ease-in-out;
-}
 
 
 /*--------------------------------------Shows-----------------------------*/
@@ -522,6 +520,7 @@ form ::placeholder {
 .card-container {
     position: relative;
     height: 320px;
+    width: 320px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     -ms-perspective: 1000px;
@@ -546,11 +545,37 @@ form ::placeholder {
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
     border: none;
+    background: transparent;
 }
 
 .card img {
+    opacity: 1;
+    display: block;
     width: 100%;
-  height: auto;
+    height: auto;
+    transition: .5s ease;
+}
+
+.card .middle {
+    transition: .5s ease;
+    opacity: 0;
+    display: block;
+    height: auto;
+    width: 100%;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-container:hover img {
+    opacity: 0.3;
+}
+
+.card-container:hover .middle {
+    opacity: 1;
 }
 
 .card.flipped {
@@ -575,6 +600,7 @@ form ::placeholder {
 }
 
 .card .back {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
@@ -582,7 +608,7 @@ form ::placeholder {
 }
 
 .back p {
-    padding: 10px 10px 0 10px;
+    padding: 5px 10px 0 10px;
     font-size: larger;
 }
 
@@ -642,11 +668,38 @@ styling-----------------------------*/
     text-transform: uppercase;
 }
 
-.color-period {
+.color-period,
+.comma {
     color: #ff739d;
 }
 
 .text-black {
     color: #212529;
 }
+
+
+/*--------------------------------------Font Familys for Personal cards-----------------------------*/
+
+.pangolin {
+    font-family: "Pangolin", sans-serif;
+}
+
+.permanent-marker {
+    font-family: "Permanent Marker", sans-serif;
+}
+
+.homemade-apple {
+    font-family: "Homemade Apple", sans-serif;
+}
+
+.just-me {
+    font-family: "Just Me Again Down Here", sans-serif;
+}
+
+.butterfly-kids {
+    font-family: "Butterfly Kids", sans-serif;
+    font-weight: 600;
+}
+
+
 
