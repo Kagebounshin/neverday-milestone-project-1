@@ -32,7 +32,8 @@ body {
 
 .bg-color-shows,
 .bg-color-gallery,
-.bg-color-visit {
+.bg-color-visit,
+.bg-color-back  {
     background-color:#212529;
     color: #efefef;
     
@@ -41,8 +42,7 @@ body {
 .bg-color-videos,
 .bg-color-contact,
 .bg-color-about,
-.bg-color-lyrics,
-.bg-color-back {
+.bg-color-lyrics{
     background-color: #efefef;
 }
 
@@ -594,6 +594,8 @@ form ::placeholder {
     clear: both;
     line-height: 0;
     border-radius: 1%;
+    background: transparent;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
 }
 
 .card .middle {
@@ -608,6 +610,7 @@ form ::placeholder {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    background: transparent;
 }
 
 
@@ -626,6 +629,7 @@ form ::placeholder {
     height: 100%;
     width: 100%;
     position: absolute;
+    border-radius: 1%;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
@@ -634,7 +638,7 @@ form ::placeholder {
 }
 
 .card .back {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
