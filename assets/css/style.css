@@ -30,10 +30,6 @@ body {
     background-color: #fff;
 }
 
-.bg-color-news {
-    background-color: #fff;
-}
-
 .bg-color-shows,
 .bg-color-gallery,
 .bg-color-visit {
@@ -249,7 +245,27 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
     }
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 1025px) { 
+    .card-container:hover img {
+    opacity: 0.3;
+}
+
+.card-container:hover .middle {
+    opacity: 1;
+}
+
+}
+
+@media (max-width: 1024.98px) { 
+    
+.card img {
+    opacity: 0.3!important;
+    
+}
+
+.card .middle {
+    opacity: 1!important;
+}
 
 }
     
@@ -312,6 +328,22 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
 
 
 @media (max-width: 575.98px) { 
+    .card-container {
+    
+    height: 260px!important;
+    width: 260px!important;
+    font-size: 0.74rem!important;
+   
+    
+
+}
+
+.card {
+    height: 260px!important;
+    width: 260px!important;
+   
+}
+
 
  }
 
@@ -526,7 +558,12 @@ form ::placeholder {
     -ms-perspective: 1000px;
     -o-perspective: 1000px;
     perspective: 1000px;
-    margin: 1rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+
 }
 
 .card {
@@ -554,6 +591,9 @@ form ::placeholder {
     width: 100%;
     height: auto;
     transition: .5s ease;
+    clear: both;
+    line-height: 0;
+    border-radius: 1%;
 }
 
 .card .middle {
@@ -570,13 +610,7 @@ form ::placeholder {
     text-align: center;
 }
 
-.card-container:hover img {
-    opacity: 0.3;
-}
 
-.card-container:hover .middle {
-    opacity: 1;
-}
 
 .card.flipped {
     -webkit-transform: rotateY(180deg);
