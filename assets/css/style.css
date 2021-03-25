@@ -105,7 +105,8 @@ body {
 .about-container,
 .shows-container,
 .videos-container,
-.gallery.container {
+.gallery.container,
+.personal-container {
     min-height: 100vh;
     display: grid;
     align-content: space-around;
@@ -163,6 +164,13 @@ body {
 .social-container i {
     color: #212529;
     font-size: xx-large;
+}
+
+.personal-container {
+    display: grid;
+    align-content: space-evenly;
+    padding: 0;
+    margin: 0 auto;
 }
 
 
@@ -266,33 +274,33 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
     .home-container{
         min-height: 100vh;
     }
+    .card-container {
+        
+        margin-top: 4rem!important;
+    }
 }
 
 @media (min-width: 1025px) { 
-    .card-container:hover img {
-    opacity: 0.3;
-}
+        .card-container:hover img {
+        opacity: 0.3;
+    }
 
-.card-container:hover .middle {
-    opacity: 1;
-}
-
-}
-
-@media (max-width: 1024.98px) { 
-    
-.card img {
-    opacity: 0.3!important;
-    
-}
-
-.card .middle {
-    opacity: 1!important;
-}
+    .card-container:hover .middle {
+        opacity: 1;
+    }
 
 }
-    
-    
+
+@media (max-width: 1024.98px) {    
+    .card img {
+        opacity: 0.3!important;
+        
+    }
+
+    .card .middle {
+        opacity: 1!important;
+    }
+} 
 
 @media (min-width: 768px) {
     .about-heading,
@@ -310,6 +318,12 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
     .news-container {
         display: none;
     }
+
+    .card-container {
+        
+        margin-top: 3.5rem!important;
+    }
+    
 }
 
 @media (max-width:767.98px) {
@@ -347,6 +361,8 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
     .mt-shows {
         margin-top: 0!important;
     }
+
+
 }
 
 
@@ -361,6 +377,7 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
         width: 260px!important;
     }
 }
+
 
 /*--------------------------------------HOVER---------------------------*/
 
@@ -561,10 +578,10 @@ form ::placeholder {
     -ms-perspective: 1000px;
     -o-perspective: 1000px;
     perspective: 1000px;
+    padding: 0;
     margin: auto;
-    margin-top: 1.5rem;
-    padding-right: 0px;
-    padding-left: 0px;
+    margin-top: 0.7rem;
+    
 }
 
 .card {
@@ -595,8 +612,12 @@ form ::placeholder {
     clear: both;
     line-height: 0;
     border-radius: 1%;
-    background: transparent;
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .card .middle {
@@ -612,6 +633,11 @@ form ::placeholder {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     background: transparent;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .card.flipped {
