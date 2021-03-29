@@ -127,9 +127,9 @@ body {
     color: #ff739d;
 }
 
-.shows-request-container a,
 .visit-container a {
-    color: #000;
+    text-decoration: none;
+    color: #212529;
 }
 
 .shows-container a,

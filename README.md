@@ -1,7 +1,7 @@
 <h1 align="center"> The Neverday Website</h1>
 
 [View the project here.](https://kagebounshin.github.io/neverday-milestone-project-1/)
-<h2><img src="./assets/images/images-readme/amIResponsive.png"></h2>
+<h2><img src="./assets/images/images-readme/amIResponsive1.png"></h2>
                                 
 This is my first milestone project in User-Centric Frontend Development. An assignment from [CodeInstitute](https://codeinstitute.net/). 
 The band wich this website is for, is a real band, and its called Neverday.  
@@ -72,17 +72,18 @@ As an employer:
 ---
 
 - Color Scheme
-    - The website has a light grey background (#EFEFEF), and I used a dark grey (#212529) color to make a nice transaction between the diffrent sections. The dots in the headers and on some links and buttons are pink (#FF739D), and when you hover over the headers and the buttons or links, the text is turned to pink aswell. 
+    - The website has a "light grey" background (#EFEFEF), and I used a "dark grey "(#212529) color to make a nice transaction between the diffrent sections. The dots in the headers and on some links and buttons are pink (#FF739D), and when you hover over the headers and the buttons or links, the text is turned to pink aswell. 
 
 <img src="./assets/images/images-readme/lightGrey.png">
 <img src="./assets/images/images-readme/darkGrey.png">
 <img src="./assets/images/images-readme/pink.png">
 
 - Typography
-    - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its clean and looks really nice. The fall back font is sans-serif. 
+    - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its clean and looks really nice. The fall back font is sans-serif. For the personal cards I used five different type of fonts from the "Handwriting" category, [Pangolin](https://fonts.google.com/specimen/Pangolin?preview.text_type=custom), [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom), [Homemade Apple](https://fonts.google.com/specimen/Homemade+Apple?preview.text_type=custom), [Just Me Again Down Here](https://fonts.google.com/specimen/Just+Me+Again+Down+Here?preview.text_type=custom), [Butterfly Kids](https://fonts.google.com/specimen/Butterfly+Kids?preview.text_type=custom), to make it if the answers on the cards was written by hand. The font colors differs between the sections, if the section has the "light grey" background, its has the "dark grey" color set on the text. 
 
 - Images 
     - I have two images in a carousel right at the homepage, the first one is the bands logo, and a text with some additional information about our music. The second images is with the grimreaper and our logo, and a text with information on how to sign up for the newsletter. 
+    - At the "About" section you'll find a picture of the band, and five personal pictures one of each bandmember.
     - And a carousel down at the Gallery section, showing diffrent images made by Peter Almgren. 
 
 ### Wireframes
@@ -90,6 +91,7 @@ As an employer:
 --- 
 
 * Home, Gallery and shows page.
+    - My first idea was to have three diffrent pages for the website, but after my first call with my mentor, we decided to go with a singel scrolling page to get a better experiense. 
 
 <img src="./assets/images/images-readme/wireframes.png">
 
@@ -106,27 +108,27 @@ As an employer:
 
 
 #### Home
-- When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the direction to our music. The second picture has a text and a sign up button, press the button and you'll get to a modal, there you can sign up for the newsletter. If shown on smaller devices, the information text will be push down below the images.   
+- I have used the carousel component from bootstrap. When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the direction to our music. The second picture has a text and a sign up button, press the button and you'll get to a modal, there you can sign up for the newsletter. If shown on smaller devices, the information text will be push down below the images.   
 
-#### Newsletter form
+#### Newsletter Form
 
-- Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it when you click on the 'Subscribe' button.
+- Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it by clicking the 'Subscribe' button.
 
 #### About
 
-- This is where you can read about Neverday, its a short but informative text, and an image of the members. The members is discribed in a text below the image.
+- This is where you can read about Neverday and its members. A short but informative text, and an image of the band. The members is discribed in a text below that image. Then there is five personal cards with an images of each bandmember. It has a "flip" function, so if you click them the card flips over and reveals some personal information. 
 
 ##### Shows
 
-- Here you can find out when and where Neverday is performing live. A tickets button that directs you to where you can purchase a ticket.
+- Here you can find out when and where Neverday is performing live. A tickets button that directs you to where you can purchase a ticket. A link to the "Contact" section, if you would like to book the band for a show.
 
 #### Videos
 
-- In this section you can watch a music video from Neverday embedded from Youtube. Below the video you find the lyrics to the text, when you hover over it a pointer appears, reveal the lyrics by clicking anywere on the section. 
+- In this section you can watch a music video from Neverday embedded from Youtube. Below the video is a link to our Youtube page. 
 
 #### Gallery
 
-- I have used the carousel component from bootstrap. So you can use the arrows on the sides to toggle between the next and the previous pictures. And a link below to our Instagram
+- I have used the carousel component from bootstrap. So you can use the arrows on the sides to toggle between the next and the previous pictures. And a link below to our Instagram.
 
 #### Contact
 
@@ -134,14 +136,14 @@ As an employer:
  
 #### Footer
 
-- In the footer there is icons to our social media accounts, and icons to streaming services wich provides you with the music you want to here. And a newsletter link wich takes you to the newsletter modal and there you can fill in your email.
+- In the footer there is icons to our social media accounts, and icons to streaming services wich provides you with the music you want to here. And a newsletter link wich takes you to the newsletter modal, there you can fill in your email.
 
 
 #### To Summarize
 
 Users can:
 
-* Easily navigate up and down the website with the fixed to the top navbar.
+* Easily navigate up and down the website with the fixed to the top navbar .
 
 * Find out were they can listend to Neverday's music.
 
@@ -203,7 +205,9 @@ Employers can:
 
 * [Am I Responsive](http://ami.responsivedesign.is/#) - Tested responsivness & the images at the top of the readMe.
 
-* [Color Hex](https://www.color-hex.com/) - The images wich are displayed at the [**Design**](#design) section of this readMe.
+* [Color Hex](https://www.color-hex.com/) - The color images wich are displayed at the [**Design**](#design) section of this readMe.
+
+* [PicResize](https://picresize.com/) - was used to resize the personal images at the "About" section.
 ---
 
 ## Testing
@@ -246,8 +250,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 * The lyrics flipcard didnt work properly on safari. When you click the card to reveal the backside, it didnt show. It's was just a white background. I solved it by simply adding a transparent background to the card.
 
-* On safari the pointer on the lyrics cards still shows when you flip the card over. The pointer has an animation, and if I turned the animation of  the pointer disapeard as it was supposed to do.   
-    - <img src="./assets/images/images-readme/bugPointer.png"> 
+* When you "flipped" the personal cards in the safari browser at my Ipad, the images still was still visable, added the "backface-visability" property to "hidden".   
     
 
 
