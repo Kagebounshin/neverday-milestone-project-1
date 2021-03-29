@@ -4,6 +4,7 @@
 
 /* The Smoothscroll css was written by deadlymuffin, 
 and obtaind from: https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections */
+
 html {
     scroll-behavior: smooth;
 }
@@ -205,14 +206,12 @@ and obtaind from https://blog.hubspot.com/website/css-fade-in */
     }
 }
 
-/*.home-heading,*/
-/*
 .home-heading-news,
 .news-container i,
 .news-container button {
     animation-duration: 4s;
     animation-name: fadeIn;
-}*/
+}
 
 /* This @keyframes fromRight was written by Mike Sierra, 
 and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */

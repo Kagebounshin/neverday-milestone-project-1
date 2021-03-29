@@ -219,40 +219,47 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 * [W3C Markup Validator](https://validator.w3.org/) - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkagebounshin.github.io%2Fneverday-milestone-project-1%2F)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No current errors. 
 
+<img src="./assets/images/images-readme/cssValidator.png">
+
 
 ### Testing User Stories from (UX) section.
 
-* When im visit the site for the first time, a get a clear understanding on how to site is built. It's easy to navigate up & down the site, using the existing navbar. With the navbar fixed to the top I can navigate between the sections. The navbrand takes me right back to the top.
+* When im visit the site for the first time, a get a clear understanding on how to site is built. It's easy to navigate up & down the site, using the existing navbar. With the navbar fixed to the top I can navigate between the sections. The navbrand refreshes the page.
 
-* I want to listend to music made by the band. When I open the website, I can do so directley by pressing the spotify icon right at the begining. Or if I scroll down to the bottom of the page I can see three diffrent icons wich leads me to their the bands music.  
+* I want to listend to music made by the band. When I open the website, I can do so directley by pressing the spotify icon right at the begining. Or if I scroll down to the bottom of the page I can see three diffrent icons wich leads me to the bands music.  
 
 * I want to purchase a ticket for a show. I open the website and locating the "Shows" section, either by scrolling down or pressing the "Shows" link at the navbar. I can see the dates and the locations, and a "Tickets" button wich leads me to the site were I can purchase my ticket. 
 
-* I would like to know more about the band, I open up the site, and then locate the "About" section, either by scrolling down or using the "About" link in the navbar. There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture with the names of the bandmembers.
+* I would like to know more about the band, I open up the site, and then locate the "About" section, either by scrolling down or using the "About" link in the navbar. There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture with the names of the bandmembers. And images of each bandmembers wich you can flip over and reveal information of each bandmember.
 
-* I have heard about the band, and I would like to book them for a show, so I open the website, I can see there is a "Contact" section at the navbar. I click the link and it takes me down to a form, where I enter my name, email and a message. Then I press the "Send" button. 
+* I have heard about the band, and I would like to book them for a show, so I open the website, I can see there is a "Contact" section at the navbar. I click the link and it takes me down to a form, where I enter my name, email and a message. Then I press the "Send" button. Our if I scroll down to the "shows" section, there is a link wich also takes me down to the "Contact" section.
 
 * I would like to get the latest news from the band.
-    - I enter the site and on the second picture in the header I find a "SIGN UP" button, I press the button and a modal comes up,  I can now enter my Email and the press the "Subscribe" button. (not displayed on small devices).
+    - I enter the site and on the second picture in the header I find a text and an "Envelope" icon, I press the icon and a modal comes up,  I can now enter my Email and the press the "Subscribe" button. (not displayed on small devices).
 
-    - I enter the site, scrolls down to the bottom of the page, at the footer I find a "Newsletter" button, I press the button, and the same modal pops up.  I can now enter my Email and the press the "Subscribe" button.
+    - I enter the site, scrolls down to the bottom of the page, at the footer I find a "Newsletter" button, I press the button, and the same modal pops up. I can now enter my Email and the press the "Subscribe" button.
 
-    - On smaller devices, I find the newsletter button below the carousel in the header. I press the button, and the newletter modal pops up. I can now enter my Email and the press the "Subscribe" button.
+    - On smaller devices, I find the newsletter button below the carousel in the header. I press the  "Envelope" icon, and the newletter modal pops up. I can now enter my Email and the press the "Subscribe" button.
+
+### Lighthouse testing.
+* Desktop
+
+<img src="./assets/images/images-readme/lighthouseDesktop1.png">
+
+* Mobile
+
+<img src="./assets/images/images-readme/lighthouseMobile.png">
 
 ### More testing
 
 * The website is tested on Google Chrome & Microsoft Edge, Safari.
-* The website was viewed on diffrent devices such as Desktop, Laptop, Iphone X, Iphone 8 & Iphone 7, Sony Experia Z1.
+* The website was viewed on diffrent devices such as Desktop, Laptop, Iphone X, Iphone 8 & Iphone 7, Sony Experia Z1, Ipad.
 * The links are tested alot, to ensure they work correctly.
 
 
 ### Known Bugs
 
-* The lyrics flipcard didnt work properly on safari. When you click the card to reveal the backside, it didnt show. It's was just a white background. I solved it by simply adding a transparent background to the card.
-
-* When you "flipped" the personal cards in the safari browser at my Ipad, the images still was still visable, added the "backface-visability" property to "hidden".   
-    
-
+* On my Ipad the personal info cards, when flipped they still showed the picture of the members. With the "backface-visability" set the "hidden", the problem was solved.
 
 ---
 ## Deployment
