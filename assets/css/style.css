@@ -120,6 +120,10 @@ body {
     text-align: center;
 }
 
+.home-container button {
+    color: #efefef;
+}
+
 .about-container p {
     padding-left: 10px;
     padding-right: 10px;
@@ -411,6 +415,10 @@ i:active:focus,
 .home-container i:hover,
 i:active,
 i:focus,
+i:active:focus,
+.news-container-sm i:hover,
+i:active,
+i:focus,
 i:active:focus {
     color: #ff739d;
     transition: 400ms ease-in;
@@ -604,6 +612,8 @@ form ::placeholder {
     background: transparent;
 }
 
+/*The fade effect on the persona cards was obtained from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity. */
+
 .card img {
     opacity: 1;
     display: block;
@@ -775,6 +785,3 @@ styling-----------------------------*/
     padding: 1rem;
 }
 
-.home-container button {
-    color: #efefef;
-}

@@ -72,18 +72,29 @@ As an employer:
 ---
 
 - Color Scheme
-    - The website has a "light grey" background (#EFEFEF), and I used a "dark grey "(#212529) color to make a nice transaction between the diffrent sections. The dots in the headers and on some links and buttons are pink (#FF739D), and when you hover over the headers and the buttons or links, the text is turned to pink aswell. 
+    - The website has a "light grey" background (#EFEFEF), and I used a "dark grey "(#212529) color to make a nice transaction between the diffrent sections. 
+    - The news section wich is shown only on smaller devices and the footer has a white backgrounds(#fff).
+    - The navbar has a white background (#fff) aswell.  
+    - The dots in all the section headings, some links and buttons and the commas on the personal cards are pink (#FF739D). 
+    - When you hover over the headings and the buttons or links, the text is turned to pink (#FF739D) aswell. 
+    - The font colors differs between the sections, if the section has the "light grey" (#EFEFEF) background, its has the "dark grey" (#212529) color set on the text and the other way around. 
+    
 
 <img src="./assets/images/images-readme/lightGrey.png">
 <img src="./assets/images/images-readme/darkGrey.png">
 <img src="./assets/images/images-readme/pink.png">
 
+These are the colors used around the site. 
+
 - Typography
-    - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its clean and looks really nice. The fall back font is sans-serif. For the personal cards I used five different type of fonts from the "Handwriting" category, [Pangolin](https://fonts.google.com/specimen/Pangolin?preview.text_type=custom), [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom), [Homemade Apple](https://fonts.google.com/specimen/Homemade+Apple?preview.text_type=custom), [Just Me Again Down Here](https://fonts.google.com/specimen/Just+Me+Again+Down+Here?preview.text_type=custom), [Butterfly Kids](https://fonts.google.com/specimen/Butterfly+Kids?preview.text_type=custom), to make it if the answers on the cards was written by hand. The font colors differs between the sections, if the section has the "light grey" background, its has the "dark grey" color set on the text. 
+    - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its has a clean look, easy to read, simply looks nice. The fall back font is sans-serif if the main font shouldn't work properly. 
+    - For the personal cards I used five different type of fonts from the "Handwriting" category at [GoogleFonts](https://fonts.google.com/?category=Handwriting). They are [Pangolin](https://fonts.google.com/specimen/Pangolin?preview.text_type=custom), [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker?preview.text_type=custom), [Homemade Apple](https://fonts.google.com/specimen/Homemade+Apple?preview.text_type=custom), [Just Me Again Down Here](https://fonts.google.com/specimen/Just+Me+Again+Down+Here?preview.text_type=custom), [Butterfly Kids](https://fonts.google.com/specimen/Butterfly+Kids?preview.text_type=custom). They where used to make it as if the answers on the cards was written by hand. 
+    
 
 - Images 
-    - I have two images in a carousel right at the homepage, the first one is the bands logo, and a text with some additional information about our music. The second images is with the grimreaper and our logo, and a text with information on how to sign up for the newsletter. 
-    - At the "About" section you'll find a picture of the band, and five personal pictures one of each bandmember.
+    - I have two images in a carousel right at the homepage, the first one is the bands logo, it has an animation set to it, just to make the first apperans more intresting. And a text with some additional information about our music. The second images is with the grimreaper and our logo, and a text with information on how to sign up for the newsletter (On smaller devices both paragraphs are pushed down below the pictures).
+    - At the "About" section you'll find a picture of the band, and five personal pictures one of each bandmember. The personal pictures has an hover effect and a flip animation to it. When you hover the cards with the mouse, the images fades and the hovered band members name appears. And when you click the picture, the card flips and reveals a backside with a little information about the band member.
+    - On smaller devices the hover effect on the personal cards are gone. The images is faded from the start and the name is already displayed.
     - And a carousel down at the Gallery section, showing diffrent images made by Peter Almgren. 
 
 ### Wireframes
@@ -217,29 +228,42 @@ Employers can:
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website.
 
 * [W3C Markup Validator](https://validator.w3.org/) - [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkagebounshin.github.io%2Fneverday-milestone-project-1%2F)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No current errors. 
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - No errors found. 
 
 <img src="./assets/images/images-readme/cssValidator.png">
 
 
 ### Testing User Stories from (UX) section.
 
-* When im visit the site for the first time, a get a clear understanding on how to site is built. It's easy to navigate up & down the site, using the existing navbar. With the navbar fixed to the top I can navigate between the sections. The navbrand refreshes the page.
+* When im visit the site for the first time, I want to get a clear understanding what the site is about. 
+    - When I enter the site, I see a navbar and its links, and it takes me to the sections I desire to visit.
+    - The bands logo scales and fades in, with some text with a link to spotify. 
+    - It's easy to navigate up & down the site, using the fixed to the top navbar.
 
-* I want to listend to music made by the band. When I open the website, I can do so directley by pressing the spotify icon right at the begining. Or if I scroll down to the bottom of the page I can see three diffrent icons wich leads me to the bands music.  
+* I want to listend to music made by the band. 
+    - When I open the website, I can do so directley by clicking the spotify icon at the hero image. 
+    - Or if I scroll down to the bottom of the page I can see three diffrent icons wich leads me to the bands music.  
 
-* I want to purchase a ticket for a show. I open the website and locating the "Shows" section, either by scrolling down or pressing the "Shows" link at the navbar. I can see the dates and the locations, and a "Tickets" button wich leads me to the site were I can purchase my ticket. 
+* I want to purchase a ticket for a show. 
+    - I open the website and locating the "Shows" section, either by scrolling down or pressing the "Shows" link at the navbar.
+    - I can see the dates and the locations, and a "Tickets" button wich leads me to the site were I can purchase my ticket. 
 
-* I would like to know more about the band, I open up the site, and then locate the "About" section, either by scrolling down or using the "About" link in the navbar. There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture with the names of the bandmembers. And images of each bandmembers wich you can flip over and reveal information of each bandmember.
+* I would like to know more about the band. 
+    - I open up the site, I can locate the "About" section, either by the "About" link in the navbar or by scrolling down. 
+    - There I see a short but informative text discriding the band and its members, a picture with all the band members and a text below the picture decribing the images. 
+    - And images of each band members wich you can flip over and reveal more information about the members.
 
-* I have heard about the band, and I would like to book them for a show, so I open the website, I can see there is a "Contact" section at the navbar. I click the link and it takes me down to a form, where I enter my name, email and a message. Then I press the "Send" button. Our if I scroll down to the "shows" section, there is a link wich also takes me down to the "Contact" section.
+* I have heard about the band, and I would like to book them for a show.
+    - I open the website, I can see there is a "Contact" section at the navbar. 
+    - I click the link and it takes me down to a form, where I enter my name, email and a message. Then I press the "Send" button.
+    - If I scroll down to the "shows" section, there is a link wich also takes me down to the "Contact" section.
 
 * I would like to get the latest news from the band.
-    - I enter the site and on the second picture in the header I find a text and an "Envelope" icon, I press the icon and a modal comes up,  I can now enter my Email and the press the "Subscribe" button. (not displayed on small devices).
+    - I enter the site and on the second picture in the header I find a text and an "Envelope" icon, I press the icon and a modal comes up,  I can now enter my Email and the press the "Subscribe" button.
 
     - I enter the site, scrolls down to the bottom of the page, at the footer I find a "Newsletter" button, I press the button, and the same modal pops up. I can now enter my Email and the press the "Subscribe" button.
 
-    - On smaller devices, I find the newsletter button below the carousel in the header. I press the  "Envelope" icon, and the newletter modal pops up. I can now enter my Email and the press the "Subscribe" button.
+    - On smaller devices, I find the newsletter button below the carousel in the header. I press the "Envelope" icon, and the newletter modal pops up. I can now enter my Email and the press the "Subscribe" button.
 
 ### Lighthouse testing.
 * Desktop
@@ -250,16 +274,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 <img src="./assets/images/images-readme/lighthouseMobile1.png">
 
-### More testing
+### Further testing
 
 * The website is tested on Google Chrome & Microsoft Edge, Safari.
 * The website was viewed on diffrent devices such as Desktop, Laptop, Iphone X, Iphone 8 & Iphone 7, Sony Experia Z1, Ipad.
 * The links are tested alot, to ensure they work correctly.
+* Family members has tested the site, looking for bugs or other issues. 
 
 
-### Known Bugs
+### Bugs
 
-* On my Ipad the personal info cards, when flipped they still showed the picture of the members. With the "backface-visability" set the "hidden", the problem was solved.
+* No known bugs after all the testing. 
 
 ---
 ## Deployment
@@ -296,20 +321,21 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
-   
-    `$ git clone https://github.com/Kagebounshin/neverday-milestone-project-1`
+
+```
+$ git clone https://github.com/Kagebounshin/neverday-milestone-project-1
+```
 
 7. Press Enter to create your local clone.
 
-    > Cloning into `Spoon-Knife`...
-    
-    > remote: Counting objects: 10, done.
-    
-    > remote: Compressing objects: 100% (8/8), done.
-    
-    > remove: Total 10 (delta 1), reused 10 (delta 1)
-    
-    > Unpacking objects: 100% (10/10), done.
+```
+$ git clone https://github.com/Kagebounshin/neverday-milestone-project-1
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
 ---
 ## Credits
@@ -319,7 +345,7 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 * [Smooth scroll](https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections) (written by: deadlymuffin) between the sections.
 
-* Social media icons was taken from [fontAwesome](https://fontawesome.com/icons?d=gallery)
+* All the icons was taken from [fontAwesome](https://fontawesome.com/icons?d=gallery)
 
 * Main font was taken from [GoogleFonts](https://fonts.google.com/)
 
@@ -329,7 +355,7 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 ### Media
 
-* [Animation](https://codepen.io/bycreator/pen/RNQmZK) - for lyrics cards.
+* [Animation](https://codepen.io/bycreator/pen/RNQmZK) - for personal cards.
 
 * [Animation](https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1dee51) - (written by: Jake Jarvis) for the contact icon (with some modifications).
 
@@ -337,10 +363,11 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 * [Animation](https://webplatform.github.io/docs/tutorials/css_animations/) (written by: Mike Sierra) for the heading icon (with some modifications).
 
+* The hover effect on the personal cards was obtained from [w3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity)  (with some modifications).
 
 * All the music was originaly recorded by Neverday.
 
-* Some (not all) images was taken from the bands [Facebook](https://www.facebook.com/Neverday-101187714601074). 
+* Some images was taken from the bands [Facebook](https://www.facebook.com/Neverday-101187714601074) or the band members Facebook accounts or Instagram accounts. 
 
 ### Acknowledgements 
 
@@ -350,7 +377,7 @@ Follow these steps or press this [link](https://docs.github.com/en/github/creati
 
 * All the band members of Neverday. 
 
-* Mentor Medale Oluwafemi, for layout inspiration.
+* Mentor Medale Oluwafemi, for feedback and layout inspiration.
  ---
 
 
