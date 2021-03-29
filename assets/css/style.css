@@ -320,7 +320,7 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
         min-height: 55vh;
     }
 
-    .news-container {
+    .news-container-sm {
         display: none;
     }
 
@@ -403,12 +403,7 @@ a:active:focus,
 .visit-container a:hover,
 a:active,
 a:focus,
-a:active:focus {
-    color: #ff739d;
-    transition: 400ms ease-in;
-    transition: 400ms ease-out;
-}
-
+a:active:focus,
 .social-container i:hover,
 i:active,
 i:focus,
@@ -416,11 +411,12 @@ i:active:focus,
 .home-container i:hover,
 i:active,
 i:focus,
-i:active:focus{
+i:active:focus {
     color: #ff739d;
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
+
 
 .about-heading:hover,
 .shows-heading:hover,
