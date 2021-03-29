@@ -18,14 +18,16 @@ body {
 
 /*--------------------------------------Background Colors-----------------------------*/
 
-.bg-color-nav {
+.bg-color-nav,
+.bg-color-news {
     background-color: #fff!important;
 }
 
 .bg-color-shows,
 .bg-color-gallery,
 .bg-color-visit,
-.bg-color-back {
+.bg-color-back,
+.bg-color-home-card {
     background-color:#212529;
     color: #efefef;
 }
@@ -77,28 +79,12 @@ body {
     font-size: 1.3em;
 }
 
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus,
-.nav-link:active:focus {
-    transition: 100ms ease-in;
-    transition: 100ms ease-out;    
-    margin-top: -1px;
-    font-weight: 600;
-}
-
-
 /*--------------------------------------Containers-----------------------------*/
 
 .container-fluid {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-}
-
-.home-container i {
-    animation-duration: 3s;
-    animation-name: fromRight;
 }
 
 .home-container,
@@ -114,9 +100,20 @@ body {
     margin: 0 auto;
 }
 
-.home-container i,
 .news-container i {
-    color: black;
+    color: #efefef;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.home-container i {
+    color: #efefef;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.home-container .spotify {
+    color: #212529;
     font-size: xx-large;
     text-align: center;
 }
@@ -176,6 +173,8 @@ body {
 
 /*--------------------------------------Keyframes & Media-----------------------------*/
 
+
+
 @keyframes scaleIn {
     0% {
         transform: scale(1.8);
@@ -207,15 +206,21 @@ and obtaind from https://blog.hubspot.com/website/css-fade-in */
 }
 
 /*.home-heading,*/
+/*
 .home-heading-news,
 .news-container i,
 .news-container button {
     animation-duration: 4s;
     animation-name: fadeIn;
-}
+}*/
 
 /* This @keyframes fromRight was written by Mike Sierra, 
 and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
+
+.spotify {
+    animation-duration: 3s;
+    animation-name: fromRight;
+}
 
 
 @keyframes fromRight {
@@ -381,14 +386,6 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
 
 /*--------------------------------------HOVER---------------------------*/
 
-.btn--grey:hover,
-.btn--grey:active,
-.btn--grey:focus,
-.btn--grey:active:focus {
-    color: #ff739d;
-    transition: 400ms ease-in;
-    transition: 400ms ease-out;
-}
 
 .btn--inherit:hover,
 .btn--inherit:active,
@@ -440,7 +437,15 @@ i:active:focus{
     transition: 400ms ease-in-out;
 }
 
-
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus,
+.nav-link:active:focus {
+    transition: 100ms ease-in;
+    transition: 100ms ease-out;    
+    margin-top: -1px;
+    font-weight: 600;
+}
 
 /*--------------------------------------Shows-----------------------------*/
 
@@ -754,4 +759,26 @@ styling-----------------------------*/
     color: #212529;
 }
 
+.block-divider--news {
+    height: 5px;
+    border: 0;
+    background-color: #efefef;
+    width: 50%;
+    margin-top:49px;
+}
 
+
+.home-card {
+    width: 260px;
+    height: 260px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 1%;
+}
+
+.home-heading-news {
+    padding: 1rem;
+}
+
+.home-container button {
+    color: #efefef;
+}
