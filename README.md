@@ -248,7 +248,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 * Mobile
 
-<img src="./assets/images/images-readme/lighthouseMobile.png">
+<img src="./assets/images/images-readme/lighthouseMobile1.png">
 
 ### More testing
 

@@ -101,7 +101,8 @@ body {
     margin: 0 auto;
 }
 
-.news-container i {
+.news-container i,
+.news-container-sm i {
     color: #efefef;
     font-size: xx-large;
     text-align: center;
@@ -774,7 +775,7 @@ styling-----------------------------*/
     border-radius: 1%;
 }
 
-.home-heading-news {
+.home-heading-news-sm {
     padding: 1rem;
 }
 
