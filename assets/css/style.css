@@ -494,27 +494,27 @@ form input,
 form textarea {
     width: 90%;
     background-color: #efefef;
-    color: black;
+    color: #212529;
     outline: none;
 }
 
 form input {
     height: 3rem;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #212529;
     margin-bottom: 2rem;
     font-size: large;
 }
 
 form textarea {
     height: 10rem;
-    border: 2px solid black;
+    border: 2px solid #212529;
     margin-bottom: 2rem;
-    color: black;
+    color: #212529;
 }
 
 form ::placeholder {
-    color: black;
+    color: #212529;
 }
 
 /*--------------------------------------Newsletter Modal-----------------------------*/
@@ -552,12 +552,12 @@ form ::placeholder {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #000;
+    color: #212529;
     background-color: #efefef;
     border: none;
     border-radius: 0;
     background-clip: padding-box;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #212529;
 }
 
 /*--------------------------------------Personal Cards-----------------------------*/
