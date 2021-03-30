@@ -22,8 +22,7 @@ And guess what, I play with the band.
 - [**Features For The Future**](#features-for-the-future)
 
 3.[**Technologies**](#technologies-used)
-- [**Languages**](#languages)
-- [**Framework, Libraries and Tools Used**](#framework,-libraries-and-tools-used)
+
 
 4.[**Testing**](#testing)
 
@@ -80,11 +79,7 @@ As an employer:
     - The font colors differs between the sections, if the section has the "light grey" (#EFEFEF) background, its has the "dark grey" (#212529) color set on the text and the other way around. 
     
 
-<img src="./assets/images/images-readme/lightGrey.png">
-<img src="./assets/images/images-readme/darkGrey.png">
-<img src="./assets/images/images-readme/pink.png">
-
-These are the colors used around the site. 
+<img src="./assets/images/images-readme/lightGrey.png"><img src="./assets/images/images-readme/darkGrey.png"><img src="./assets/images/images-readme/pink.png">
 
 - Typography
     - I've used the Roboto font from [GoogleFonts](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#glyphs), I think its has a clean look, easy to read, simply looks nice. The fall back font is sans-serif if the main font shouldn't work properly. 
@@ -92,8 +87,8 @@ These are the colors used around the site.
     
 
 - Images 
-    - I have two images in a carousel right at the homepage, the first one is the bands logo, it has an animation set to it, just to make the first apperans more intresting. And a text with some additional information about our music. The second images is with the grimreaper and our logo, and a text with information on how to sign up for the newsletter (On smaller devices both paragraphs are pushed down below the pictures).
-    - At the "About" section you'll find a picture of the band, and five personal pictures one of each bandmember. The personal pictures has an hover effect and a flip animation to it. When you hover the cards with the mouse, the images fades and the hovered band members name appears. And when you click the picture, the card flips and reveals a backside with a little information about the band member.
+    - I have two images in a carousel right at the homepage, the first one is the bands logo, it has an animation set to it, just to make the first apperans more intresting. And a text with some additional information about our music. The second images is the grimreaper and our logo, and a text with information on how to sign up for the newsletter (On smaller devices both paragraphs are pushed down below the pictures).
+    - At the "About" section you'll find a picture of the band, and five personal pictures one of each band member. The personal pictures has an hover effect and a flip animation to it. When you hover the cards with the mouse, the images fades and the hovered band members name appears. And when you click the picture, the card flips and reveals a backside with a little information about the band member.
     - On smaller devices the hover effect on the personal cards are gone. The images is faded from the start and the name is already displayed.
     - And a carousel down at the Gallery section, showing diffrent images made by Peter Almgren. 
 
@@ -115,19 +110,19 @@ These are the colors used around the site.
 
 
 #### Navbar
-- At the top of the page is the navbar, and it is fixed to the top, so it will follow you up and down when you are navigating your way through the website. You can easily navigate your way through the diffrent sections, to get back to the to you can press either the logo to the left or "Home". When you are visiting the site on smaller devices the nav links will collapse into a burger menu.
+- At the top of the page is the navbar, and it is fixed to the top, so it will follow you up and down when you are navigating your way through the website. You can easily navigate your way through the diffrent sections, to get back to the top you can press either the logo to the left or "Home". When you are visiting the site on smaller devices the nav links will collapse into a burger menu.
 
 
 #### Home
-- I have used the carousel component from bootstrap. When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the direction to our music. The second picture has a text and a sign up button, press the button and you'll get to a modal, there you can sign up for the newsletter. If shown on smaller devices, the information text will be push down below the images.   
+- I have used the carousel component from bootstrap. When you open the page to logo appears with some aninmation, followed by a text and an spotify icon, the icon points you in the direction to our music. The second picture has a text and an "envelope" icon, press the icon and you'll get to a modal, there you can Subscribe for the newsletter. If shown on smaller devices, the information text will be push down below the images.   
 
 #### Newsletter Form
 
-- Click the sign up button, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it by clicking the 'Subscribe' button.
+- Click the "envelope" icon, and you will be directed to a modal. In that modal you can enter your emailadress and then submit it by clicking the 'Subscribe' button.
 
 #### About
 
-- This is where you can read about Neverday and its members. A short but informative text, and an image of the band. The members is discribed in a text below that image. Then there is five personal cards with an images of each bandmember. It has a "flip" function, so if you click them the card flips over and reveals some personal information. 
+- This is where you can read about Neverday and its members. A short but informative text, and an image of the band. The members is discribed in a text below that image. Then there is five personal cards with an images of each band member. It has a "flip" function, so if you click them the card flips over and reveals some personal information. 
 
 ##### Shows
 
@@ -235,7 +230,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### Testing User Stories from (UX) section.
 
-* When im visit the site for the first time, I want to get a clear understanding what the site is about. 
+* When im visit the site for the first time, I want to get a clear understanding whats the site is about. 
     - When I enter the site, I see a navbar and its links, and it takes me to the sections I desire to visit.
     - The bands logo scales and fades in, with some text with a link to spotify. 
     - It's easy to navigate up & down the site, using the fixed to the top navbar.
@@ -246,7 +241,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 * I want to purchase a ticket for a show. 
     - I open the website and locating the "Shows" section, either by scrolling down or pressing the "Shows" link at the navbar.
-    - I can see the dates and the locations, and a "Tickets" button wich leads me to the site were I can purchase my ticket. 
+    - I can see the dates and the locations, and a "Tickets" button wich leads me to the site were I can purchase my tickets. 
 
 * I would like to know more about the band. 
     - I open up the site, I can locate the "About" section, either by the "About" link in the navbar or by scrolling down. 
@@ -259,9 +254,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
     - If I scroll down to the "shows" section, there is a link wich also takes me down to the "Contact" section.
 
 * I would like to get the latest news from the band.
-    - I enter the site and on the second picture in the header I find a text and an "Envelope" icon, I press the icon and a modal comes up,  I can now enter my Email and the press the "Subscribe" button.
+    - I enter the site and on the second picture in the header I find a text and an "Envelope" icon, I press the icon and a modal comes up, I can now enter my Email and the press the "Subscribe" button.
 
-    - I enter the site, scrolls down to the bottom of the page, at the footer I find a "Newsletter" button, I press the button, and the same modal pops up. I can now enter my Email and the press the "Subscribe" button.
+    - I enter the site, scrolls down to the bottom of the page, at the footer I find a "Newsletter" button, I press the button, and the same modal pops up. I can now enter my Email and then press the "Subscribe" button.
 
     - On smaller devices, I find the newsletter button below the carousel in the header. I press the "Envelope" icon, and the newletter modal pops up. I can now enter my Email and the press the "Subscribe" button.
 
@@ -349,9 +344,9 @@ $ git clone https://github.com/Kagebounshin/neverday-milestone-project-1
 
 * [Smooth scroll](https://www.codegrepper.com/code-examples/html/css+smooth+scroll+between+sections) (written by: deadlymuffin) between the sections.
 
-* All the icons was taken from [fontAwesome](https://fontawesome.com/icons?d=gallery)
+* All the icons was obtained from [fontAwesome](https://fontawesome.com/icons?d=gallery)
 
-* Main font was taken from [GoogleFonts](https://fonts.google.com/)
+* Main font and the diffrent fonts in the personal cards was all obtained from [GoogleFonts](https://fonts.google.com/) 
 
 * [Copyright symbol](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/) used at the bottom of the page.
 
