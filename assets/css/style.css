@@ -754,6 +754,32 @@ form ::placeholder {
     padding: 1rem;
 }
 
+/*--------------------------------------404 Error page-----------------------------*/
+
+.error-header {
+    color: #212529;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+
+.error-paragraph {
+    color: #212529;
+    text-align: center;
+}
+
+.error-paragraph a {
+    color: #ff739d;
+}
+
+.block-divider--error {
+    height: 5px;
+    border: 0;
+    background-color: #212529;
+    width: 50%;
+    margin-top:49px;
+}
+
 /*--------------------------------------Additional 
 styling-----------------------------*/
 
