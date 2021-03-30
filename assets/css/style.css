@@ -176,10 +176,7 @@ body {
     margin: 0 auto;
 }
 
-
 /*--------------------------------------Keyframes & Media-----------------------------*/
-
-
 
 @keyframes scaleIn {
     0% {
@@ -226,7 +223,6 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     animation-name: fromRight;
 }
 
-
 @keyframes fromRight {
     0% {
         transform: translate(1920px) skewX(-30deg);
@@ -244,7 +240,6 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
         transform: translate(0%) skewX(0deg);
     }
 }
-
 
 .contact-container i {
   animation-name: wave-animation;
@@ -374,7 +369,6 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
 
 }
 
-
 @media (max-width: 575.98px) { 
     .card-container {
         height: 260px!important;
@@ -389,7 +383,6 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
 
 
 /*--------------------------------------HOVER---------------------------*/
-
 
 .btn--inherit:hover,
 .btn--inherit:active,
@@ -424,7 +417,6 @@ i:active:focus {
     transition: 400ms ease-in;
     transition: 400ms ease-out;
 }
-
 
 .about-heading:hover,
 .shows-heading:hover,
@@ -749,21 +741,7 @@ form ::placeholder {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
-/*--------------------------------------Additional 
-styling-----------------------------*/
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.color-period,
-.comma {
-    color: #ff739d;
-}
-
-.text-black {
-    color: #212529;
-}
+/*----------------------------------Styling for the news cards, only on shown on smaller devices-----------------------------*/
 
 .block-divider--news {
     height: 5px;
@@ -772,7 +750,6 @@ styling-----------------------------*/
     width: 50%;
     margin-top:49px;
 }
-
 
 .home-card {
     width: 260px;
@@ -784,4 +761,22 @@ styling-----------------------------*/
 .home-heading-news-sm {
     padding: 1rem;
 }
+
+/*--------------------------------------Additional 
+styling-----------------------------*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.color-period,
+.color-comma {
+    color: #ff739d;
+}
+
+.text-black {
+    color: #212529;
+}
+
+
 
