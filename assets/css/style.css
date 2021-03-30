@@ -241,14 +241,14 @@ and obtaind from https://webplatform.github.io/docs/tutorials/css_animations/ */
     }
 }
 
+/* This @keyframes wave-animation was written by Jake Jarvis, 
+and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1dee51 */
+
 .contact-container i {
   animation-name: wave-animation;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
-
-/* This @keyframes wave-animation was written by Jake Jarvis, 
-and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1dee51 */
 
 @keyframes wave-animation {
     0% { 
