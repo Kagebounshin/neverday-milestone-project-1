@@ -164,6 +164,7 @@ body {
 .shows-request-container a,
 .newletter-button {
     color: #ff739d;
+    text-decoration: underline;
 }
 
 .personal-container {
@@ -518,8 +519,9 @@ form ::placeholder {
 
 /*--------------------------------------Newsletter Modal-----------------------------*/
 
-.modal {
-    color: black;
+.modal,
+.modal-header .close {
+    color: #efefef;
 }
 
 .modal-title {
@@ -531,12 +533,15 @@ form ::placeholder {
 }
 
 .modal-header {
-    background-color: #e6e6e6;
+    background-color: #212529;
+    box-shadow: 10px 0px 10px 4px rgba(0, 0, 0, 0.6);
 }
 .modal-body {
     background-color: #efefef;
+    color: #212529;
     text-align: center;
     font-weight: 500;
+    box-shadow: 10px 0px 10px 2px rgba(0, 0, 0, 0.6);
 }
 
 .news-form-control {
@@ -571,7 +576,6 @@ form ::placeholder {
     padding: 0;
     margin: auto;
     margin-top: 0.7rem;
-    
 }
 
 .card {
@@ -696,7 +700,6 @@ form ::placeholder {
     font-weight: 600;
     font-size: 30px;
 }
-
 
 /*--------------------------------------Carousel-----------------------------*/
 
