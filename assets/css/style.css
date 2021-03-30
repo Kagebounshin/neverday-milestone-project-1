@@ -35,8 +35,7 @@ body {
 
 .bg-color-videos,
 .bg-color-contact,
-.bg-color-about,
-.bg-color-lyrics {
+.bg-color-about {
     background-color: #efefef;
 }
 
@@ -129,17 +128,7 @@ body {
     padding-right: 10px;
 }
 
-.about-container a {
-    color: #ff739d;
-}
-
-.visit-container a {
-    text-decoration: none;
-    color: #212529;
-}
-
-.shows-container a,
-.gallery-container a {
+.shows-container a {
     text-decoration: none;
     color: #efefef;
 }
@@ -167,6 +156,14 @@ body {
 .social-container i {
     color: #212529;
     font-size: xx-large;
+}
+
+.about-container a,
+.visit-container a,
+.gallery-container a,
+.shows-request-container a,
+.newletter-button {
+    color: #ff739d;
 }
 
 .personal-container {
@@ -393,14 +390,6 @@ and obtaind from https://gist.github.com/jakejarvis/ec46fe0efdd7c71de56fcb594b1d
     transition: 400ms ease-out;
 }
 
-.shows-request-container a:hover,
-a:active,
-a:focus,
-a:active:focus,
-.visit-container a:hover,
-a:active,
-a:focus,
-a:active:focus,
 .social-container i:hover,
 i:active,
 i:focus,
