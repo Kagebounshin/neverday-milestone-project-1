@@ -279,12 +279,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### Bugs
 
-* Discoverd two bugs on my sad old Ipad from 2014 using the safari browser.
+* Discoverd two bugs on my Ipad from 2014 using the safari browser, the Ipad dosn't have the latest updates installed, so it's not up to date. I didn't fix these two bugs, becouse the Ipad is at the end of it's lifespan. And I haven't come across these bugs on other devices i've been testing on.
     - The first one is a little space between the navbar and the "Home" carousel. The carousel is pushed down from the navbar. There is no such space on any of the other devices I've been testing on. 
 <img src="./assets/images/images-readme/bugIpad02.png">
 
     - The second one is below the embedded video at the "Videos" section, as you can see the text is pushed up almost covering the first paragraph. Only seen this bug on my Ipad from 2014.
 <img src="./assets/images/images-readme/bugIpad03.png">
+
 
 
 ---
